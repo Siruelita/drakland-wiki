@@ -1,22 +1,9 @@
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
-}
 /* =========================================================
-   DRAKLAND - DIGITAL GARDEN
+   DIGITAL GARDEN - UNIVERSO DRAKLAND
    ========================================================= */
 
 body {
-    --dg-content-max-width: 1150px;
+    --dg-content-max-width: 980px;
     --dg-content-font-size: 16px;
 
     --background-primary: #10171f;
@@ -36,27 +23,34 @@ body {
 }
 
 
-/* Fondo de la portada */
+/* =========================================================
+   PORTADA DE MUNDO
+   dg-content-classes: portada-mundo
+   ========================================================= */
+
 .portada-mundo {
     background:
         linear-gradient(
             180deg,
-            rgba(15, 22, 30, 0.96),
-            rgba(12, 18, 24, 0.99)
-        );
+            rgba(16, 23, 31, 0.96),
+            rgba(13, 19, 26, 0.98)
+        ) !important;
 }
 
 
-/* Ancho de la nota */
+/* Ancho del contenido */
 .portada-mundo article,
 .portada-mundo .content {
-    max-width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 980px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 
-/* Imagen principal */
+/* =========================================================
+   PORTADA / IMAGEN
+   ========================================================= */
+
 .portada-mundo img {
     display: block;
 
@@ -76,7 +70,10 @@ body {
 }
 
 
-/* Título */
+/* =========================================================
+   TÍTULOS
+   ========================================================= */
+
 .portada-mundo h1 {
     font-size: 3.1em;
     line-height: 1.05;
@@ -91,7 +88,6 @@ body {
 }
 
 
-/* Secciones */
 .portada-mundo h2 {
     font-size: 1.55em;
 
@@ -107,7 +103,10 @@ body {
 }
 
 
-/* Estado actual */
+/* =========================================================
+   ESTADO ACTUAL
+   ========================================================= */
+
 .portada-mundo .callout[data-callout="danger"] {
     background:
         linear-gradient(
@@ -127,14 +126,19 @@ body {
     padding: 14px 18px;
 }
 
+
 .portada-mundo
 .callout[data-callout="danger"]
 .callout-title {
     color: #ff6978;
+    font-weight: 700;
 }
 
 
-/* Descripción */
+/* =========================================================
+   DESCRIPCIÓN GENERAL
+   ========================================================= */
+
 .portada-mundo .callout[data-callout="info"] {
     background:
         linear-gradient(
@@ -154,19 +158,25 @@ body {
     padding: 14px 18px;
 }
 
+
 .portada-mundo
 .callout[data-callout="info"]
 .callout-title {
     color: #69bff0;
+    font-weight: 700;
 }
 
 
-/* Navegación */
+/* =========================================================
+   NAVEGACIÓN
+   ========================================================= */
+
 .portada-mundo .callout[data-callout="nav"] {
     background: transparent;
     border: none;
     padding: 0;
 }
+
 
 .portada-mundo
 .callout[data-callout="nav"]
@@ -175,7 +185,8 @@ body {
 }
 
 
-/* grilla */
+/* Grilla de navegación */
+
 .portada-mundo
 .callout[data-callout="nav"]
 ul {
@@ -192,12 +203,14 @@ ul {
 }
 
 
-/* tarjetas */
+/* Tarjetas */
+
 .portada-mundo
 .callout[data-callout="nav"]
 li {
     margin: 0;
 }
+
 
 .portada-mundo
 .callout[data-callout="nav"]
@@ -225,6 +238,7 @@ a {
     text-decoration: none;
 }
 
+
 .portada-mundo
 .callout[data-callout="nav"]
 a:hover {
@@ -240,7 +254,10 @@ a:hover {
 }
 
 
-/* TABLAS */
+/* =========================================================
+   TABLAS
+   ========================================================= */
+
 .portada-mundo table {
     width: 100%;
 
@@ -255,9 +272,11 @@ a:hover {
     overflow: hidden;
 }
 
+
 .portada-mundo table thead {
     background: #233a4c;
 }
+
 
 .portada-mundo table th {
     padding: 11px 13px;
@@ -269,6 +288,7 @@ a:hover {
     border: none;
 }
 
+
 .portada-mundo table td {
     padding: 10px 13px;
 
@@ -276,19 +296,37 @@ a:hover {
         1px solid rgba(255,255,255,0.05);
 }
 
-.portada-mundo table a {
-    color: #d6b35f;
+
+.portada-mundo table tr:last-child td {
+    border-bottom: none;
 }
 
 
-/* SIDEBARS */
+.portada-mundo table a {
+    color: #d6b35f;
+    text-decoration: none;
+}
+
+
+.portada-mundo table a:hover {
+    color: #f1ce72;
+}
+
+
+/* =========================================================
+   SIDEBARS
+   ========================================================= */
+
 .filetree-sidebar,
 .right-sidebar {
     background: #111823;
 }
 
 
-/* Mobile */
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
 @media (max-width: 800px) {
 
     .portada-mundo img {
@@ -305,21 +343,7 @@ a:hover {
         font-size: 2.3em;
     }
 }
-/* Ocultar el título automático de Digital Garden
-   solo en las portadas de mundo */
 .portada-mundo .content > h1:first-child,
 .portada-mundo article > h1:first-child {
     display: none !important;
-}.portada-mundo article,
-.portada-mundo .content {
-    max-width: 980px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}.portada-mundo {
-    background:
-        linear-gradient(
-            180deg,
-            rgba(16, 23, 31, 0.96),
-            rgba(13, 19, 26, 0.98)
-        ) !important;
 }
