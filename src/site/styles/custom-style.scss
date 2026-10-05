@@ -11,3 +11,297 @@ body {
     //   color: black;
     //  }
 }
+/* =========================================================
+   DRAKLAND - DIGITAL GARDEN
+   ========================================================= */
+
+body {
+    --dg-content-max-width: 1150px;
+    --dg-content-font-size: 16px;
+
+    --background-primary: #10171f;
+    --background-primary-alt: #10171f;
+    --background-secondary: #141d26;
+    --background-secondary-alt: #18232e;
+
+    --text-normal: #d6dee6;
+    --text-muted: #96a8b8;
+    --text-faint: #718190;
+
+    --text-accent: #85bee7;
+    --text-accent-hover: #b6dcf7;
+
+    --link-color: #93bad7;
+    --link-color-hover: #c6e4f8;
+}
+
+
+/* Fondo de la portada */
+.portada-mundo {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(15, 22, 30, 0.96),
+            rgba(12, 18, 24, 0.99)
+        );
+}
+
+
+/* Ancho de la nota */
+.portada-mundo article,
+.portada-mundo .content {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Imagen principal */
+.portada-mundo img {
+    display: block;
+
+    width: 100%;
+    max-width: 100%;
+    height: 390px;
+
+    object-fit: cover;
+    object-position: center 42%;
+
+    margin: 8px auto 28px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 14px 36px rgba(0, 0, 0, 0.38);
+}
+
+
+/* Título */
+.portada-mundo h1 {
+    font-size: 3.1em;
+    line-height: 1.05;
+
+    color: #d8ebfa;
+
+    margin-top: 10px;
+    margin-bottom: 24px;
+
+    text-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+
+/* Secciones */
+.portada-mundo h2 {
+    font-size: 1.55em;
+
+    color: #d7e5f2;
+
+    margin-top: 2.3em;
+    margin-bottom: 0.9em;
+
+    padding-bottom: 0.4em;
+
+    border-bottom:
+        1px solid rgba(120, 160, 190, 0.15);
+}
+
+
+/* Estado actual */
+.portada-mundo .callout[data-callout="danger"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(75, 28, 37, 0.94),
+            rgba(55, 27, 34, 0.96)
+        );
+
+    border:
+        1px solid rgba(210, 70, 90, 0.40);
+
+    border-left:
+        4px solid #de4b5d;
+
+    border-radius: 14px;
+
+    padding: 14px 18px;
+}
+
+.portada-mundo
+.callout[data-callout="danger"]
+.callout-title {
+    color: #ff6978;
+}
+
+
+/* Descripción */
+.portada-mundo .callout[data-callout="info"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(29, 57, 78, 0.94),
+            rgba(27, 45, 60, 0.96)
+        );
+
+    border:
+        1px solid rgba(80, 170, 220, 0.30);
+
+    border-left:
+        4px solid #51afe2;
+
+    border-radius: 14px;
+
+    padding: 14px 18px;
+}
+
+.portada-mundo
+.callout[data-callout="info"]
+.callout-title {
+    color: #69bff0;
+}
+
+
+/* Navegación */
+.portada-mundo .callout[data-callout="nav"] {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.portada-mundo
+.callout[data-callout="nav"]
+.callout-title {
+    color: #9fc9e7;
+}
+
+
+/* grilla */
+.portada-mundo
+.callout[data-callout="nav"]
+ul {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 14px;
+
+    list-style: none;
+
+    padding-left: 0;
+}
+
+
+/* tarjetas */
+.portada-mundo
+.callout[data-callout="nav"]
+li {
+    margin: 0;
+}
+
+.portada-mundo
+.callout[data-callout="nav"]
+a {
+    display: block;
+
+    padding: 18px 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(24, 36, 47, 0.95),
+            rgba(22, 31, 41, 0.98)
+        );
+
+    border:
+        1px solid rgba(73, 124, 158, 0.33);
+
+    border-radius: 14px;
+
+    color: #9fb4c7;
+
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+.portada-mundo
+.callout[data-callout="nav"]
+a:hover {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(29, 47, 62, 0.98),
+            rgba(25, 38, 50, 0.98)
+        );
+
+    border-color:
+        rgba(105, 170, 210, 0.55);
+}
+
+
+/* TABLAS */
+.portada-mundo table {
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 0;
+
+    background:
+        rgba(18, 27, 36, 0.82);
+
+    border-radius: 12px;
+
+    overflow: hidden;
+}
+
+.portada-mundo table thead {
+    background: #233a4c;
+}
+
+.portada-mundo table th {
+    padding: 11px 13px;
+
+    color: #e0eef8;
+
+    font-weight: 700;
+
+    border: none;
+}
+
+.portada-mundo table td {
+    padding: 10px 13px;
+
+    border-bottom:
+        1px solid rgba(255,255,255,0.05);
+}
+
+.portada-mundo table a {
+    color: #d6b35f;
+}
+
+
+/* SIDEBARS */
+.filetree-sidebar,
+.right-sidebar {
+    background: #111823;
+}
+
+
+/* Mobile */
+@media (max-width: 800px) {
+
+    .portada-mundo img {
+        height: 260px;
+    }
+
+    .portada-mundo
+    .callout[data-callout="nav"]
+    ul {
+        grid-template-columns: 1fr;
+    }
+
+    .portada-mundo h1 {
+        font-size: 2.3em;
+    }
+}
