@@ -305,3 +305,21 @@ a:hover {
         font-size: 2.3em;
     }
 }
+/* Ocultar el título automático de Digital Garden
+   solo en las portadas de mundo */
+.portada-mundo .content > h1:first-child,
+.portada-mundo article > h1:first-child {
+    display: none !important;
+}.portada-mundo article,
+.portada-mundo .content {
+    max-width: 980px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}.portada-mundo {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(16, 23, 31, 0.96),
+            rgba(13, 19, 26, 0.98)
+        ) !important;
+}
