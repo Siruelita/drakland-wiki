@@ -2554,3 +2554,43 @@ body.faccion-noctis
         height: min(118vw, 520px) !important;
     }
 }
+/* =========================================================
+   TABLAS ORDENABLES
+   ========================================================= */
+
+.indice-npcs th.sortable-column,
+.indice-pcs th.sortable-column {
+    cursor: pointer !important;
+    user-select: none !important;
+    transition: background 0.15s ease !important;
+}
+
+.indice-npcs th.sortable-column:hover,
+.indice-pcs th.sortable-column:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Flecha neutra */
+
+.indice-npcs th.sortable-column::after,
+.indice-pcs th.sortable-column::after {
+    content: " ↕";
+    opacity: 0.35;
+    font-size: 0.85em;
+}
+
+/* Ascendente */
+
+.indice-npcs th.sortable-column.sort-asc::after,
+.indice-pcs th.sortable-column.sort-asc::after {
+    content: " ▲";
+    opacity: 0.9;
+}
+
+/* Descendente */
+
+.indice-npcs th.sortable-column.sort-desc::after,
+.indice-pcs th.sortable-column.sort-desc::after {
+    content: " ▼";
+    opacity: 0.9;
+}
