@@ -2148,3 +2148,201 @@ body.faccion-tiamat .callout-title {
         height: min(118vw, 540px) !important;
     }
 }
+/* =========================================================
+   FIX FINAL PERSONAJES WEB
+   Igualar apariencia con Obsidian
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   ANCHO GENERAL DE LA FICHA
+   --------------------------------------------------------- */
+
+.ficha-personaje .content,
+.ficha-personaje article,
+.ficha-personaje .markdown-preview-view {
+    max-width: 920px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* ---------------------------------------------------------
+   TÍTULO DEL PERSONAJE
+   --------------------------------------------------------- */
+
+.ficha-personaje h1 {
+    font-size: 2rem !important;
+    line-height: 1.15 !important;
+
+    text-align: left !important;
+
+    margin-top: 30px !important;
+    margin-bottom: 16px !important;
+
+    color: #dcecff !important;
+
+    text-shadow:
+        0 2px 5px rgba(0, 0, 0, 0.35) !important;
+}
+
+
+/* ---------------------------------------------------------
+   TARJETA DE INFORMACIÓN
+   --------------------------------------------------------- */
+
+.ficha-personaje
+.callout[data-callout="character"] {
+    width: 100% !important;
+    max-width: 760px !important;
+
+    box-sizing: border-box !important;
+
+    margin:
+        18px auto 34px auto !important;
+
+    padding:
+        16px 20px !important;
+
+    border-radius: 14px !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(31, 48, 60, 0.90),
+            rgba(25, 31, 38, 0.95)
+        ) !important;
+
+    border:
+        1px solid rgba(105, 170, 215, 0.24) !important;
+
+    border-left:
+        4px solid #65afe3 !important;
+
+    box-shadow:
+        0 6px 18px rgba(0, 0, 0, 0.18) !important;
+}
+
+
+/* Título de la tarjeta */
+
+.ficha-personaje
+.callout[data-callout="character"]
+.callout-title {
+    color: #8dcaff !important;
+    font-weight: 700 !important;
+}
+
+
+/* ---------------------------------------------------------
+   NOCTIS
+   Clyde y cualquier personaje asociado a Noctis
+   --------------------------------------------------------- */
+
+.ficha-personaje.faccion-noctis,
+.faccion-noctis.ficha-personaje {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(14, 18, 42, 0.96),
+            rgba(10, 11, 20, 0.99)
+        ) !important;
+}
+
+
+.ficha-personaje.faccion-noctis
+.callout[data-callout="character"],
+
+.faccion-noctis.ficha-personaje
+.callout[data-callout="character"],
+
+.faccion-noctis
+.callout[data-callout="character"] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(18, 25, 63, 0.96),
+            rgba(22, 17, 42, 0.98)
+        ) !important;
+
+    border:
+        1px solid rgba(135, 150, 220, 0.38) !important;
+
+    border-left:
+        4px solid #919bd5 !important;
+
+    box-shadow:
+        0 8px 28px rgba(65, 70, 150, 0.20),
+        0 0 18px rgba(190, 200, 230, 0.04) !important;
+}
+
+
+.faccion-noctis
+.callout[data-callout="character"]
+.callout-title {
+    color: #cbd3ff !important;
+
+    text-shadow:
+        0 0 8px rgba(180, 195, 255, 0.30) !important;
+}
+
+
+/* ---------------------------------------------------------
+   SECCIONES
+   --------------------------------------------------------- */
+
+.ficha-personaje h2 {
+    font-size: 1.35rem !important;
+
+    margin-top: 2.2em !important;
+    margin-bottom: 0.8em !important;
+
+    padding-bottom: 0.35em !important;
+
+    color: #d6e7f5 !important;
+
+    border-bottom:
+        1px solid rgba(110, 170, 210, 0.16) !important;
+}
+
+
+.ficha-personaje h3 {
+    font-size: 1.05rem !important;
+
+    color: #a8d3f2 !important;
+}
+
+
+/* ---------------------------------------------------------
+   CARRUSEL
+   Sacar scrollbar vertical raro
+   --------------------------------------------------------- */
+
+.callout[data-callout="portrait-gallery"],
+.callout[data-callout="portrait-gallery"]
+.callout-content {
+    overflow-y: visible !important;
+}
+
+
+.portrait-gallery-stage {
+    overflow: hidden !important;
+}
+
+
+/* ---------------------------------------------------------
+   MOBILE
+   --------------------------------------------------------- */
+
+@media (max-width: 800px) {
+
+    .ficha-personaje
+    .callout[data-callout="character"] {
+        max-width: 100% !important;
+    }
+
+    .ficha-personaje h1 {
+        font-size: 1.8rem !important;
+    }
+}
