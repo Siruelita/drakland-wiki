@@ -2346,3 +2346,66 @@ body.faccion-tiamat .callout-title {
         font-size: 1.8rem !important;
     }
 }
+/* =========================================================
+   FIX - RETRATOS SIN TINTE DE FACCIÓN
+   ========================================================= */
+
+.portrait-gallery-stage {
+    position: relative !important;
+    isolation: isolate !important;
+
+    background: #0d1118 !important;
+
+    opacity: 1 !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+.portrait-gallery-slide {
+    z-index: 1 !important;
+
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+.portrait-gallery-slide.is-active {
+    opacity: 1 !important;
+    z-index: 5 !important;
+}
+
+.portrait-gallery-slide img {
+    position: relative !important;
+    z-index: 10 !important;
+
+    opacity: 1 !important;
+
+    filter: none !important;
+    backdrop-filter: none !important;
+
+    mix-blend-mode: normal !important;
+
+    background: transparent !important;
+}
+
+/* Evitar overlays de la facción sobre el carrusel */
+.faccion-noctis
+.callout[data-callout="portrait-gallery"] {
+    background: transparent !important;
+    background-image: none !important;
+
+    box-shadow: none !important;
+}
+
+.faccion-noctis
+.callout[data-callout="portrait-gallery"]::before,
+
+.faccion-noctis
+.callout[data-callout="portrait-gallery"]::after,
+
+.faccion-noctis
+.portrait-gallery-stage::before,
+
+.faccion-noctis
+.portrait-gallery-stage::after {
+    display: none !important;
+}
