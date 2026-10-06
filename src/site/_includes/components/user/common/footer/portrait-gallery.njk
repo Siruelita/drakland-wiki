@@ -1,0 +1,226 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const galleries = document.querySelectorAll(
+        '.callout[data-callout="portrait-gallery"]'
+    );
+
+    galleries.forEach((gallery) => {
+
+        const content =
+            gallery.querySelector(".callout-content") || gallery;
+
+        const originalImages =
+            Array.from(content.querySelectorAll("img"));
+
+        if (originalImages.length === 0) return;
+
+
+        /* ============================
+           CREAR VISOR
+           ============================ */
+
+        const stage = document.createElement("div");
+        stage.className = "portrait-gallery-stage";
+
+
+        const slides = originalImages.map((original) => {
+
+            const slide = document.createElement("div");
+            slide.className = "portrait-gallery-slide";
+
+            const image = original.cloneNode(true);
+
+            image.removeAttribute("width");
+            image.removeAttribute("height");
+
+            slide.appendChild(image);
+            stage.appendChild(slide);
+
+            return slide;
+        });
+
+
+        /* ============================
+           CONTROLES
+           ============================ */
+
+        const controls = document.createElement("div");
+        controls.className = "portrait-gallery-controls";
+
+
+        const previous = document.createElement("button");
+        previous.className = "portrait-gallery-arrow";
+        previous.type = "button";
+        previous.innerHTML = "‹";
+        previous.setAttribute("aria-label", "Imagen anterior");
+
+
+        const next = document.createElement("button");
+        next.className = "portrait-gallery-arrow";
+        next.type = "button";
+        next.innerHTML = "›";
+        next.setAttribute("aria-label", "Imagen siguiente");
+
+
+        const dots = document.createElement("div");
+        dots.className = "portrait-gallery-dots";
+
+
+        const dotButtons = slides.map((_, index) => {
+
+            const dot = document.createElement("button");
+
+            dot.className = "portrait-gallery-dot";
+            dot.type = "button";
+
+            dot.setAttribute(
+                "aria-label",
+                `Mostrar imagen ${index + 1}`
+            );
+
+            dots.appendChild(dot);
+
+            return dot;
+        });
+
+
+        controls.append(previous, dots, next);
+
+
+        /* ============================
+           REEMPLAZAR GALERÍA ORIGINAL
+           ============================ */
+
+        content.innerHTML = "";
+        content.appendChild(stage);
+
+        if (slides.length > 1) {
+            content.appendChild(controls);
+        }
+
+
+        /* ============================
+           CAMBIO DE IMAGEN
+           ============================ */
+
+        let current = 0;
+        let timer = null;
+
+
+        function showSlide(index) {
+
+            current =
+                (index + slides.length) % slides.length;
+
+            slides.forEach((slide, i) => {
+
+                slide.classList.toggle(
+                    "is-active",
+                    i === current
+                );
+
+            });
+
+
+            dotButtons.forEach((dot, i) => {
+
+                dot.classList.toggle(
+                    "is-active",
+                    i === current
+                );
+
+            });
+        }
+
+
+        function stopAutoPlay() {
+
+            if (timer) {
+                clearInterval(timer);
+                timer = null;
+            }
+        }
+
+
+        function startAutoPlay() {
+
+            stopAutoPlay();
+
+            if (slides.length <= 1) return;
+
+            timer = setInterval(() => {
+
+                showSlide(current + 1);
+
+            }, 5000);
+        }
+
+
+        function restartAutoPlay() {
+            startAutoPlay();
+        }
+
+
+        previous.addEventListener("click", () => {
+
+            showSlide(current - 1);
+            restartAutoPlay();
+
+        });
+
+
+        next.addEventListener("click", () => {
+
+            showSlide(current + 1);
+            restartAutoPlay();
+
+        });
+
+
+        dotButtons.forEach((dot, index) => {
+
+            dot.addEventListener("click", () => {
+
+                showSlide(index);
+                restartAutoPlay();
+
+            });
+
+        });
+
+
+        /* Click sobre la imagen = siguiente */
+
+        stage.addEventListener("click", () => {
+
+            if (slides.length > 1) {
+
+                showSlide(current + 1);
+                restartAutoPlay();
+
+            }
+
+        });
+
+
+        /* Pausar mientras el mouse está encima */
+
+        gallery.addEventListener(
+            "mouseenter",
+            stopAutoPlay
+        );
+
+        gallery.addEventListener(
+            "mouseleave",
+            startAutoPlay
+        );
+
+
+        showSlide(0);
+        startAutoPlay();
+
+    });
+
+});
+</script>
