@@ -1,13 +1,21 @@
 /* =========================================================
-   DIGITAL GARDEN - UNIVERSO DRAKLAND
+   UNIVERSO DRAKLAND - DIGITAL GARDEN
+   custom-style.scss COMPLETO
+   ========================================================= */
+
+
+/* =========================================================
+   VARIABLES GENERALES
    ========================================================= */
 
 body {
-    --dg-content-max-width: 980px;
+    --dg-content-max-width: 1500px;
     --dg-content-font-size: 16px;
+    --dg-content-line-height: 1.6;
 
     --background-primary: #10171f;
     --background-primary-alt: #10171f;
+
     --background-secondary: #141d26;
     --background-secondary-alt: #18232e;
 
@@ -20,86 +28,187 @@ body {
 
     --link-color: #93bad7;
     --link-color-hover: #c6e4f8;
+
+    --interactive-normal: #18232e;
+    --interactive-hover: #20313f;
+    --interactive-accent: #528cb3;
+    --interactive-accent-hover: #69a6ce;
+
+    /* Búsqueda */
+    --dg-search-box-width: 900px;
+    --dg-search-box-max-width: 90%;
+
+    /* Logo */
+    --dg-logo-height: 48px;
+    --dg-logo-height-mobile: 38px;
+}
+
+
+/* Fondo de toda la web */
+html,
+body {
+    background: #0d141b !important;
 }
 
 
 /* =========================================================
-   PORTADA DE MUNDO
-   dg-content-classes: portada-mundo
+   QUITAR ESTRUCTURA INTERNA DEL VAULT
    ========================================================= */
 
-.portada-mundo {
-    background:
-        linear-gradient(
-            180deg,
-            rgba(16, 23, 31, 0.96),
-            rgba(13, 19, 26, 0.98)
-        ) !important;
+/*
+   Si por algún motivo Digital Garden todavía genera
+   el árbol de archivos, lo ocultamos completamente.
+*/
+
+.filetree-wrapper,
+.filetree-sidebar {
+    display: none !important;
 }
 
 
-/* Ancho del contenido */
-.portada-mundo article,
-.portada-mundo .content {
-    max-width: 980px !important;
+/*
+   Ocultar panel derecho:
+   gráfico, backlinks, TOC, etc.
+*/
+
+.sidebar,
+.right-sidebar,
+.page-panel-backdrop {
+    display: none !important;
+}
+
+
+/* =========================================================
+   CONTENIDO PRINCIPAL GRANDE Y CENTRADO
+   ========================================================= */
+
+main.content,
+.content {
+    width: calc(100% - 64px) !important;
+    max-width: 1500px !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+
+    box-sizing: border-box !important;
+}
+
+
+/*
+   Cuando Digital Garden sabe que no hay filetree,
+   aprovechamos prácticamente toda la pantalla.
+*/
+
+body.no-filetree main.content,
+body.no-filetree .content {
+    width: calc(100vw - 64px) !important;
+    max-width: 1500px !important;
+
     margin-left: auto !important;
     margin-right: auto !important;
 }
 
 
 /* =========================================================
-   PORTADA / IMAGEN
+   NAVBAR / BÚSQUEDA
    ========================================================= */
 
-.portada-mundo img {
-    display: block;
+/*
+   No ocultamos navbar.
+   Al tener Filetree OFF + Search ON,
+   Digital Garden puede dejar la búsqueda arriba.
+*/
 
-    width: 100%;
-    max-width: 100%;
-    height: 390px;
-
-    object-fit: cover;
-    object-position: center 42%;
-
-    margin: 8px auto 28px;
-
-    border-radius: 18px;
-
-    box-shadow:
-        0 14px 36px rgba(0, 0, 0, 0.38);
+.navbar,
+.navbar-container {
+    background: #10171f !important;
 }
 
 
 /* =========================================================
-   TÍTULOS
+   PORTADA DE MUNDO
+   dg-content-classes:
+     - portada-mundo
    ========================================================= */
 
-.portada-mundo h1 {
-    font-size: 3.1em;
-    line-height: 1.05;
-
-    color: #d8ebfa;
-
-    margin-top: 10px;
-    margin-bottom: 24px;
-
-    text-shadow:
-        0 2px 8px rgba(0, 0, 0, 0.35);
+.content.portada-mundo,
+.portada-mundo {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(16, 23, 31, 0.98),
+            rgba(13, 19, 26, 0.99)
+        ) !important;
 }
 
 
+/* =========================================================
+   IMAGEN PRINCIPAL DE LA PORTADA
+   ========================================================= */
+
+/*
+   Aplicamos el estilo principalmente a la primera imagen.
+   Así futuras imágenes de la página no se vuelven banners.
+*/
+
+.content.portada-mundo > p:first-of-type img,
+.portada-mundo > p:first-of-type img {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: 390px !important;
+
+    object-fit: cover !important;
+    object-position: center 42% !important;
+
+    margin: 8px auto 28px auto !important;
+
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 14px 36px rgba(0, 0, 0, 0.38) !important;
+}
+
+
+/* =========================================================
+   TÍTULO DRAKLAND
+   ========================================================= */
+
+.portada-mundo h1 {
+    font-size: 3.1em !important;
+    line-height: 1.05 !important;
+
+    color: #d8ebfa !important;
+
+    margin-top: 10px !important;
+    margin-bottom: 24px !important;
+
+    text-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.35) !important;
+}
+
+
+/* =========================================================
+   TÍTULOS DE SECCIÓN
+   ========================================================= */
+
 .portada-mundo h2 {
-    font-size: 1.55em;
+    font-size: 1.55em !important;
 
-    color: #d7e5f2;
+    color: #d7e5f2 !important;
 
-    margin-top: 2.3em;
-    margin-bottom: 0.9em;
+    margin-top: 2.3em !important;
+    margin-bottom: 0.9em !important;
 
-    padding-bottom: 0.4em;
+    padding-bottom: 0.4em !important;
 
     border-bottom:
-        1px solid rgba(120, 160, 190, 0.15);
+        1px solid rgba(120, 160, 190, 0.15) !important;
 }
 
 
@@ -113,25 +222,27 @@ body {
             135deg,
             rgba(75, 28, 37, 0.94),
             rgba(55, 27, 34, 0.96)
-        );
+        ) !important;
 
     border:
-        1px solid rgba(210, 70, 90, 0.40);
+        1px solid rgba(210, 70, 90, 0.40) !important;
 
     border-left:
-        4px solid #de4b5d;
+        4px solid #de4b5d !important;
 
-    border-radius: 14px;
+    border-radius: 14px !important;
 
-    padding: 14px 18px;
+    padding: 14px 18px !important;
+
+    margin-bottom: 18px !important;
 }
 
 
 .portada-mundo
 .callout[data-callout="danger"]
 .callout-title {
-    color: #ff6978;
-    font-weight: 700;
+    color: #ff6978 !important;
+    font-weight: 700 !important;
 }
 
 
@@ -145,25 +256,25 @@ body {
             135deg,
             rgba(29, 57, 78, 0.94),
             rgba(27, 45, 60, 0.96)
-        );
+        ) !important;
 
     border:
-        1px solid rgba(80, 170, 220, 0.30);
+        1px solid rgba(80, 170, 220, 0.30) !important;
 
     border-left:
-        4px solid #51afe2;
+        4px solid #51afe2 !important;
 
-    border-radius: 14px;
+    border-radius: 14px !important;
 
-    padding: 14px 18px;
+    padding: 14px 18px !important;
 }
 
 
 .portada-mundo
 .callout[data-callout="info"]
 .callout-title {
-    color: #69bff0;
-    font-weight: 700;
+    color: #69bff0 !important;
+    font-weight: 700 !important;
 }
 
 
@@ -172,34 +283,43 @@ body {
    ========================================================= */
 
 .portada-mundo .callout[data-callout="nav"] {
-    background: transparent;
-    border: none;
-    padding: 0;
+    background: transparent !important;
+
+    border: none !important;
+
+    padding: 0 !important;
+
+    margin-top: 8px !important;
 }
 
 
 .portada-mundo
 .callout[data-callout="nav"]
 .callout-title {
-    color: #9fc9e7;
+    color: #9fc9e7 !important;
+    font-weight: 700 !important;
+
+    margin-bottom: 12px !important;
 }
 
 
-/* Grilla de navegación */
+/* Grilla */
 
 .portada-mundo
 .callout[data-callout="nav"]
 ul {
-    display: grid;
+    display: grid !important;
 
     grid-template-columns:
-        repeat(2, minmax(0, 1fr));
+        repeat(2, minmax(0, 1fr)) !important;
 
-    gap: 14px;
+    gap: 14px !important;
 
-    list-style: none;
+    list-style: none !important;
 
-    padding-left: 0;
+    padding-left: 0 !important;
+
+    margin-left: 0 !important;
 }
 
 
@@ -208,34 +328,49 @@ ul {
 .portada-mundo
 .callout[data-callout="nav"]
 li {
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    list-style: none !important;
+}
+
+
+.portada-mundo
+.callout[data-callout="nav"]
+li::marker {
+    content: "" !important;
 }
 
 
 .portada-mundo
 .callout[data-callout="nav"]
 a {
-    display: block;
+    display: block !important;
 
-    padding: 18px 20px;
+    padding: 18px 20px !important;
 
     background:
         linear-gradient(
             135deg,
             rgba(24, 36, 47, 0.95),
             rgba(22, 31, 41, 0.98)
-        );
+        ) !important;
 
     border:
-        1px solid rgba(73, 124, 158, 0.33);
+        1px solid rgba(73, 124, 158, 0.33) !important;
 
-    border-radius: 14px;
+    border-radius: 14px !important;
 
-    color: #9fb4c7;
+    color: #9fb4c7 !important;
 
-    font-weight: 700;
+    font-weight: 700 !important;
 
-    text-decoration: none;
+    text-decoration: none !important;
+
+    transition:
+        background 0.15s ease,
+        border-color 0.15s ease,
+        transform 0.15s ease !important;
 }
 
 
@@ -247,103 +382,166 @@ a:hover {
             135deg,
             rgba(29, 47, 62, 0.98),
             rgba(25, 38, 50, 0.98)
-        );
+        ) !important;
 
     border-color:
-        rgba(105, 170, 210, 0.55);
+        rgba(105, 170, 210, 0.55) !important;
+
+    transform: translateY(-1px);
 }
 
 
 /* =========================================================
-   TABLAS
+   TABLAS / DATAVIEW
    ========================================================= */
 
 .portada-mundo table {
-    width: 100%;
+    width: 100% !important;
 
-    border-collapse: separate;
-    border-spacing: 0;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
 
     background:
-        rgba(18, 27, 36, 0.82);
+        rgba(18, 27, 36, 0.82) !important;
 
-    border-radius: 12px;
+    border-radius: 12px !important;
 
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 
 .portada-mundo table thead {
-    background: #233a4c;
+    background: #233a4c !important;
 }
 
 
 .portada-mundo table th {
-    padding: 11px 13px;
+    padding: 11px 13px !important;
 
-    color: #e0eef8;
+    color: #e0eef8 !important;
 
-    font-weight: 700;
+    font-weight: 700 !important;
 
-    border: none;
+    border: none !important;
 }
 
 
 .portada-mundo table td {
-    padding: 10px 13px;
+    padding: 10px 13px !important;
 
     border-bottom:
-        1px solid rgba(255,255,255,0.05);
+        1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
 
 .portada-mundo table tr:last-child td {
-    border-bottom: none;
+    border-bottom: none !important;
 }
 
 
 .portada-mundo table a {
-    color: #d6b35f;
-    text-decoration: none;
+    color: #d6b35f !important;
+    text-decoration: none !important;
 }
 
 
 .portada-mundo table a:hover {
-    color: #f1ce72;
+    color: #f1ce72 !important;
 }
 
 
 /* =========================================================
-   SIDEBARS
+   LINKS NORMALES
    ========================================================= */
 
-.filetree-sidebar,
-.right-sidebar {
-    background: #111823;
+.portada-mundo a {
+    text-decoration: none;
 }
 
 
 /* =========================================================
-   MOBILE
+   PANTALLAS GRANDES
    ========================================================= */
 
-@media (max-width: 800px) {
+@media (min-width: 1700px) {
 
-    .portada-mundo img {
-        height: 260px;
+    body {
+        --dg-content-max-width: 1550px;
+    }
+
+    main.content,
+    .content,
+    body.no-filetree main.content,
+    body.no-filetree .content {
+        width: calc(100vw - 80px) !important;
+        max-width: 1550px !important;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1000px) {
+
+    main.content,
+    .content,
+    body.no-filetree main.content,
+    body.no-filetree .content {
+        width: calc(100vw - 36px) !important;
+
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    .content.portada-mundo > p:first-of-type img,
+    .portada-mundo > p:first-of-type img {
+        height: 300px !important;
+    }
+}
+
+
+/* =========================================================
+   MÓVIL
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    body {
+        --dg-content-font-size: 15px;
+    }
+
+    main.content,
+    .content,
+    body.no-filetree main.content,
+    body.no-filetree .content {
+        width: calc(100vw - 18px) !important;
+
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+    }
+
+    .content.portada-mundo > p:first-of-type img,
+    .portada-mundo > p:first-of-type img {
+        height: 230px !important;
+
+        border-radius: 12px !important;
+    }
+
+    .portada-mundo h1 {
+        font-size: 2.3em !important;
     }
 
     .portada-mundo
     .callout[data-callout="nav"]
     ul {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 
-    .portada-mundo h1 {
-        font-size: 2.3em;
+    .portada-mundo
+    .callout[data-callout="nav"]
+    a {
+        padding: 15px 16px !important;
     }
-}
-.portada-mundo .content > h1:first-child,
-.portada-mundo article > h1:first-child {
-    display: none !important;
 }
