@@ -2364,3 +2364,193 @@ body.faccion-noctis
 
     background: transparent !important;
 }
+/* =========================================================
+   HARD RESET GALERÍA
+   SIN SUPERPOSICIÓN - SIN TINTE - SIN CROSSFADE
+   ESTE BLOQUE DEBE SER EL ÚLTIMO DEL ARCHIVO
+   ========================================================= */
+
+
+/* El callout no aporta ningún color a la imagen */
+
+.callout[data-callout="portrait-gallery"] {
+    background: transparent !important;
+    background-image: none !important;
+
+    opacity: 1 !important;
+
+    filter: none !important;
+    -webkit-filter: none !important;
+    backdrop-filter: none !important;
+
+    mix-blend-mode: normal !important;
+
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* El contenido tampoco */
+
+.callout[data-callout="portrait-gallery"] .callout-content {
+    background: transparent !important;
+    background-image: none !important;
+
+    opacity: 1 !important;
+
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+
+/* Visor */
+
+.portrait-gallery-stage {
+    position: relative !important;
+
+    width: 100% !important;
+    height: 500px !important;
+
+    overflow: hidden !important;
+
+    background: transparent !important;
+    background-image: none !important;
+
+    opacity: 1 !important;
+
+    filter: none !important;
+    -webkit-filter: none !important;
+    backdrop-filter: none !important;
+
+    mix-blend-mode: normal !important;
+
+    isolation: isolate !important;
+
+    border-radius: 18px !important;
+}
+
+
+/* MUY IMPORTANTE:
+   las imágenes inactivas directamente NO EXISTEN visualmente */
+
+.portrait-gallery-slide {
+    position: absolute !important;
+    inset: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    display: none !important;
+
+    opacity: 1 !important;
+    visibility: hidden !important;
+
+    transition: none !important;
+    animation: none !important;
+
+    background: transparent !important;
+    background-image: none !important;
+
+    filter: none !important;
+    -webkit-filter: none !important;
+
+    mix-blend-mode: normal !important;
+
+    pointer-events: none !important;
+}
+
+
+/* ÚNICAMENTE la imagen activa */
+
+.portrait-gallery-slide.is-active {
+    display: block !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    z-index: 10 !important;
+
+    pointer-events: auto !important;
+}
+
+
+/* Imagen totalmente limpia */
+
+.portrait-gallery-slide img,
+.ficha-personaje .portrait-gallery-slide img,
+.faccion-noctis .portrait-gallery-slide img {
+
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    max-width: none !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+
+    object-fit: cover !important;
+    object-position: center top !important;
+
+    opacity: 1 !important;
+
+    filter: none !important;
+    -webkit-filter: none !important;
+    backdrop-filter: none !important;
+
+    mix-blend-mode: normal !important;
+
+    background: transparent !important;
+    background-image: none !important;
+
+    border-radius: 18px !important;
+}
+
+
+/* Ningún pseudo-elemento puede ponerse encima */
+
+.callout[data-callout="portrait-gallery"]::before,
+.callout[data-callout="portrait-gallery"]::after,
+.portrait-gallery-stage::before,
+.portrait-gallery-stage::after,
+.portrait-gallery-slide::before,
+.portrait-gallery-slide::after {
+    display: none !important;
+    content: none !important;
+}
+
+
+/* NOCTIS puede colorear la página,
+   pero JAMÁS el retrato */
+
+.faccion-noctis
+.callout[data-callout="portrait-gallery"],
+.faccion-noctis
+.portrait-gallery-stage {
+    background: transparent !important;
+    background-image: none !important;
+
+    filter: none !important;
+    backdrop-filter: none !important;
+
+    mix-blend-mode: normal !important;
+}
+
+
+/* Controles siguen funcionando */
+
+.portrait-gallery-controls {
+    position: relative !important;
+    z-index: 20 !important;
+}
+
+
+/* Móvil */
+
+@media (max-width: 700px) {
+
+    .portrait-gallery-stage {
+        height: min(118vw, 520px) !important;
+    }
+}
