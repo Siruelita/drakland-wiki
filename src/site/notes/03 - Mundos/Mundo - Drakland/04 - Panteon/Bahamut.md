@@ -3,7 +3,9 @@
 ---
 
 
-![bahamut.jpg](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/bahamut.jpg)
+> [!portrait-gallery]
+> ![bahamut.jpg](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/bahamut.jpg)
+> ![Bahamut humano.png](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/Bahamut%20humano.png)
 
 # Bahamut
 

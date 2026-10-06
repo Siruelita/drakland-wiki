@@ -7,7 +7,7 @@
 
 # Raka
 
-*Ocupación / título del personaje*
+
 
 > [!character] Datos
 > **Raza:** Goliath  

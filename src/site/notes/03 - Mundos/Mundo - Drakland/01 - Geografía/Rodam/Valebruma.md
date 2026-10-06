@@ -37,14 +37,14 @@ Sin embargo, el domo oculta una realidad mucho más compleja.
 
 ## 👥 Habitantes importantes
 
-| Personaje                                                                  | Raza          | Ocupación                    | Facción                                | Estado |
-| -------------------------------------------------------------------------- | ------------- | ---------------------------- | -------------------------------------- | ------ |
-| [[02 - La Mazmorra/Personajes/Boltarn\|Boltarn]]                        | Minotauro     | \-                           | \-                                     | Vivo   |
-| [[03 - Mundos/Mundo - Drakland/02 - Personajes/Brigid\|Brigid]]         | Humano        | Maestra carpintera de ribera | <ul><li>Resistencia de Rodam</li></ul> | Vivo   |
-| [[03 - Mundos/Mundo - Drakland/02 - Personajes/Cler\|Cler]]             | Hobgoblin     | \-                           | Reino del Fuego                        | Vivo   |
-| [[02 - La Mazmorra/Personajes/Clyde\|Clyde]]                            | Genasi-Fuego  | \-                           | Noctis                                 | Vivo   |
-| [[03 - Mundos/Mundo - Drakland/02 - Personajes/John Brown\|John Brown]] | Elfo colorado | Mago                         | <ul><li>Seguidores de Tiamat</li></ul> | Vivo   |
-| [[03 - Mundos/Mundo - Drakland/02 - Personajes/Spirar\|Spirar]]         | Giff          | \-                           | \-                                     | Vivo   |
+| Personaje                                                                  | Raza          | Ocupación                    | Facción                                                     | Estado |
+| -------------------------------------------------------------------------- | ------------- | ---------------------------- | ----------------------------------------------------------- | ------ |
+| [[02 - La Mazmorra/Personajes/Boltarn\|Boltarn]]                        | Minotauro     | \-                           | \-                                                          | Vivo   |
+| [[03 - Mundos/Mundo - Drakland/02 - Personajes/Brigid\|Brigid]]         | Humano        | Maestra carpintera de ribera | <ul><li>Resistencia de Rodam</li></ul>                      | Vivo   |
+| [[03 - Mundos/Mundo - Drakland/02 - Personajes/Cler\|Cler]]             | Hobgoblin     | \-                           | <ul><li>Reino del Fuego</li><li>Iglesia del Fuego</li></ul> | Vivo   |
+| [[02 - La Mazmorra/Personajes/Clyde\|Clyde]]                            | Genasi-Fuego  | \-                           | Noctis                                                      | Vivo   |
+| [[03 - Mundos/Mundo - Drakland/02 - Personajes/John Brown\|John Brown]] | Elfo colorado | Mago                         | <ul><li>Seguidores de Tiamat</li></ul>                      | Vivo   |
+| [[03 - Mundos/Mundo - Drakland/02 - Personajes/Spirar\|Spirar]]         | Giff          | \-                           | \-                                                          | Vivo   |
 
 { .block-language-dataview}
 

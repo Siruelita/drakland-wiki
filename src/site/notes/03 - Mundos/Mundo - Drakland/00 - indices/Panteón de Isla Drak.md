@@ -18,7 +18,7 @@
 > - [[03 - Mundos/Mundo - Drakland/04 - Panteon/Rengaka\|🔥 Rengaka — Fuego]]
 > - [[03 - Mundos/Mundo - Drakland/04 - Panteon/Ophira\|🌊 Ophira — Agua]]
 > - [[03 - Mundos/Mundo - Drakland/04 - Panteon/Vayu\|🌬️ Vayu — Aire]]
-> - [[Grom\|🔨 Grom — Forja]]
+> - [[03 - Mundos/Mundo - Drakland/04 - Panteon/Grom\|🔨 Grom — Forja]]
 > - [[03 - Mundos/Mundo - Drakland/04 - Panteon/Clara\|☀️ Clara — Luz]]
 > - [[03 - Mundos/Mundo - Drakland/04 - Panteon/Karoth\|🌑 Karoth — Oscuridad]]
 > - [[03 - Mundos/Mundo - Drakland/04 - Panteon/Bahamut\|🐉 Bahamut — Dragones]]
@@ -29,7 +29,7 @@
 
 [[03 - Mundos/Mundo - Drakland/04 - Panteon/Gorath\|Gorath]] fue la antigua deidad vinculada a la Tierra.
 
-Tras su muerte, su lugar fue ocupado por [[Grom\|Grom]], dios herrero.
+Tras su muerte, su lugar fue ocupado por [[03 - Mundos/Mundo - Drakland/04 - Panteon/Grom\|Grom]], dios herrero.
 
 ## 🌑 Karoth
 

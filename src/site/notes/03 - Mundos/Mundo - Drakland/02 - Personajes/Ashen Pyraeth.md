@@ -1,0 +1,38 @@
+---
+{"dg-publish":true,"permalink":"/03-mundos/mundo-drakland/02-personajes/ashen-pyraeth/","contentClasses":"ficha-personaje faccion-fuego","dg-note-properties":{"tipo":"personaje","categoria":"NPC","mundo":"Drakland","raza":"Elfo colorado","edad":"25","genero":"Masculino","ocupacion":"Principe","facciones":"Reino del Fuego","ubicacion":"Isla Drak","estado":"Vivo","origen":"Isla Drak","visible_jugadores":true,"cssclasses":["ficha-personaje","faccion-fuego"]}}
+---
+
+![Ashen Pryaeth.png](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/Ashen%20Pryaeth.png)
+# Sin título
+
+*Ocupación / título del personaje*
+
+> [!character] Datos
+> **Raza:** Elfo colorado  
+> **Edad:** 25  
+> **Género:** Masculino  
+> **Ocupación:** Principe  
+> **Origen:** Isla Drak  
+> **Ubicación:** Isla Drak  
+> **Estado:** Vivo
+
+
+## 📖 Descripción
+
+## 👁️ Apariencia
+
+## 🧠 Personalidad
+
+## 📜 Historia
+
+## 🤝 Relaciones
+
+### Aliados
+
+### Enemigos
+
+### Familia
+
+## 🏴 Facciones
+
+## 📝 Notas del DM

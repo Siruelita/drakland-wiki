@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/03-mundos/mundo-drakland/02-personajes/waldo/","contentClasses":"ficha-personaje faccion-oscuridad","dg-note-properties":{"tipo":"personaje","categoria":"PC","jugador":"Tomi","mundo":"Drakland","raza":"Thri-keen","clase":["Monje","Explorador"],"nivel":"7","edad":null,"genero":"Masculino","trasfondo":["Criador de Escorpiones"],"facciones":null,"ubicacion":"Desconocido","estado":"Vivo","origen":"Isla Drak","cssclasses":["ficha-personaje","faccion-oscuridad"],"Hito":"Escorpion","visible_jugadores":true}}
+{"dg-publish":true,"permalink":"/03-mundos/mundo-drakland/02-personajes/waldo/","contentClasses":"ficha-personaje faccion-oscuridad","dg-note-properties":{"tipo":"personaje","categoria":"PC","jugador":"Tomi","mundo":"Drakland","raza":"Thri-keen","clase":["Monje","Explorador"],"nivel":"7","edad":"4","genero":"Masculino","trasfondo":["Criador de Escorpiones"],"facciones":null,"ubicacion":"Desconocido","estado":"Vivo","origen":"Isla Drak","cssclasses":["ficha-personaje","faccion-oscuridad"],"Hito":"Escorpion","visible_jugadores":true}}
 ---
 
 
@@ -12,7 +12,7 @@
 > **Raza:** Thri-keen  
 > **Clase:** Monje, Explorador  
 > **Nivel:** 7  
-> **Edad:** `=this.edad`  
+> **Edad:** 4  
 > **Género:** Masculino  
 > **Origen:** Isla Drak  
 > **Ubicación actual:** Desconocido  

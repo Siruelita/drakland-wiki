@@ -51,7 +51,7 @@ La aparente protección de [[03 - Mundos/Mundo - Drakland/01 - Geografía/Rodam/
 
 El domo que cubre el pueblo utiliza un artefacto perteneciente a [[Cronos\|Cronos]], dios del tiempo proveniente de otro mundo.
 
-El dispositivo mantiene activo el ciclo utilizando la divinidad extraída de [[Noctis\|Noctis]], quien permanece prisionero bajo uno de los edificios del asentamiento.
+El dispositivo mantiene activo el ciclo utilizando la divinidad extraída de [[03 - Mundos/Mundo - Drakland/04 - Panteon/Noctis\|Noctis]], quien permanece prisionero bajo uno de los edificios del asentamiento.
 
 Al final de cada ciclo, [[03 - Mundos/Mundo - Drakland/02 - Personajes/John Brown\|John Brown]] aparece acompañado por un grupo de dragones y ataca Valebruma.
 

@@ -7,7 +7,7 @@
 
 # Ignivar
 
-*Ocupación / título del personaje*
+Amado por la diosa
 
 > [!character] Datos
 > **Raza:** Elfo colorado  

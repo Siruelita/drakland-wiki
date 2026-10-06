@@ -54,7 +54,7 @@ Fue considerado durante mucho tiempo uno de sus aliados.
 
 Era conocido públicamente como un hombre fiel a los gobernantes de la Capital del Fuego.
 
-### 🌙 [[Noctis\|Noctis]]
+### 🌙 [[03 - Mundos/Mundo - Drakland/04 - Panteon/Noctis\|Noctis]]
 
 Su divinidad está vinculada al mecanismo temporal de Valebruma.
 
