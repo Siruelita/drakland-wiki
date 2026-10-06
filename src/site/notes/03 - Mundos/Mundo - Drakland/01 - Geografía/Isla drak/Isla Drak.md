@@ -11,9 +11,6 @@
 
 La **Isla Drak** es una de las grandes regiones habitadas del mundo de [[Drakland\|Drakland]].
 
-Mucho antes de la formación de sus reinos actuales, la isla fue conocida como un enorme **nido de dragones**. Durante siglos, este territorio estuvo profundamente ligado a las criaturas dracónicas y a las antiguas historias sobre [[03 - Mundos/Mundo - Drakland/04 - Panteon/Bahamut\|Bahamut]].
-
-Con el paso del tiempo surgieron distintos pueblos y civilizaciones que terminaron organizándose alrededor de **cuatro grandes reinos**:
 
 - 🔥 [[Reino del Fuego\|Reino del Fuego]]
 - 🌊 [[Reino del Agua\|Reino del Agua]]
@@ -26,9 +23,7 @@ Las conquistas del **Reino del Fuego** modificaron profundamente el equilibrio p
 
 La historia de la Isla Drak está profundamente relacionada con los dragones.
 
-Antes de la expansión de sus civilizaciones, gran parte de la isla funcionaba como territorio de anidación de estas criaturas. Incluso en la actualidad, muchas creencias, relatos y símbolos de la isla conservan esa herencia dracónica.
-
-La figura de [[03 - Mundos/Mundo - Drakland/04 - Panteon/Bahamut\|Bahamut]] ocupa un lugar central dentro de ese pasado y sigue siendo una de las referencias más importantes de la identidad de la isla.
+Antes de la expansión de sus civilizaciones, gran parte de la isla funcionaba como territorio de anidación de estas criaturas. Incluso en la actualidad, muchas creencias, drelatos y símbolos de la isla conservan esa herencia dracónica.
 
 ## 🗺️ Explorar la isla
 
