@@ -23,7 +23,7 @@
 > **Género:** Masculino  
 > **Origen:** Mazmorra  
 > **Ubicación actual:** Valebruma  
-> **Estado:** `=this.estado``
+>  **Estado:** Vivo
 
 `
 
