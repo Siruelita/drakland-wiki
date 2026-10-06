@@ -1344,3 +1344,291 @@ li:nth-child(7) a {
         height: auto !important;
     }
 }
+/* =========================================================
+   FIX DIGITAL GARDEN - TARJETAS DE NAVEGACIÓN
+   ========================================================= */
+
+/* El callout NAV deja de parecer una caja de Obsidian */
+.callout[data-callout="nav"] {
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+/* Título del bloque */
+.callout[data-callout="nav"] .callout-title {
+    background: transparent !important;
+    padding: 0 0 14px 0 !important;
+    color: #8fc5e8 !important;
+    font-weight: 700 !important;
+}
+
+/* Contenido */
+.callout[data-callout="nav"] .callout-content {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Lista convertida en grilla */
+.callout[data-callout="nav"] .callout-content ul,
+.callout[data-callout="nav"] ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+
+    width: 100% !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    list-style: none !important;
+}
+
+/* Sacamos bullets */
+.callout[data-callout="nav"] .callout-content li,
+.callout[data-callout="nav"] li {
+    display: block !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    list-style: none !important;
+}
+
+.callout[data-callout="nav"] li::marker {
+    content: "" !important;
+    display: none !important;
+}
+
+/* Cada enlace se convierte en tarjeta */
+.callout[data-callout="nav"] .callout-content li > a,
+.callout[data-callout="nav"] li > a {
+    display: flex !important;
+    align-items: center !important;
+
+    width: 100% !important;
+    min-height: 68px !important;
+
+    box-sizing: border-box !important;
+
+    padding: 18px 22px !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(21, 37, 49, 0.97),
+            rgba(17, 29, 39, 0.99)
+        ) !important;
+
+    border: 1px solid rgba(81, 145, 180, 0.30) !important;
+    border-radius: 14px !important;
+
+    color: #afc5d5 !important;
+
+    font-size: 1.02em !important;
+    font-weight: 700 !important;
+
+    text-decoration: none !important;
+
+    transition:
+        transform 0.15s ease,
+        background 0.15s ease,
+        border-color 0.15s ease !important;
+}
+
+.callout[data-callout="nav"] .callout-content li > a:hover,
+.callout[data-callout="nav"] li > a:hover {
+    transform: translateY(-2px) !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(29, 49, 64, 0.98),
+            rgba(22, 37, 49, 0.99)
+        ) !important;
+
+    border-color: rgba(105, 185, 225, 0.55) !important;
+
+    color: #d5eafb !important;
+}
+
+
+/* =========================================================
+   GEOGRAFÍA DRAKLAND
+   ========================================================= */
+
+.indice-drakland {
+    background:
+        radial-gradient(
+            circle at 75% 0%,
+            rgba(43, 100, 135, 0.12),
+            transparent 35%
+        ),
+        linear-gradient(
+            180deg,
+            #101b24,
+            #0b141c
+        ) !important;
+}
+
+.indice-drakland h1 {
+    color: #d9eaf7 !important;
+    font-size: 2.7em !important;
+}
+
+.indice-drakland .callout[data-callout="info"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(27, 54, 73, 0.94),
+            rgba(20, 39, 53, 0.97)
+        ) !important;
+
+    border: 1px solid rgba(74, 156, 205, 0.26) !important;
+    border-left: 4px solid #4ba4dc !important;
+    border-radius: 14px !important;
+}
+
+.indice-drakland
+.callout[data-callout="info"]
+.callout-title {
+    color: #67b8eb !important;
+}
+
+
+/* =========================================================
+   ANCHO DE LAS PÁGINAS
+   ========================================================= */
+
+.pagina-indice .content,
+.pagina-indice article,
+.indice-drakland .content,
+.indice-drakland article {
+    width: min(1180px, calc(100% - 64px)) !important;
+    max-width: 1180px !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 750px) {
+
+    .callout[data-callout="nav"] .callout-content ul,
+    .callout[data-callout="nav"] ul {
+        grid-template-columns: 1fr !important;
+    }
+
+    .pagina-indice .content,
+    .pagina-indice article {
+        width: calc(100% - 30px) !important;
+    }
+}
+/* =========================================================
+   FIX RETRATOS EN DIGITAL GARDEN
+   ========================================================= */
+
+/* PERSONAJES */
+
+body.ficha-personaje img,
+.ficha-personaje .content img,
+.ficha-personaje article img,
+.ficha-personaje .markdown-preview-view img {
+    display: block !important;
+
+    width: 360px !important;
+    max-width: 90% !important;
+
+    height: 500px !important;
+    max-height: 500px !important;
+
+    object-fit: cover !important;
+    object-position: center top !important;
+
+    margin: 28px auto 36px auto !important;
+
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 14px 34px rgba(0, 0, 0, 0.38) !important;
+}
+
+
+/* DIOSES */
+
+body.ficha-dios img,
+.ficha-dios .content img,
+.ficha-dios article img,
+.ficha-dios .markdown-preview-view img {
+    display: block !important;
+
+    width: 420px !important;
+    max-width: 90% !important;
+
+    height: 540px !important;
+    max-height: 540px !important;
+
+    object-fit: cover !important;
+    object-position: center top !important;
+
+    margin: 28px auto 38px auto !important;
+
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 14px 36px rgba(0, 0, 0, 0.40) !important;
+}
+
+
+/* CRIATURAS */
+
+body.ficha-criatura img,
+.ficha-criatura .content img,
+.ficha-criatura article img,
+.ficha-criatura .markdown-preview-view img {
+    display: block !important;
+
+    width: 520px !important;
+    max-width: 92% !important;
+
+    height: 440px !important;
+    max-height: 440px !important;
+
+    object-fit: cover !important;
+    object-position: center center !important;
+
+    margin: 28px auto 38px auto !important;
+
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 14px 36px rgba(0, 0, 0, 0.40) !important;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    body.ficha-personaje img,
+    .ficha-personaje .content img,
+    .ficha-personaje article img,
+
+    body.ficha-dios img,
+    .ficha-dios .content img,
+    .ficha-dios article img,
+
+    body.ficha-criatura img,
+    .ficha-criatura .content img,
+    .ficha-criatura article img {
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+        max-height: 520px !important;
+    }
+}
