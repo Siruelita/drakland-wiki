@@ -1,3 +1,4 @@
+
 /* =========================================================
    UNIVERSO DRAKLAND - DIGITAL GARDEN
    custom-style.scss
@@ -1528,111 +1529,6 @@ li:nth-child(7) a {
     }
 }
 /* =========================================================
-   FIX RETRATOS EN DIGITAL GARDEN
-   ========================================================= */
-
-/* PERSONAJES */
-
-body.ficha-personaje img,
-.ficha-personaje .content img,
-.ficha-personaje article img,
-.ficha-personaje .markdown-preview-view img {
-    display: block !important;
-
-    width: 360px !important;
-    max-width: 90% !important;
-
-    height: 500px !important;
-    max-height: 500px !important;
-
-    object-fit: cover !important;
-    object-position: center top !important;
-
-    margin: 28px auto 36px auto !important;
-
-    border-radius: 18px !important;
-
-    box-shadow:
-        0 14px 34px rgba(0, 0, 0, 0.38) !important;
-}
-
-
-/* DIOSES */
-
-body.ficha-dios img,
-.ficha-dios .content img,
-.ficha-dios article img,
-.ficha-dios .markdown-preview-view img {
-    display: block !important;
-
-    width: 420px !important;
-    max-width: 90% !important;
-
-    height: 540px !important;
-    max-height: 540px !important;
-
-    object-fit: cover !important;
-    object-position: center top !important;
-
-    margin: 28px auto 38px auto !important;
-
-    border-radius: 18px !important;
-
-    box-shadow:
-        0 14px 36px rgba(0, 0, 0, 0.40) !important;
-}
-
-
-/* CRIATURAS */
-
-body.ficha-criatura img,
-.ficha-criatura .content img,
-.ficha-criatura article img,
-.ficha-criatura .markdown-preview-view img {
-    display: block !important;
-
-    width: 520px !important;
-    max-width: 92% !important;
-
-    height: 440px !important;
-    max-height: 440px !important;
-
-    object-fit: cover !important;
-    object-position: center center !important;
-
-    margin: 28px auto 38px auto !important;
-
-    border-radius: 18px !important;
-
-    box-shadow:
-        0 14px 36px rgba(0, 0, 0, 0.40) !important;
-}
-
-
-/* MOBILE */
-
-@media (max-width: 700px) {
-
-    body.ficha-personaje img,
-    .ficha-personaje .content img,
-    .ficha-personaje article img,
-
-    body.ficha-dios img,
-    .ficha-dios .content img,
-    .ficha-dios article img,
-
-    body.ficha-criatura img,
-    .ficha-criatura .content img,
-    .ficha-criatura article img {
-
-        width: 100% !important;
-        max-width: 100% !important;
-
-        height: auto !important;
-        max-height: 520px !important;
-    }
-}
-/* =========================================================
    FIX FINAL - COLORES DE FACCIONES EN DIOSES
    Debe quedar al FINAL del archivo
    ========================================================= */
@@ -1917,8 +1813,87 @@ body.faccion-tiamat .callout-title {
     color: #ff8585 !important;
 }
 /* =========================================================
-   PORTRAIT GALLERY - DIGITAL GARDEN
-   Una imagen visible + autoplay por JS
+   19. RETRATOS ESTÁTICOS - DIGITAL GARDEN
+   ========================================================= */
+
+/* Personajes sin galería */
+body.ficha-personaje img,
+.ficha-personaje .content img,
+.ficha-personaje article img,
+.ficha-personaje .markdown-preview-view img {
+    display: block !important;
+
+    width: 360px !important;
+    max-width: 90% !important;
+
+    height: 500px !important;
+    max-height: 500px !important;
+
+    object-fit: cover !important;
+    object-position: center top !important;
+
+    margin: 28px auto 36px auto !important;
+
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 14px 34px rgba(0, 0, 0, 0.38) !important;
+}
+
+
+/* Dioses sin galería */
+body.ficha-dios img,
+.ficha-dios .content img,
+.ficha-dios article img,
+.ficha-dios .markdown-preview-view img {
+    display: block !important;
+
+    width: 420px !important;
+    max-width: 90% !important;
+
+    height: 540px !important;
+    max-height: 540px !important;
+
+    object-fit: cover !important;
+    object-position: center top !important;
+
+    margin: 28px auto 38px auto !important;
+
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 14px 36px rgba(0, 0, 0, 0.40) !important;
+}
+
+
+/* Criaturas */
+body.ficha-criatura img,
+.ficha-criatura .content img,
+.ficha-criatura article img,
+.ficha-criatura .markdown-preview-view img {
+    display: block !important;
+
+    width: 520px !important;
+    max-width: 92% !important;
+
+    height: 440px !important;
+    max-height: 440px !important;
+
+    object-fit: cover !important;
+    object-position: center center !important;
+
+    margin: 28px auto 38px auto !important;
+
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 14px 36px rgba(0, 0, 0, 0.40) !important;
+}
+
+
+/* =========================================================
+   20. GALERÍA DE RETRATO - DIGITAL GARDEN
+   Una sola imagen por vez. El JS controla el autoplay.
    ========================================================= */
 
 .callout[data-callout="portrait-gallery"] {
@@ -1929,30 +1904,36 @@ body.faccion-tiamat .callout-title {
     padding: 0 !important;
 
     background: transparent !important;
+    background-image: none !important;
+
     border: 0 !important;
     box-shadow: none !important;
+
+    overflow: visible !important;
 }
 
-
-/* Ocultar título del callout */
+.callout[data-callout="portrait-gallery"]::before,
+.callout[data-callout="portrait-gallery"]::after {
+    display: none !important;
+}
 
 .callout[data-callout="portrait-gallery"] .callout-title {
     display: none !important;
 }
 
-
-/* Contenido limpio */
-
 .callout[data-callout="portrait-gallery"] .callout-content {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+
     margin: 0 !important;
     padding: 0 !important;
+
+    overflow: visible !important;
 }
 
 
-/* =========================================================
-   VISOR
-   ========================================================= */
-
+/* Visor */
 .portrait-gallery-stage {
     position: relative !important;
 
@@ -1961,59 +1942,114 @@ body.faccion-tiamat .callout-title {
 
     overflow: hidden !important;
 
+    background: transparent !important;
+    background-image: none !important;
+
     border-radius: 18px !important;
 
     box-shadow:
-        0 14px 36px rgba(0, 0, 0, 0.4) !important;
+        0 14px 36px rgba(0, 0, 0, 0.40) !important;
 
+    isolation: isolate !important;
     cursor: pointer !important;
 }
 
+.portrait-gallery-stage::before,
+.portrait-gallery-stage::after {
+    display: none !important;
+}
 
-/* =========================================================
-   SLIDES
-   ========================================================= */
 
+/* Slides
+   IMPORTANTE: sin transición de opacidad.
+   Así nunca hay dos retratos superpuestos. */
 .portrait-gallery-slide {
     position: absolute !important;
-
     inset: 0 !important;
 
     width: 100% !important;
     height: 100% !important;
 
     opacity: 0 !important;
+    visibility: hidden !important;
 
     pointer-events: none !important;
 
-    transition:
-        opacity 0.8s ease !important;
+    transition: none !important;
+
+    z-index: 1 !important;
+
+    filter: none !important;
+    mix-blend-mode: normal !important;
+
+    background: transparent !important;
 }
 
 .portrait-gallery-slide.is-active {
     opacity: 1 !important;
+    visibility: visible !important;
 
     pointer-events: auto !important;
+
+    z-index: 5 !important;
 }
 
 
-/* =========================================================
-   IMÁGENES
-   ========================================================= */
+/* Override FUERTE:
+   evita que las reglas de retrato estático afecten al carrusel. */
+body.ficha-personaje
+.callout[data-callout="portrait-gallery"]
+.portrait-gallery-slide img,
 
+.ficha-personaje .content
+.callout[data-callout="portrait-gallery"]
+.portrait-gallery-slide img,
+
+.ficha-personaje article
+.callout[data-callout="portrait-gallery"]
+.portrait-gallery-slide img,
+
+body.ficha-dios
+.callout[data-callout="portrait-gallery"]
+.portrait-gallery-slide img,
+
+.ficha-dios .content
+.callout[data-callout="portrait-gallery"]
+.portrait-gallery-slide img,
+
+.ficha-dios article
+.callout[data-callout="portrait-gallery"]
+.portrait-gallery-slide img,
+
+.callout[data-callout="portrait-gallery"]
 .portrait-gallery-slide img {
+    position: relative !important;
+    z-index: 10 !important;
+
     display: block !important;
 
     width: 100% !important;
-    height: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
 
-    max-width: none !important;
+    height: 100% !important;
+    min-height: 100% !important;
     max-height: none !important;
 
     object-fit: cover !important;
     object-position: center top !important;
 
     margin: 0 !important;
+    padding: 0 !important;
+
+    opacity: 1 !important;
+
+    filter: none !important;
+    backdrop-filter: none !important;
+    mix-blend-mode: normal !important;
+
+    background: transparent !important;
+    background-image: none !important;
 
     border: none !important;
     border-radius: 18px !important;
@@ -2022,10 +2058,7 @@ body.faccion-tiamat .callout-title {
 }
 
 
-/* =========================================================
-   CONTROLES
-   ========================================================= */
-
+/* Controles */
 .portrait-gallery-controls {
     display: flex !important;
 
@@ -2036,9 +2069,6 @@ body.faccion-tiamat .callout-title {
 
     margin-top: 12px !important;
 }
-
-
-/* Flechas */
 
 .portrait-gallery-arrow {
     display: flex !important;
@@ -2065,10 +2095,6 @@ body.faccion-tiamat .callout-title {
     line-height: 1 !important;
 
     cursor: pointer !important;
-
-    transition:
-        background 0.2s ease,
-        transform 0.2s ease !important;
 }
 
 .portrait-gallery-arrow:hover {
@@ -2078,14 +2104,9 @@ body.faccion-tiamat .callout-title {
     transform: scale(1.08) !important;
 }
 
-
-/* Puntitos */
-
 .portrait-gallery-dots {
     display: flex !important;
-
     align-items: center !important;
-
     gap: 7px !important;
 }
 
@@ -2102,23 +2123,15 @@ body.faccion-tiamat .callout-title {
         rgba(170, 190, 205, 0.28) !important;
 
     cursor: pointer !important;
-
-    transition:
-        transform 0.2s ease,
-        background 0.2s ease !important;
 }
 
 .portrait-gallery-dot.is-active {
     background: #9fc8e3 !important;
-
     transform: scale(1.35) !important;
 }
 
 
-/* =========================================================
-   DIOSES
-   ========================================================= */
-
+/* Galería en fichas de dioses */
 .ficha-dios
 .callout[data-callout="portrait-gallery"] {
     width: 420px !important;
@@ -2130,46 +2143,17 @@ body.faccion-tiamat .callout-title {
 
 
 /* =========================================================
-   MÓVIL
+   21. FICHAS DE PERSONAJES - AJUSTE WEB
    ========================================================= */
-
-@media (max-width: 700px) {
-
-    .callout[data-callout="portrait-gallery"] {
-        width: 84vw !important;
-        max-width: 84vw !important;
-    }
-
-    .portrait-gallery-stage {
-        height: min(118vw, 520px) !important;
-    }
-
-    .ficha-dios .portrait-gallery-stage {
-        height: min(118vw, 540px) !important;
-    }
-}
-/* =========================================================
-   FIX FINAL PERSONAJES WEB
-   Igualar apariencia con Obsidian
-   ========================================================= */
-
-
-/* ---------------------------------------------------------
-   ANCHO GENERAL DE LA FICHA
-   --------------------------------------------------------- */
 
 .ficha-personaje .content,
 .ficha-personaje article,
 .ficha-personaje .markdown-preview-view {
     max-width: 920px !important;
+
     margin-left: auto !important;
     margin-right: auto !important;
 }
-
-
-/* ---------------------------------------------------------
-   TÍTULO DEL PERSONAJE
-   --------------------------------------------------------- */
 
 .ficha-personaje h1 {
     font-size: 2rem !important;
@@ -2186,11 +2170,6 @@ body.faccion-tiamat .callout-title {
         0 2px 5px rgba(0, 0, 0, 0.35) !important;
 }
 
-
-/* ---------------------------------------------------------
-   TARJETA DE INFORMACIÓN
-   --------------------------------------------------------- */
-
 .ficha-personaje
 .callout[data-callout="character"] {
     width: 100% !important;
@@ -2198,11 +2177,8 @@ body.faccion-tiamat .callout-title {
 
     box-sizing: border-box !important;
 
-    margin:
-        18px auto 34px auto !important;
-
-    padding:
-        16px 20px !important;
+    margin: 18px auto 34px auto !important;
+    padding: 16px 20px !important;
 
     border-radius: 14px !important;
 
@@ -2223,9 +2199,6 @@ body.faccion-tiamat .callout-title {
         0 6px 18px rgba(0, 0, 0, 0.18) !important;
 }
 
-
-/* Título de la tarjeta */
-
 .ficha-personaje
 .callout[data-callout="character"]
 .callout-title {
@@ -2234,13 +2207,11 @@ body.faccion-tiamat .callout-title {
 }
 
 
-/* ---------------------------------------------------------
-   NOCTIS
-   Clyde y cualquier personaje asociado a Noctis
-   --------------------------------------------------------- */
-
+/* Noctis */
 .ficha-personaje.faccion-noctis,
-.faccion-noctis.ficha-personaje {
+.faccion-noctis.ficha-personaje,
+body.ficha-personaje.faccion-noctis,
+body.faccion-noctis {
     background:
         linear-gradient(
             180deg,
@@ -2249,16 +2220,17 @@ body.faccion-tiamat .callout-title {
         ) !important;
 }
 
-
 .ficha-personaje.faccion-noctis
 .callout[data-callout="character"],
 
 .faccion-noctis.ficha-personaje
 .callout[data-callout="character"],
 
+body.faccion-noctis
+.callout[data-callout="character"],
+
 .faccion-noctis
 .callout[data-callout="character"] {
-
     background:
         linear-gradient(
             135deg,
@@ -2277,7 +2249,6 @@ body.faccion-tiamat .callout-title {
         0 0 18px rgba(190, 200, 230, 0.04) !important;
 }
 
-
 .faccion-noctis
 .callout[data-callout="character"]
 .callout-title {
@@ -2286,11 +2257,6 @@ body.faccion-tiamat .callout-title {
     text-shadow:
         0 0 8px rgba(180, 195, 255, 0.30) !important;
 }
-
-
-/* ---------------------------------------------------------
-   SECCIONES
-   --------------------------------------------------------- */
 
 .ficha-personaje h2 {
     font-size: 1.35rem !important;
@@ -2306,36 +2272,48 @@ body.faccion-tiamat .callout-title {
         1px solid rgba(110, 170, 210, 0.16) !important;
 }
 
-
 .ficha-personaje h3 {
     font-size: 1.05rem !important;
-
     color: #a8d3f2 !important;
 }
 
 
-/* ---------------------------------------------------------
-   CARRUSEL
-   Sacar scrollbar vertical raro
-   --------------------------------------------------------- */
-
-.callout[data-callout="portrait-gallery"],
-.callout[data-callout="portrait-gallery"]
-.callout-content {
-    overflow-y: visible !important;
-}
-
-
-.portrait-gallery-stage {
-    overflow: hidden !important;
-}
-
-
-/* ---------------------------------------------------------
-   MOBILE
-   --------------------------------------------------------- */
+/* =========================================================
+   22. MOBILE
+   ========================================================= */
 
 @media (max-width: 800px) {
+
+    body.ficha-personaje img,
+    .ficha-personaje .content img,
+    .ficha-personaje article img,
+
+    body.ficha-dios img,
+    .ficha-dios .content img,
+    .ficha-dios article img,
+
+    body.ficha-criatura img,
+    .ficha-criatura .content img,
+    .ficha-criatura article img {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+        max-height: 520px !important;
+    }
+
+    .callout[data-callout="portrait-gallery"] {
+        width: 84vw !important;
+        max-width: 84vw !important;
+    }
+
+    .portrait-gallery-stage {
+        height: min(118vw, 520px) !important;
+    }
+
+    .ficha-dios .portrait-gallery-stage {
+        height: min(118vw, 540px) !important;
+    }
 
     .ficha-personaje
     .callout[data-callout="character"] {
@@ -2345,67 +2323,17 @@ body.faccion-tiamat .callout-title {
     .ficha-personaje h1 {
         font-size: 1.8rem !important;
     }
-}
-/* =========================================================
-   FIX - RETRATOS SIN TINTE DE FACCIÓN
-   ========================================================= */
 
-.portrait-gallery-stage {
-    position: relative !important;
-    isolation: isolate !important;
+    /* Override móvil de la galería:
+       debe seguir ocupando el 100% de su visor. */
+    .callout[data-callout="portrait-gallery"]
+    .portrait-gallery-slide img {
+        width: 100% !important;
+        max-width: 100% !important;
 
-    background: #0d1118 !important;
+        height: 100% !important;
+        max-height: none !important;
 
-    opacity: 1 !important;
-    filter: none !important;
-    mix-blend-mode: normal !important;
-}
-
-.portrait-gallery-slide {
-    z-index: 1 !important;
-
-    filter: none !important;
-    mix-blend-mode: normal !important;
-}
-
-.portrait-gallery-slide.is-active {
-    opacity: 1 !important;
-    z-index: 5 !important;
-}
-
-.portrait-gallery-slide img {
-    position: relative !important;
-    z-index: 10 !important;
-
-    opacity: 1 !important;
-
-    filter: none !important;
-    backdrop-filter: none !important;
-
-    mix-blend-mode: normal !important;
-
-    background: transparent !important;
-}
-
-/* Evitar overlays de la facción sobre el carrusel */
-.faccion-noctis
-.callout[data-callout="portrait-gallery"] {
-    background: transparent !important;
-    background-image: none !important;
-
-    box-shadow: none !important;
-}
-
-.faccion-noctis
-.callout[data-callout="portrait-gallery"]::before,
-
-.faccion-noctis
-.callout[data-callout="portrait-gallery"]::after,
-
-.faccion-noctis
-.portrait-gallery-stage::before,
-
-.faccion-noctis
-.portrait-gallery-stage::after {
-    display: none !important;
+        margin: 0 !important;
+    }
 }
