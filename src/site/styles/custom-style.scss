@@ -2337,3 +2337,30 @@ body.faccion-noctis
         margin: 0 !important;
     }
 }
+.portrait-gallery-slide {
+    position: absolute !important;
+    inset: 0 !important;
+
+    opacity: 0 !important;
+    visibility: hidden !important;
+
+    pointer-events: none !important;
+
+    transition: none !important;
+}
+
+.portrait-gallery-slide.is-active {
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    pointer-events: auto !important;
+}
+.portrait-gallery-slide img {
+    opacity: 1 !important;
+
+    filter: none !important;
+    backdrop-filter: none !important;
+    mix-blend-mode: normal !important;
+
+    background: transparent !important;
+}
