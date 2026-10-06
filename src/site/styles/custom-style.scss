@@ -1916,3 +1916,235 @@ body.faccion-tiamat .callout[data-callout="god"] {
 body.faccion-tiamat .callout-title {
     color: #ff8585 !important;
 }
+/* =========================================================
+   PORTRAIT GALLERY - DIGITAL GARDEN
+   Una imagen visible + autoplay por JS
+   ========================================================= */
+
+.callout[data-callout="portrait-gallery"] {
+    width: 360px !important;
+    max-width: 90vw !important;
+
+    margin: 28px auto 36px !important;
+    padding: 0 !important;
+
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+
+/* Ocultar título del callout */
+
+.callout[data-callout="portrait-gallery"] .callout-title {
+    display: none !important;
+}
+
+
+/* Contenido limpio */
+
+.callout[data-callout="portrait-gallery"] .callout-content {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* =========================================================
+   VISOR
+   ========================================================= */
+
+.portrait-gallery-stage {
+    position: relative !important;
+
+    width: 100% !important;
+    height: 500px !important;
+
+    overflow: hidden !important;
+
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 14px 36px rgba(0, 0, 0, 0.4) !important;
+
+    cursor: pointer !important;
+}
+
+
+/* =========================================================
+   SLIDES
+   ========================================================= */
+
+.portrait-gallery-slide {
+    position: absolute !important;
+
+    inset: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    opacity: 0 !important;
+
+    pointer-events: none !important;
+
+    transition:
+        opacity 0.8s ease !important;
+}
+
+.portrait-gallery-slide.is-active {
+    opacity: 1 !important;
+
+    pointer-events: auto !important;
+}
+
+
+/* =========================================================
+   IMÁGENES
+   ========================================================= */
+
+.portrait-gallery-slide img {
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    max-width: none !important;
+    max-height: none !important;
+
+    object-fit: cover !important;
+    object-position: center top !important;
+
+    margin: 0 !important;
+
+    border: none !important;
+    border-radius: 18px !important;
+
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+   CONTROLES
+   ========================================================= */
+
+.portrait-gallery-controls {
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 14px !important;
+
+    margin-top: 12px !important;
+}
+
+
+/* Flechas */
+
+.portrait-gallery-arrow {
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 32px !important;
+    height: 32px !important;
+
+    padding: 0 !important;
+
+    border:
+        1px solid rgba(150, 180, 210, 0.25) !important;
+
+    border-radius: 50% !important;
+
+    background:
+        rgba(20, 28, 36, 0.72) !important;
+
+    color: #b9ccda !important;
+
+    font-size: 25px !important;
+    line-height: 1 !important;
+
+    cursor: pointer !important;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease !important;
+}
+
+.portrait-gallery-arrow:hover {
+    background:
+        rgba(50, 70, 88, 0.85) !important;
+
+    transform: scale(1.08) !important;
+}
+
+
+/* Puntitos */
+
+.portrait-gallery-dots {
+    display: flex !important;
+
+    align-items: center !important;
+
+    gap: 7px !important;
+}
+
+.portrait-gallery-dot {
+    width: 8px !important;
+    height: 8px !important;
+
+    padding: 0 !important;
+
+    border: 0 !important;
+    border-radius: 50% !important;
+
+    background:
+        rgba(170, 190, 205, 0.28) !important;
+
+    cursor: pointer !important;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease !important;
+}
+
+.portrait-gallery-dot.is-active {
+    background: #9fc8e3 !important;
+
+    transform: scale(1.35) !important;
+}
+
+
+/* =========================================================
+   DIOSES
+   ========================================================= */
+
+.ficha-dios
+.callout[data-callout="portrait-gallery"] {
+    width: 420px !important;
+}
+
+.ficha-dios .portrait-gallery-stage {
+    height: 540px !important;
+}
+
+
+/* =========================================================
+   MÓVIL
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .callout[data-callout="portrait-gallery"] {
+        width: 84vw !important;
+        max-width: 84vw !important;
+    }
+
+    .portrait-gallery-stage {
+        height: min(118vw, 520px) !important;
+    }
+
+    .ficha-dios .portrait-gallery-stage {
+        height: min(118vw, 540px) !important;
+    }
+}
