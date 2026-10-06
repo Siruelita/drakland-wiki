@@ -1632,3 +1632,287 @@ body.ficha-criatura img,
         max-height: 520px !important;
     }
 }
+/* =========================================================
+   FIX FINAL - COLORES DE FACCIONES EN DIOSES
+   Debe quedar al FINAL del archivo
+   ========================================================= */
+
+
+/* =========================
+   FUEGO
+   ========================= */
+
+.ficha-dios.faccion-fuego,
+body.faccion-fuego,
+.content.faccion-fuego,
+article.faccion-fuego {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(58, 22, 16, 0.97),
+            rgba(28, 18, 18, 0.99)
+        ) !important;
+}
+
+.ficha-dios.faccion-fuego .callout[data-callout="god"],
+body.faccion-fuego .callout[data-callout="god"],
+.content.faccion-fuego .callout[data-callout="god"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(110, 30, 18, 0.94),
+            rgba(55, 25, 20, 0.97)
+        ) !important;
+
+    border: 1px solid rgba(255, 99, 56, 0.32) !important;
+    border-left: 4px solid #ff6338 !important;
+}
+
+.ficha-dios.faccion-fuego .callout-title,
+body.faccion-fuego .callout-title {
+    color: #ff9a5f !important;
+}
+
+
+/* =========================
+   AGUA
+   ========================= */
+
+.ficha-dios.faccion-agua,
+body.faccion-agua,
+.content.faccion-agua,
+article.faccion-agua {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(16, 42, 52, 0.97),
+            rgba(17, 25, 32, 0.99)
+        ) !important;
+}
+
+.ficha-dios.faccion-agua .callout[data-callout="god"],
+body.faccion-agua .callout[data-callout="god"],
+.content.faccion-agua .callout[data-callout="god"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(15, 72, 92, 0.94),
+            rgba(19, 40, 55, 0.97)
+        ) !important;
+
+    border-left: 4px solid #42cbe2 !important;
+}
+
+.ficha-dios.faccion-agua .callout-title,
+body.faccion-agua .callout-title {
+    color: #83e4f3 !important;
+}
+
+
+/* =========================
+   VIENTO
+   ========================= */
+
+.ficha-dios.faccion-viento,
+body.faccion-viento,
+.content.faccion-viento,
+article.faccion-viento {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(50, 58, 63, 0.96),
+            rgba(24, 28, 32, 0.99)
+        ) !important;
+}
+
+.ficha-dios.faccion-viento .callout[data-callout="god"],
+body.faccion-viento .callout[data-callout="god"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(60, 73, 80, 0.94),
+            rgba(32, 42, 48, 0.97)
+        ) !important;
+
+    border-left: 4px solid #d9edf5 !important;
+}
+
+.ficha-dios.faccion-viento .callout-title,
+body.faccion-viento .callout-title {
+    color: #e8f7ff !important;
+}
+
+
+/* =========================
+   TIERRA
+   ========================= */
+
+.ficha-dios.faccion-tierra,
+body.faccion-tierra,
+.content.faccion-tierra,
+article.faccion-tierra {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(48, 34, 24, 0.97),
+            rgba(24, 20, 18, 0.99)
+        ) !important;
+}
+
+.ficha-dios.faccion-tierra .callout[data-callout="god"],
+body.faccion-tierra .callout[data-callout="god"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(92, 61, 34, 0.94),
+            rgba(48, 39, 29, 0.97)
+        ) !important;
+
+    border-left: 4px solid #a87642 !important;
+}
+
+.ficha-dios.faccion-tierra .callout-title,
+body.faccion-tierra .callout-title {
+    color: #d5a46a !important;
+}
+
+
+/* =========================
+   LUZ
+   ========================= */
+
+.ficha-dios.faccion-luz,
+body.faccion-luz,
+.content.faccion-luz,
+article.faccion-luz {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(62, 60, 48, 0.96),
+            rgba(28, 27, 24, 0.99)
+        ) !important;
+}
+
+.ficha-dios.faccion-luz .callout[data-callout="god"],
+body.faccion-luz .callout[data-callout="god"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(72, 69, 52, 0.94),
+            rgba(38, 36, 29, 0.97)
+        ) !important;
+
+    border-left: 4px solid #fff7d6 !important;
+}
+
+.ficha-dios.faccion-luz .callout-title,
+body.faccion-luz .callout-title {
+    color: #fff8df !important;
+}
+
+
+/* =========================
+   OSCURIDAD
+   ========================= */
+
+.ficha-dios.faccion-oscuridad,
+body.faccion-oscuridad,
+.content.faccion-oscuridad,
+article.faccion-oscuridad {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(20, 16, 24, 0.98),
+            rgba(10, 10, 14, 0.99)
+        ) !important;
+}
+
+.ficha-dios.faccion-oscuridad .callout[data-callout="god"],
+body.faccion-oscuridad .callout[data-callout="god"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(35, 25, 43, 0.96),
+            rgba(17, 15, 22, 0.99)
+        ) !important;
+
+    border-left: 4px solid #60446f !important;
+}
+
+.ficha-dios.faccion-oscuridad .callout-title,
+body.faccion-oscuridad .callout-title {
+    color: #a889b8 !important;
+}
+
+
+/* =========================
+   NOCTIS
+   ========================= */
+
+.ficha-dios.faccion-noctis,
+body.faccion-noctis,
+.content.faccion-noctis,
+article.faccion-noctis {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(17, 22, 48, 0.97),
+            rgba(13, 14, 24, 0.99)
+        ) !important;
+}
+
+.ficha-dios.faccion-noctis .callout[data-callout="god"],
+body.faccion-noctis .callout[data-callout="god"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(18, 25, 63, 0.95),
+            rgba(22, 17, 42, 0.98)
+        ) !important;
+
+    border-left: 4px solid #919bd5 !important;
+}
+
+.ficha-dios.faccion-noctis .callout-title,
+body.faccion-noctis .callout-title {
+    color: #cbd3ff !important;
+}
+
+
+/* =========================
+   TIAMAT
+   ========================= */
+
+.ficha-dios.faccion-tiamat,
+body.faccion-tiamat,
+.content.faccion-tiamat,
+article.faccion-tiamat {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(46, 14, 18, 0.97) 0%,
+            rgba(33, 18, 38, 0.98) 28%,
+            rgba(16, 36, 31, 0.98) 55%,
+            rgba(18, 26, 45, 0.98) 78%,
+            rgba(40, 33, 15, 0.98) 100%
+        ) !important;
+}
+
+.ficha-dios.faccion-tiamat .callout[data-callout="god"],
+body.faccion-tiamat .callout[data-callout="god"] {
+    background:
+        linear-gradient(
+            110deg,
+            rgba(74, 22, 34, 0.95),
+            rgba(23, 59, 48, 0.94),
+            rgba(29, 48, 79, 0.95),
+            rgba(72, 55, 23, 0.94)
+        ) !important;
+
+    border-left: 4px solid #d83f4a !important;
+}
+
+.ficha-dios.faccion-tiamat .callout-title,
+body.faccion-tiamat .callout-title {
+    color: #ff8585 !important;
+}
