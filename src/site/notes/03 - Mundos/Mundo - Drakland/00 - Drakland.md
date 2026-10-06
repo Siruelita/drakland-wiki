@@ -18,8 +18,8 @@
 ## 🧭 Explorar Drakland
 
 > [!nav] Navegación
-> - [[Geografía - Drakland\|🗺️ Geografía]]
-> - [[Personajes - Drakland\|👥 Personajes]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Geografía - Drakland\|🗺️ Geografía]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Personajes - Drakland\|👥 Personajes]]
 > - [[Facciones - Drakland\|⚔️ Facciones]]
 > - [[Religión - Drakland\|⛪ Religión]]
 > - [[Historia - Drakland\|📜 Historia]]
