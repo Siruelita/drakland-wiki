@@ -3281,3 +3281,384 @@ li a:hover {
     max-width: 100% !important;
     overflow-x: visible !important;
 }
+/* =========================================================
+   NAVEGACIÓN GLOBAL - PRIORIDAD FINAL
+   PEGAR AL FINAL DE custom-style.scss
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   Ocultar título "Nav"
+   --------------------------------------------------------- */
+
+.callout[data-callout="nav"] > .callout-title {
+    display: none !important;
+}
+
+.callout[data-callout="nav"] > .callout-content {
+    margin-top: 0 !important;
+}
+
+
+/* ---------------------------------------------------------
+   TARJETA BASE
+   --------------------------------------------------------- */
+
+.callout[data-callout="nav"] ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.callout[data-callout="nav"] li {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.callout[data-callout="nav"] li::marker {
+    content: "" !important;
+}
+
+.callout[data-callout="nav"] li > a {
+    display: flex !important;
+    align-items: center !important;
+
+    width: 100% !important;
+    min-height: 68px !important;
+
+    box-sizing: border-box !important;
+
+    padding: 17px 22px !important;
+
+    border-radius: 14px !important;
+
+    background: #13202a !important;
+
+    border:
+        1px solid rgba(104, 145, 168, 0.30) !important;
+
+    color: #b7c6cf !important;
+
+    text-decoration: none !important;
+    font-weight: 650 !important;
+
+    transition:
+        transform 0.18s ease,
+        background 0.18s ease,
+        border-color 0.18s ease,
+        color 0.18s ease,
+        box-shadow 0.18s ease !important;
+}
+
+.callout[data-callout="nav"] li > a:hover {
+    transform: translateY(-2px);
+
+    background: #192a36 !important;
+
+    border-color:
+        rgba(118, 169, 197, 0.52) !important;
+
+    color: #e0edf4 !important;
+
+    box-shadow:
+        0 8px 22px rgba(0, 0, 0, 0.20) !important;
+}
+
+
+/* =========================================================
+   ✨ PANTEÓN - VIOLETA
+   ========================================================= */
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Pante" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="pante" i] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(52, 42, 67, 0.96),
+            rgba(31, 27, 40, 0.98)
+        ) !important;
+
+    border:
+        1px solid rgba(170, 135, 195, 0.45) !important;
+
+    color: #cdb6e8 !important;
+}
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Pante" i]:hover,
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="pante" i]:hover {
+
+    border-color:
+        rgba(205, 165, 235, 0.72) !important;
+
+    color: #eadcff !important;
+
+    box-shadow:
+        0 0 18px rgba(154, 111, 190, 0.15) !important;
+}
+
+
+/* =========================================================
+   🌿 NATURALEZA - VERDE
+   ========================================================= */
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Naturaleza" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="naturaleza" i] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(31, 67, 49, 0.96),
+            rgba(20, 43, 33, 0.98)
+        ) !important;
+
+    border:
+        1px solid rgba(84, 151, 105, 0.48) !important;
+
+    color: #a7d5b3 !important;
+}
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Naturaleza" i]:hover,
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="naturaleza" i]:hover {
+
+    border-color:
+        rgba(111, 190, 135, 0.72) !important;
+
+    color: #d5f4de !important;
+
+    box-shadow:
+        0 0 18px rgba(79, 145, 99, 0.15) !important;
+}
+
+
+/* =========================================================
+   🗺️ MAPAS - AZUL
+   ========================================================= */
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Mapa" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="mapa" i] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(18, 52, 70, 0.96),
+            rgba(15, 37, 51, 0.98)
+        ) !important;
+
+    border:
+        1px solid rgba(58, 126, 158, 0.50) !important;
+
+    color: #9bcde5 !important;
+}
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Mapa" i]:hover,
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="mapa" i]:hover {
+
+    border-color:
+        rgba(75, 140, 172, 0.76) !important;
+
+    color: #d5f1ff !important;
+
+    box-shadow:
+        0 0 18px rgba(75, 140, 172, 0.16) !important;
+}
+
+
+/* =========================================================
+   🔥 REINO DEL FUEGO
+   ========================================================= */
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Reino del Fuego" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="reino-del-fuego" i] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(72, 28, 22, 0.96),
+            rgba(39, 23, 22, 0.98)
+        ) !important;
+
+    border:
+        1px solid rgba(220, 84, 55, 0.35) !important;
+
+    color: #d69b8b !important;
+}
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Reino del Fuego" i]:hover {
+
+    border-color:
+        rgba(245, 110, 75, 0.65) !important;
+
+    color: #f4c4b5 !important;
+}
+
+
+/* =========================================================
+   🌊 REINO DEL AGUA
+   ========================================================= */
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Reino del Agua" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="reino-del-agua" i] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(18, 60, 75, 0.96),
+            rgba(18, 36, 48, 0.98)
+        ) !important;
+
+    border:
+        1px solid rgba(70, 185, 220, 0.34) !important;
+
+    color: #91c6d3 !important;
+}
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Reino del Agua" i]:hover {
+
+    border-color:
+        rgba(95, 215, 245, 0.65) !important;
+
+    color: #c9eef7 !important;
+}
+
+
+/* =========================================================
+   🪨 TIERRA
+   ========================================================= */
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Tribu de Tierra" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Reino de Tierra" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="tribu-de-tierra" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="reino-de-tierra" i] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(65, 49, 31, 0.96),
+            rgba(37, 31, 24, 0.98)
+        ) !important;
+
+    border:
+        1px solid rgba(175, 130, 75, 0.34) !important;
+
+    color: #b9aa80 !important;
+}
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Tribu de Tierra" i]:hover {
+
+    border-color:
+        rgba(210, 160, 95, 0.62) !important;
+
+    color: #ded0a4 !important;
+}
+
+
+/* =========================================================
+   🌬️ REINO DEL AIRE
+   ========================================================= */
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Reino del Aire" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="reino-del-aire" i] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(49, 62, 69, 0.96),
+            rgba(28, 38, 45, 0.98)
+        ) !important;
+
+    border:
+        1px solid rgba(180, 215, 225, 0.30) !important;
+
+    color: #adbec6 !important;
+}
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Reino del Aire" i]:hover {
+
+    border-color:
+        rgba(215, 240, 245, 0.60) !important;
+
+    color: #e0edf1 !important;
+}
+
+
+/* =========================================================
+   👥 JUGADORES
+   ========================================================= */
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Jugadores" i],
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[href*="jugadores" i] {
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(50, 46, 83, 0.96),
+            rgba(31, 35, 61, 0.98)
+        ) !important;
+
+    border:
+        1px solid rgba(102, 91, 159, 0.48) !important;
+
+    color: #bcb3e5 !important;
+}
+
+.callout.callout[data-callout="nav"][data-callout="nav"]
+li > a[data-href*="Jugadores" i]:hover {
+
+    border-color:
+        rgba(132, 119, 193, 0.72) !important;
+
+    color: #ded8ff !important;
+}
+
+
+/* =========================================================
+   MÓVIL
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .callout[data-callout="nav"] ul {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+    }
+
+    .callout[data-callout="nav"] li > a {
+        min-height: 60px !important;
+        padding: 15px 18px !important;
+        border-radius: 12px !important;
+    }
+}
