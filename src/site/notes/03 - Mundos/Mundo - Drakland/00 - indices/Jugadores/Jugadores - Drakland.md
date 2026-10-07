@@ -8,7 +8,6 @@
 
 ---
 
-## 🎲 Jugadores
 
 > [!nav] Jugadores
 > - [[03 - Mundos/Mundo - Drakland/00 - indices/Jugadores/Jugador - Axel\|🎲 Axel]]
