@@ -3036,3 +3036,16 @@ li a:hover {
     }
 
 }
+/* Ocultar título interno del callout de navegación */
+.indice-jugadores
+.callout[data-callout="nav"]
+.callout-title {
+    display: none !important;
+}
+
+/* Quitar espacio que dejaba el título */
+.indice-jugadores
+.callout[data-callout="nav"]
+.callout-content {
+    margin-top: 0 !important;
+}
