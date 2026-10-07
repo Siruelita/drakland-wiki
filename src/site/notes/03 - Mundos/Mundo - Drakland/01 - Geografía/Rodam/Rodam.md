@@ -4,15 +4,26 @@
 
 # 🌎 Rodam
 
-*Continente de Drakland.*
+*Un vasto continente de Drakland cuyo territorio permanece, en gran parte, desconocido.*
 
-> [!warning] Territorio en exploración
-> Gran parte del continente de Rodam continúa siendo desconocida.  
-> La información disponible se irá ampliando a medida que nuevas regiones sean descubiertas.
+> [!info] Estado actual
+> **Territorio en exploración**
 
-> [!nav] Explorar Rodam
+---
+
+## 📍 Lugares conocidos
+
+> [!nav]
 > - [[03 - Mundos/Mundo - Drakland/01 - Geografía/Rodam/Valebruma\|🏘️ Valebruma]]
-> - [[Regiones - Rodam\|🌄 Regiones]]
-> - [[Lugares - Rodam\|📍 Lugares importantes]]
-> - [[Estados - Rodam\|🏰 Estados y territorios]]
-> - [[Mapas - Rodam\|🗺️ Mapas]]
+
+---
+
+## 📜 Ecos del pasado
+
+Durante un one-shot, los jugadores pudieron conocer Rodam tal como era aproximadamente **1000 años atrás**, antes de la llegada de Tiamat.
+
+> [!nav]
+> - [[Rodam - Hace 1000 años\|⏳ Rodam hace 1000 años]]
+
+
+[[03 - Mundos/Mundo - Drakland/00 - indices/Drakland - Portal\|← Volver a Drakland]]
