@@ -2,28 +2,18 @@
 {"dg-publish":true,"permalink":"/03-mundos/mundo-drakland/00-drakland/","contentClasses":"portada-mundo","tags":["gardenEntry"],"dg-note-properties":{"tipo":"mundo","nombre_mundo":"Drakland","estado":"En Guerra","visible_jugadores":true,"cssclasses":["portada-mundo"]}}
 ---
 
+![logo-drakland.png](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/logo-drakland.png)
 
-![Portada Drakland.jpg](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/Portada%20Drakland.jpg)
+# 🌌 Bienvenidos a Drakland
 
-# 🌍 Drakland
-
-> [!danger] Estado actual
-> **En Guerra**
-
-> [!info] Descripción general
-> La resurrección de Tiamat se acerca.
+*Este es el punto de entrada a los mundos, personajes e historias de la campaña.*
 
 ---
 
-## 🧭 Explorar Drakland
+## 🧭 Explorar
 
-> [!nav] Navegación
-> - [[03 - Mundos/Mundo - Drakland/00 - indices/Geografía - Drakland\|🗺️ Geografía]]
-> - [[03 - Mundos/Mundo - Drakland/00 - indices/Personajes - Drakland\|👥 Personajes]]
-> - [[Facciones - Drakland\|⚔️ Facciones]]
-> - [[Religión - Drakland\|⛪ Religión]]
-> - [[Historia - Drakland\|📜 Historia]]
-> - [[Bestiario - Drakland\|🐉 Bestiario]]
-> - [[Objetos - Drakland\|🎒 Objetos]]
-> - [[Aventuras - Drakland\|🗡️ Aventuras]]
-> - [[Mapas - Drakland\|🗺️ Mapas]]
+> [!nav] Mundos y lugares
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Drakland - Portal\|🌍 Drakland]]
+> - [[Keler\|🌑 Keler]]
+> - [[Tinker\|✨ Tinker]]
+> - [[La Mazmorra\|🕳️ La Mazmorra]]
