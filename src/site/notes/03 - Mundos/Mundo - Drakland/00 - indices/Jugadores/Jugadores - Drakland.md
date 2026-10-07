@@ -11,12 +11,12 @@
 ## 🎲 Jugadores
 
 > [!nav] Jugadores
-> - [[Jugador - Axel\|🎲 Axel]]
-> - [[Jugador - Bruno\|🎲 Bruno]]
-> - [[Jugador - Facu\|🎲 Facu]]
-> - [[Jugador - Manu\|🎲 Manu]]
-> - [[Jugador - Tomi\|🎲 Tomi]]
-> - [[Jugador - Pato\|🎲 Pato]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Jugadores/Jugador - Axel\|🎲 Axel]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Jugadores/Jugador - Bruno\|🎲 Bruno]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Jugadores/Jugador - Facu\|🎲 Facu]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Jugadores/Jugador - Manu\|🎲 Manu]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Jugadores/Jugador - Tomi\|🎲 Tomi]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Jugadores/Jugador - Pato\|🎲 Pato]]
 
 ---
 
