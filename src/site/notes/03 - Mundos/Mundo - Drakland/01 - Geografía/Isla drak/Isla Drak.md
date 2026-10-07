@@ -5,12 +5,6 @@
 
 # 🏝️ Isla Drak
 
-*Gran isla habitada del mundo de [[Drakland\|Drakland]].*
-
-## 🗺️ Explorar la isla
-
-# 🏝️ Isla Drak
-
 *Gran isla habitada del mundo de Drakland.*
 
 ---
