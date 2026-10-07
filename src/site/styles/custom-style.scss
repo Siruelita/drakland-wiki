@@ -47,6 +47,216 @@ article {
 a {
     text-decoration: none;
 }
+/* =========================================================
+   PÁGINA INDIVIDUAL DE JUGADOR
+   ========================================================= */
+
+.pagina-jugador {
+    --pj-violeta: #9b7bd6;
+    --pj-violeta-claro: #c9b6ef;
+    --pj-azul: #63b3df;
+    --pj-fondo: #090f1c;
+    --pj-borde: rgba(155, 123, 214, 0.28);
+
+    position: relative;
+    padding: 30px;
+    border-radius: 22px;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 12% 12%,
+            rgba(155, 123, 214, 0.20),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 88% 18%,
+            rgba(99, 179, 223, 0.12),
+            transparent 25%
+        ),
+        linear-gradient(
+            180deg,
+            #0b1120 0%,
+            #080e19 100%
+        );
+
+    border: 1px solid rgba(155, 123, 214, 0.12);
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.03),
+        0 0 40px rgba(45, 40, 100, 0.14);
+}
+
+
+/* =========================================================
+   NOMBRE DEL JUGADOR
+   ========================================================= */
+
+.pagina-jugador h1 {
+    color: var(--pj-violeta-claro) !important;
+    font-size: 2.4rem !important;
+
+    margin-bottom: 12px !important;
+
+    text-shadow:
+        0 0 20px rgba(155, 123, 214, 0.12);
+}
+
+
+/* =========================================================
+   SECCIONES
+   ========================================================= */
+
+.pagina-jugador h2 {
+    color: #e0d9ee !important;
+
+    border-bottom:
+        1px solid rgba(155, 123, 214, 0.18);
+
+    padding-bottom: 10px;
+}
+
+
+/* =========================================================
+   TEXTO INTRODUCTORIO
+   ========================================================= */
+
+.pagina-jugador em {
+    color: rgba(235, 230, 245, 0.82) !important;
+}
+
+
+/* =========================================================
+   TABLA DE PERSONAJES
+   ========================================================= */
+
+.pagina-jugador table {
+    width: 100% !important;
+
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+
+    overflow: hidden !important;
+
+    border-radius: 14px !important;
+
+    border:
+        1px solid rgba(155, 123, 214, 0.20) !important;
+
+    background:
+        rgba(10, 13, 24, 0.50) !important;
+}
+
+
+/* CABECERA */
+
+.pagina-jugador table thead th {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(105, 89, 165, 0.85),
+            rgba(61, 87, 135, 0.80)
+        ) !important;
+
+    color: #f3efff !important;
+
+    font-weight: 700 !important;
+
+    border: none !important;
+
+    padding: 12px 14px !important;
+}
+
+
+/* FILAS */
+
+.pagina-jugador table tbody td {
+    padding: 12px 14px !important;
+
+    border-bottom:
+        1px solid rgba(155, 123, 214, 0.10) !important;
+
+    background:
+        rgba(15, 17, 29, 0.70) !important;
+}
+
+
+/* ÚLTIMA FILA */
+
+.pagina-jugador table tbody tr:last-child td {
+    border-bottom: none !important;
+}
+
+
+/* HOVER FILA */
+
+.pagina-jugador table tbody tr:hover td {
+    background:
+        rgba(155, 123, 214, 0.10) !important;
+}
+
+
+/* =========================================================
+   LINKS DE PERSONAJES
+   ========================================================= */
+
+.pagina-jugador table a {
+    color: #c9afe9 !important;
+
+    font-weight: 600 !important;
+}
+
+.pagina-jugador table a:hover {
+    color: #e9ddff !important;
+}
+
+
+/* =========================================================
+   LÍNEAS
+   ========================================================= */
+
+.pagina-jugador hr {
+    border: none !important;
+
+    border-top:
+        1px solid rgba(155, 123, 214, 0.16) !important;
+
+    margin: 28px 0 !important;
+}
+
+
+/* =========================================================
+   VOLVER
+   ========================================================= */
+
+.pagina-jugador a[href*="Jugadores"] {
+    color: var(--pj-azul) !important;
+}
+
+.pagina-jugador a[href*="Jugadores"]:hover {
+    color: var(--pj-violeta-claro) !important;
+}
+
+
+/* =========================================================
+   MÓVIL
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .pagina-jugador {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .pagina-jugador h1 {
+        font-size: 2rem !important;
+    }
+
+    .pagina-jugador table {
+        font-size: 0.88rem !important;
+    }
+}
 
 
 /* =========================================================
