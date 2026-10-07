@@ -3073,3 +3073,211 @@ li a:hover {
 .callout-content {
     margin-top: 0 !important;
 }
+/* =========================================================
+   VALEBRUMA - HABITANTES CONOCIDOS
+   ========================================================= */
+
+.valebruma h2 {
+    color: #b8d8e8 !important;
+}
+
+/* TABLA */
+
+.valebruma table {
+    width: 100% !important;
+
+    border-collapse: separate !important;
+    border-spacing: 0 8px !important;
+
+    background: transparent !important;
+
+    margin-top: 18px !important;
+}
+
+
+/* CABECERA */
+
+.valebruma table thead th {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(53, 82, 101, 0.95),
+            rgba(42, 63, 82, 0.95)
+        ) !important;
+
+    color: #e7f4fa !important;
+
+    font-weight: 700 !important;
+
+    padding: 12px 14px !important;
+
+    border: none !important;
+
+    text-transform: none !important;
+}
+
+
+/* ESQUINAS CABECERA */
+
+.valebruma table thead th:first-child {
+    border-radius: 12px 0 0 12px !important;
+}
+
+.valebruma table thead th:last-child {
+    border-radius: 0 12px 12px 0 !important;
+}
+
+
+/* FILAS */
+
+.valebruma table tbody td {
+    padding: 14px !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(25, 39, 48, 0.94),
+            rgba(20, 31, 40, 0.94)
+        ) !important;
+
+    border-top:
+        1px solid rgba(101, 164, 185, 0.16) !important;
+
+    border-bottom:
+        1px solid rgba(101, 164, 185, 0.16) !important;
+}
+
+
+/* BORDE IZQUIERDO */
+
+.valebruma table tbody td:first-child {
+    border-left:
+        3px solid rgba(93, 190, 177, 0.65) !important;
+
+    border-radius: 12px 0 0 12px !important;
+}
+
+
+/* BORDE DERECHO */
+
+.valebruma table tbody td:last-child {
+    border-right:
+        1px solid rgba(101, 164, 185, 0.16) !important;
+
+    border-radius: 0 12px 12px 0 !important;
+}
+
+
+/* HOVER */
+
+.valebruma table tbody tr:hover td {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(37, 60, 70, 0.98),
+            rgba(28, 44, 56, 0.98)
+        ) !important;
+
+    border-color:
+        rgba(93, 190, 177, 0.40) !important;
+}
+
+
+/* NOMBRE DEL PERSONAJE */
+
+.valebruma table tbody td:first-child a {
+    color: #8fd6cd !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+}
+
+.valebruma table tbody td:first-child a:hover {
+    color: #c6fff7 !important;
+}
+
+
+/* FACCIONES */
+
+.valebruma table tbody td:nth-child(4) {
+    color: #d8d2e8 !important;
+}
+
+
+/* ESTADO */
+
+.valebruma table tbody td:last-child {
+    font-weight: 650 !important;
+    color: #b9e7c6 !important;
+}
+
+
+/* MÓVIL */
+
+@media (max-width: 700px) {
+
+    .valebruma table {
+        font-size: 0.85rem !important;
+    }
+
+    .valebruma table thead th,
+    .valebruma table tbody td {
+        padding: 10px !important;
+    }
+}
+/* =========================================================
+   VALEBRUMA - HACER QUE LA TABLA ENTRE COMPLETA
+   ========================================================= */
+
+.valebruma table {
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: fixed !important;
+}
+
+/* Anchos de las 5 columnas */
+
+.valebruma table th:nth-child(1),
+.valebruma table td:nth-child(1) {
+    width: 16% !important;
+}
+
+.valebruma table th:nth-child(2),
+.valebruma table td:nth-child(2) {
+    width: 16% !important;
+}
+
+.valebruma table th:nth-child(3),
+.valebruma table td:nth-child(3) {
+    width: 30% !important;
+}
+
+.valebruma table th:nth-child(4),
+.valebruma table td:nth-child(4) {
+    width: 25% !important;
+}
+
+.valebruma table th:nth-child(5),
+.valebruma table td:nth-child(5) {
+    width: 13% !important;
+}
+
+
+/* Permitir que textos largos bajen de línea */
+
+.valebruma table th,
+.valebruma table td {
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+
+    padding: 11px 12px !important;
+}
+
+
+/* Evitar scroll horizontal generado por Dataview */
+
+.valebruma .table-wrapper,
+.valebruma .dataview.table-view-table {
+    max-width: 100% !important;
+    overflow-x: visible !important;
+}
