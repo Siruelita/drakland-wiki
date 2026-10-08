@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-la-mazmorra/personajes/boltarn/","contentClasses":"ficha-personaje faccion-tierra","dg-note-properties":{"tipo":"personaje","categoria":"PC","jugador":"Bruno","mundo":"Drakland","raza":"Minotauro","clase":["Artificer"],"nivel":"7","edad":"22","genero":"Masculino","trasfondo":["Nacido en la mazmorra","Alquimista","Escultor de madera"],"facciones":null,"ubicacion":"Valebruma","estado":"Vivo","origen":"Mazmorra","cssclasses":["ficha-personaje","faccion-tierra"],"visible_jugadores":true}}
+{"dg-publish":true,"permalink":"/02-la-mazmorra/personajes/boltarn/","contentClasses":"ficha-personaje faccion-tierra","dg-note-properties":{"tipo":"personaje","categoria":"PC","jugador":"Bruno","mundo":"Drakland","raza":"Minotauro","clase":["Artificer"],"nivel":"7","edad":"22","genero":"Masculino","trasfondo":["Nacido en la mazmorra","Alquimista","Escultor de madera"],"facciones":null,"ubicacion":"Valebruma","estado":"Muerto","origen":"Mazmorra","cssclasses":["ficha-personaje","faccion-tierra"],"visible_jugadores":true}}
 ---
 
 
@@ -16,7 +16,7 @@
 > **Género:** Masculino  
 > **Origen:** Mazmorra  
 > **Ubicación actual:** Valebruma  
-> **Estado:** Vivo
+> **Estado:** Muerto
 
 
 `

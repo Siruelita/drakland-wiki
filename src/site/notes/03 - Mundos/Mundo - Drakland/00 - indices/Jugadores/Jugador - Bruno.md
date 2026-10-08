@@ -13,7 +13,7 @@
 
 | Personaje                                           | Raza      | Clase                       | Nivel | Ubicación | Estado |
 | --------------------------------------------------- | --------- | --------------------------- | ----- | --------- | ------ |
-| [[02 - La Mazmorra/Personajes/Boltarn\|Boltarn]] | Minotauro | <ul><li>Artificer</li></ul> | 7     | Valebruma | Vivo   |
+| [[02 - La Mazmorra/Personajes/Boltarn\|Boltarn]] | Minotauro | <ul><li>Artificer</li></ul> | 7     | Valebruma | Muerto |
 
 { .block-language-dataview}
 
