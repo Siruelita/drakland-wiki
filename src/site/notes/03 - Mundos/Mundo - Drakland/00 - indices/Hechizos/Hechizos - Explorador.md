@@ -22,15 +22,23 @@
 
 ## Nivel 1
 
-| Hechizo                                                                                        | Escuela       | Lanzamiento | Alcance  | Duración                        |
-| ---------------------------------------------------------------------------------------------- | ------------- | ----------- | -------- | ------------------------------- |
-| [[Reglas rapidas/Nivel 1/Absorber elementos\|Absorber elementos]]                           | Abjuración    | 1 reacción  | Personal | 1 asalto                        |
-| [[Reglas rapidas/Nivel 1/Alarma\|Alarma]]                                                   | Abjuración    | 1 minuto    | 30 pies  | 8 horas                         |
-| [[Reglas rapidas/Nivel 1/Buenas bayas\|Buenas bayas]]                                       | Transmutación | 1 acción    | Toque    | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Curar heridas\|Curar heridas]]                                     | Evocación     | 1 acción    | Toque    | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Detectar magia\|Detectar magia]]                                   | Adivinación   | 1 acción    | Personal | Concentración, hasta 10 minutos |
-| [[Reglas rapidas/Nivel 1/Detectar venenos y enfermedades\|Detectar venenos y enfermedades]] | Adivinación   | 1 acción    | Personal | Concentración, hasta 10 minutos |
-| [[Reglas rapidas/Nivel 1/Encantar animal\|Encantar animal]]                                 | Encantamiento | 1 acción    | 30 pies  | 24 horas                        |
+| Hechizo                                                                                        | Escuela       | Lanzamiento        | Alcance  | Duración                        |
+| ---------------------------------------------------------------------------------------------- | ------------- | ------------------ | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 1/Absorber elementos\|Absorber elementos]]                           | Abjuración    | 1 reacción         | Personal | 1 asalto                        |
+| [[Reglas rapidas/Nivel 1/Alarma\|Alarma]]                                                   | Abjuración    | 1 minuto           | 30 pies  | 8 horas                         |
+| [[Reglas rapidas/Nivel 1/Buenas bayas\|Buenas bayas]]                                       | Transmutación | 1 acción           | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Curar heridas\|Curar heridas]]                                     | Evocación     | 1 acción           | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Detectar magia\|Detectar magia]]                                   | Adivinación   | 1 acción           | Personal | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Detectar venenos y enfermedades\|Detectar venenos y enfermedades]] | Adivinación   | 1 acción           | Personal | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Encantar animal\|Encantar animal]]                                 | Encantamiento | 1 acción           | 30 pies  | 24 horas                        |
+| [[Reglas rapidas/Nivel 1/Golpe apresador\|Golpe apresador]]                                 | Conjuración   | 1 acción adicional | Personal | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 1/Hablar con los animales\|Hablar con los animales]]                 | Adivinación   | 1 acción           | Personal | 10 minutos                      |
+| [[Reglas rapidas/Nivel 1/Marca del cazador\|Marca del cazador]]                             | Adivinación   | 1 acción adicional | 90 pies  | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 1/Nube de oscurecimiento\|Nube de oscurecimiento]]                   | Conjuración   | 1 acción           | 120 pies | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 1/Salto\|Salto]]                                                     | Transmutación | 1 acción           | Toque    | 1 minuto                        |
+| [[Reglas rapidas/01 - Truco/Salto\|Salto]]                                                  | Transmutación | 1 acción           | Toque    | 1 minuto                        |
+| [[Reglas rapidas/Nivel 1/Vinculo con bestias\|Vinculo con bestias]]                         | Adivinación   | 1 acción           | Toque    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Zancada prodigiosa\|Zancada prodigiosa]]                           | Transmutación | 1 acción           | Toque    | 1 hora                          |
 
 { .block-language-dataview}
 

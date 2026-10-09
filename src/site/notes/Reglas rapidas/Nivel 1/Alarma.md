@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/reglas-rapidas/nivel-1/alarma/","contentClasses":"ficha-hechizo nivel-1","dg-note-properties":{"tipo":"hechizo","nivel":1,"nombre_original":"Alarm","escuela":"Abjuración","tiempo_lanzamiento":"1 minuto","alcance":"30 pies","duracion":"8 horas","componentes":["V","S","M"],"concentracion":false,"resolucion":"Sin tirada","clases":["Artífice","Explorador","Mago"],"fuente":"Manual del Jugador","visible_jugadores":true,"cssclasses":["ficha-hechizo","nivel-1"]}}
+{"dg-publish":true,"permalink":"/reglas-rapidas/nivel-1/alarma/","contentClasses":"ficha-hechizo nivel-1","dg-note-properties":{"tipo":"hechizo","nivel":1,"nombre_original":"Alarm","escuela":"Abjuración","tiempo_lanzamiento":"1 minuto","alcance":"30 pies","duracion":"8 horas","componentes":["V","S","M"],"concentracion":false,"resolucion":"Sin tirada","clases":["Artífice","Explorador","Mago"],"fuente":"SRD 5.1","visible_jugadores":true,"cssclasses":["ficha-hechizo","nivel-1"]}}
 ---
 
 
@@ -24,7 +24,7 @@ Proteges contra intrusos una **puerta, ventana o zona** situada dentro del alcan
 
 Al lanzar el conjuro puedes designar criaturas que **no activarán la alarma**.
 
-Cuando una criatura Pequeña o mayor entra en la zona protegida o la toca, la alarma se activa.
+Cuando una criatura **Diminuta o más grande** entra en la zona protegida o la toca, la alarma se activa.
 
 Puedes elegir entre dos tipos de aviso:
 
@@ -39,7 +39,7 @@ Este conjuro **no obtiene beneficios adicionales al utilizar espacios de nivel s
 
 ## Fuente
 
-**Manual del Jugador**
+**SRD 5.1**
 
 Nombre original: Alarm
 

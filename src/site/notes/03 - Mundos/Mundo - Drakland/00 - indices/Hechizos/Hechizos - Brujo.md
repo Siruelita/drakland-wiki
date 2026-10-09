@@ -59,10 +59,18 @@
 
 ## Nivel 1
 
-| Hechizo                                                                | Escuela     | Lanzamiento | Alcance                     | Duración    |
-| ---------------------------------------------------------------------- | ----------- | ----------- | --------------------------- | ----------- |
-| [[Reglas rapidas/Nivel 1/Armadura de Agathys\|Armadura de Agathys]] | Abjuración  | 1 acción    | Personal                    | 1 hora      |
-| [[Reglas rapidas/Nivel 1/Brazos de Hadar\|Brazos de Hadar]]         | Conjuración | 1 acción    | Personal (radio de 10 pies) | Instantáneo |
+| Hechizo                                                                                              | Escuela       | Lanzamiento        | Alcance                     | Duración                        |
+| ---------------------------------------------------------------------------------------------------- | ------------- | ------------------ | --------------------------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 1/Armadura de Agathys\|Armadura de Agathys]]                               | Abjuración    | 1 acción           | Personal                    | 1 hora                          |
+| [[Reglas rapidas/Nivel 1/Brazos de Hadar\|Brazos de Hadar]]                                       | Conjuración   | 1 acción           | Personal (radio de 10 pies) | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Causar miedo\|Causar miedo]]                                             | Nigromancia   | 1 acción           | 60 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 1/Entender idiomas\|Entender idiomas]]                                     | Adivinación   | 1 acción           | Personal                    | 1 hora                          |
+| [[Reglas rapidas/Nivel 1/Hechizar persona\|Hechizar persona]]                                     | Encantamiento | 1 acción           | 30 pies                     | 1 hora                          |
+| [[Reglas rapidas/Nivel 1/Proteccion contra el bien y el mal\|Proteccion contra el bien y el mal]] | Abjuración    | 1 acción           | Toque                       | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Represion infernal\|Represion infernal]]                                 | Evocación     | 1 reacción         | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Retirada expeditiva\|Retirada expeditiva]]                               | Transmutación | 1 acción adicional | Personal                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Sirviente invisible\|Sirviente invisible]]                               | Conjuración   | 1 acción           | 60 pies                     | 1 hora                          |
+| [[Reglas rapidas/Nivel 1/Texto ilusorio\|Texto ilusorio]]                                         | Ilusionismo   | 1 minuto           | Toque                       | 10 días                         |
 
 { .block-language-dataview}
 

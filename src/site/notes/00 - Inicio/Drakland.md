@@ -10,10 +10,20 @@
 
 ---
 
-## 🧭 Explorar
 
-> [!nav] Mundos y lugares
-> - [[03 - Mundos/Mundo - Drakland/00 - indices/Drakland - Portal\|🌍 Drakland]]
-> - [[Keler\|🌑 Keler]]
-> - [[Tinker\|✨ Tinker]]
-> - [[La Mazmorra\|🕳️ La Mazmorra]]
+## Explorar
+
+> [!nav]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Drakland - Portal\|Drakland]]
+> - [[Keler\|Keler]]
+> - [[Tinker\|Tinker]]
+> - [[La Mazmorra\|La Mazmorra]]
+
+## Referencia
+
+> [!nav]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Jugadores/Jugadores - Drakland\|Jugadores]]
+> - [[Reglas - Drakland\|Reglas]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Hechizos/Hechizos - Drakland\|Hechizos]]
+
+---
