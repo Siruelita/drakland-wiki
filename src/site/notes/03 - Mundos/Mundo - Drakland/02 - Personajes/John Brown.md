@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/03-mundos/mundo-drakland/02-personajes/john-brown/","contentClasses":"ficha-personaje faccion-tiamat","dg-note-properties":{"tipo":"personaje","categoria":"NPC","mundo":"Drakland","raza":"Elfo colorado","edad":"Desconocido","genero":"Masculino","ocupacion":"Mago","facciones":["Seguidores de Tiamat"],"ubicacion":"Valebruma","estado":"Vivo","origen":"Isla Drak","visible_jugadores":true,"cssclasses":["ficha-personaje","faccion-tiamat"]}}
+{"dg-publish":true,"permalink":"/03-mundos/mundo-drakland/02-personajes/john-brown/","contentClasses":"ficha-personaje faccion-tiamat","dg-note-properties":{"tipo":"personaje","categoria":"NPC","mundo":"Drakland","raza":"Elfo colorado","edad":"Desconocido","genero":"Masculino","ocupacion":"Mago","facciones":["Seguidores de Tiamat"],"ubicacion":"Valebruma","estado":"Muerto","origen":"Isla Drak","visible_jugadores":true,"cssclasses":["ficha-personaje","faccion-tiamat"]}}
 ---
 
 ![John Brown.png](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/John%20Brown.png)
@@ -15,7 +15,7 @@
 > **Facción:** Seguidores de Tiamat  
 > **Origen:** Isla Drak  
 > **Ubicación:** Valebruma  
-> **Estado:** Vivo
+> **Estado:** Muerto
 
 ## 📖 Descripción
 
@@ -53,10 +53,6 @@ Fue considerado durante mucho tiempo uno de sus aliados.
 ### 👑 Reyes del Fuego
 
 Era conocido públicamente como un hombre fiel a los gobernantes de la Capital del Fuego.
-
-### 🌙 [[03 - Mundos/Mundo - Drakland/04 - Panteon/Noctis\|Noctis]]
-
-Su divinidad está vinculada al mecanismo temporal de Valebruma.
 
 ## 🏴 Facciones
 

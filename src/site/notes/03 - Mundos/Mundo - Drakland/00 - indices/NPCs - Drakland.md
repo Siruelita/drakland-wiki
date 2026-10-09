@@ -9,8 +9,8 @@
 > Personajes no jugadores conocidos dentro del mundo de Drakland.
 
 > [!nav] Navegación
-> - [[03 - Mundos/Mundo - Drakland/00 - indices/Personajes - Drakland\|⬅️ Todos los personajes]]
-> - [[03 - Mundos/Mundo - Drakland/00 - indices/PCs - Drakland\|🧙 Ver personajes jugadores]]
+> - [[Personajes - Drakland\|⬅️ Todos los personajes]]
+> - [[PCs - Drakland\|🧙 Ver personajes jugadores]]
 
 ---
 
@@ -26,12 +26,12 @@
 | [[03 - Mundos/Mundo - Drakland/02 - Personajes/Hanah\|Hanah]]                       | Elfo colorado | Recepcionista                | Reino del Fuego                                             | Isla Drak   | Vivo        |
 | [[03 - Mundos/Mundo - Drakland/02 - Personajes/Ignis Pyraeth\|Ignis Pyraeth]]       | Elfo colorado | Principe                     | Reino del Fuego                                             | Isla Drak   | Vivo        |
 | [[03 - Mundos/Mundo - Drakland/02 - Personajes/Ignivar\|Ignivar]]                   | Elfo colorado | Principe                     | Reino del Fuego                                             | Isla Drak   | Vivo        |
-| [[03 - Mundos/Mundo - Drakland/02 - Personajes/John Brown\|John Brown]]             | Elfo colorado | Mago                         | <ul><li>Seguidores de Tiamat</li></ul>                      | Valebruma   | Vivo        |
 | [[03 - Mundos/Mundo - Drakland/02 - Personajes/La Mama\|La Mama]]                   | Elfo colorado | Mama                         | <ul><li>Reino del Fuego</li><li>Iglesia del Fuego</li></ul> | Isla Drak   | Vivo        |
 | [[03 - Mundos/Mundo - Drakland/02 - Personajes/Raka\|Raka]]                         | Goliath       | Carretero                    | Reino del Fuego                                             | Desconocido | Desconocido |
 | [[03 - Mundos/Mundo - Drakland/02 - Personajes/Ashara Pyraeth\|Ashara Pyraeth]]     | Elfo colorado | Princesa                     | Reino del Fuego                                             | Isla Drak   | 💀 Muerto   |
 | [[03 - Mundos/Mundo - Drakland/02 - Personajes/Blaster\|Blaster]]                   | Harengon      | Aventurero                   | \-                                                          | Isla Drak   | 💀 Muerto   |
 | [[03 - Mundos/Mundo - Drakland/02 - Personajes/Firr Pyraeth\|Firr Pyraeth]]         | Elfo colorado | Principe                     | Reino del Fuego                                             | Isla Drak   | 💀 Muerto   |
+| [[03 - Mundos/Mundo - Drakland/02 - Personajes/John Brown\|John Brown]]             | Elfo colorado | Mago                         | <ul><li>Seguidores de Tiamat</li></ul>                      | Valebruma   | 💀 Muerto   |
 
 { .block-language-dataview}
 

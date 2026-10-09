@@ -24,4 +24,12 @@
 ## 🗺️ Recursos
 
 > [!nav] Mapas
-> - [[Mapas - Drakland\|🗺️ Mapas]]
+> - [[Mapas - Drakland\|🗺️ Mapas]] 
+
+## Consulta rápida
+
+> [!nav]
+> - [[Objetos - Drakland\|Objetos]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Hechizos/Hechizos - Drakland\|Hechizos]]
+> - [[Estados - Drakland\|Estados]]
+> - [[Reglas rápidas - Drakland\|Reglas rápidas]]

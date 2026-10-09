@@ -6,9 +6,7 @@
 ![Raka.png](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/Raka.png)
 
 # Raka
-
-
-
+*una carreta bien hecha es mejor que un dulce hogar*
 > [!character] Datos
 > **Raza:** Goliath  
 > **Edad:** 33  

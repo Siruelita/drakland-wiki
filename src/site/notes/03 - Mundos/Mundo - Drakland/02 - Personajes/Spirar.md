@@ -6,7 +6,7 @@
 ![Spirar.jpeg](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/Spirar.jpeg)
 
 # Spirar
-
+*dejame calmar tu espiritu*
 > [!character] Información
 > **Jugador:** Facu  
 > **Raza:** Giff  

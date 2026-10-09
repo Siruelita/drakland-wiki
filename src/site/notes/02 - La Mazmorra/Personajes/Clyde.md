@@ -10,9 +10,8 @@
 
 
 
-
 # Clyde
-
+*el hombre que lo perdió todo en el camino de encontrarse así mismo*
 > [!character] Información
 > **Jugador:** Axel  
 > **Raza:** Genasi-Fuego  
@@ -28,45 +27,3 @@
 `
 
 
-## 📖 Descripción
-
-### Apariencia
-
-### Personalidad
-
----
-
-## 📜 Historia
-
-### Trasfondo
-
----
-
-## 🎯 Objetivos
-
----
-
-## 🤝 Relaciones
-
-### Aliados
-
-
-### Enemigos
-
-### Familia
-
----
-
-## ⚔️ Facciones
-
----
-
-## 🎒 Objetos importantes
-
----
-
-## 📈 Evolución del personaje
-
----
-
-## 📝 Notas

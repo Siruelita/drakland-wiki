@@ -40,6 +40,6 @@ Sin embargo, el domo oculta una realidad mucho más compleja.
 | Personaje                                                                  | Raza          | Ocupación                    | Facción                                | Estado |
 | -------------------------------------------------------------------------- | ------------- | ---------------------------- | -------------------------------------- | ------ |
 | [[03 - Mundos/Mundo - Drakland/02 - Personajes/Brigid\|Brigid]]         | Humano        | Maestra carpintera de ribera | <ul><li>Resistencia de Rodam</li></ul> | Vivo   |
-| [[03 - Mundos/Mundo - Drakland/02 - Personajes/John Brown\|John Brown]] | Elfo colorado | Mago                         | <ul><li>Seguidores de Tiamat</li></ul> | Vivo   |
+| [[03 - Mundos/Mundo - Drakland/02 - Personajes/John Brown\|John Brown]] | Elfo colorado | Mago                         | <ul><li>Seguidores de Tiamat</li></ul> | Muerto |
 
 { .block-language-dataview}

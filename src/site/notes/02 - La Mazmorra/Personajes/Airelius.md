@@ -6,7 +6,7 @@
 ![Airelius.jpeg](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/Airelius.jpeg)
 
 # Airelius
-
+*el amor de un padre el viento no se lo puede llevar*
 > [!character] Información
 > **Jugador:** Facu  
 > **Raza:** Genasi-aire  

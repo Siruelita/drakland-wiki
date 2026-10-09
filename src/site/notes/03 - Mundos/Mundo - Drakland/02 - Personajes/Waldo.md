@@ -6,7 +6,7 @@
 ![Waldo.jpeg](/img/user/03%20-%20Mundos/Mundo%20-%20Drakland/10%20-%20Recursos/Waldo.jpeg)
 
 # Waldo
-
+*no toques mis escorpiones*
 > [!character] Información
 > **Jugador:** Tomi  
 > **Raza:** Thri-keen  
