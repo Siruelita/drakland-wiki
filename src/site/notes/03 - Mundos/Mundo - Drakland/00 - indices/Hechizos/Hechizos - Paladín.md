@@ -25,6 +25,9 @@
 | Hechizo                                                                                              | Escuela       | Lanzamiento        | Alcance  | Duración                        |
 | ---------------------------------------------------------------------------------------------------- | ------------- | ------------------ | -------- | ------------------------------- |
 | [[Reglas rapidas/Nivel 1/Bendicion\|Bendicion]]                                                   | Encantamiento | 1 acción           | 30 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 1/Castigo abrasador\|Castigo abrasador]]                                   | Evocación     | 1 acción adicional | Personal | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 1/Castigo atronador\|Castigo atronador]]                                   | Evocación     | 1 acción adicional | Personal | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 1/Castigo iracundo\|Castigo iracundo]]                                     | Evocación     | 1 acción adicional | Personal | Concentración, hasta 1 minuto   |
 | [[Reglas rapidas/Nivel 1/Ceremonia\|Ceremonia]]                                                   | Abjuración    | 1 hora             | Toque    | Instantáneo                     |
 | [[Reglas rapidas/Nivel 1/Curar heridas\|Curar heridas]]                                           | Evocación     | 1 acción           | Toque    | Instantáneo                     |
 | [[Reglas rapidas/Nivel 1/Detectar el bien y el mal\|Detectar el bien y el mal]]                   | Adivinación   | 1 acción           | Personal | Concentración, hasta 10 minutos |

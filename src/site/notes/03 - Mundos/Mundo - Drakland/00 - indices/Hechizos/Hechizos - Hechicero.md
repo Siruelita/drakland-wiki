@@ -68,30 +68,37 @@
 
 ## Nivel 1
 
-| Hechizo                                                                      | Escuela       | Lanzamiento        | Alcance                    | Duración                        |
-| ---------------------------------------------------------------------------- | ------------- | ------------------ | -------------------------- | ------------------------------- |
-| [[Reglas rapidas/Nivel 1/Absorber elementos\|Absorber elementos]]         | Abjuración    | 1 reacción         | Personal                   | 1 asalto                        |
-| [[Reglas rapidas/Nivel 1/Armadura de mago\|Armadura de mago]]             | Abjuración    | 1 acción           | Toque                      | 8 horas                         |
-| [[Reglas rapidas/Nivel 1/Caida de pluma\|Caida de pluma]]                 | Transmutación | 1 reacción         | 60 pies                    | 1 minuto                        |
-| [[Reglas rapidas/Nivel 1/Catapulta\|Catapulta]]                           | Transmutación | 1 acción           | 60 pies                    | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Detectar magia\|Detectar magia]]                 | Adivinación   | 1 acción           | Personal                   | Concentración, hasta 10 minutos |
-| [[Reglas rapidas/Nivel 1/Disfrazarse\|Disfrazarse]]                       | Ilusionismo   | 1 acción           | Personal                   | 1 hora                          |
-| [[Reglas rapidas/Nivel 1/Dormir\|Dormir]]                                 | Encantamiento | 1 acción           | 90 pies                    | 1 minuto                        |
-| [[Reglas rapidas/Nivel 1/Entender idiomas\|Entender idiomas]]             | Adivinación   | 1 acción           | Personal                   | 1 hora                          |
-| [[Reglas rapidas/Nivel 1/Escudo\|Escudo]]                                 | Abjuración    | 1 reacción         | Personal                   | 1 asalto                        |
-| [[Reglas rapidas/Nivel 1/Falsa vida\|Falsa vida]]                         | Nigromancia   | 1 acción           | Personal                   | 1 hora                          |
-| [[Reglas rapidas/Nivel 1/Hechizar persona\|Hechizar persona]]             | Encantamiento | 1 acción           | 30 pies                    | 1 hora                          |
-| [[Reglas rapidas/Nivel 1/Imagen silenciosa\|Imagen silenciosa]]           | Ilusionismo   | 1 acción           | 60 pies                    | Concentración, hasta 10 minutos |
-| [[Reglas rapidas/Nivel 1/Manos ardientes\|Manos ardientes]]               | Evocación     | 1 acción           | Personal (cono de 15 pies) | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Nube de oscurecimiento\|Nube de oscurecimiento]] | Conjuración   | 1 acción           | 120 pies                   | Concentración, hasta 1 hora     |
-| [[Reglas rapidas/Nivel 1/Ola tronadora\|Ola tronadora]]                   | Evocación     | 1 acción           | Personal (cubo de 15 pies) | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Orbe cromatico\|Orbe cromatico]]                 | Evocación     | 1 acción           | 90 pies                    | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Proyectil magico\|Proyectil magico]]             | Evocación     | 1 acción           | 120 pies                   | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Rayo de dolencia\|Rayo de dolencia]]             | Nigromancia   | 1 acción           | 60 pies                    | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Retirada expeditiva\|Retirada expeditiva]]       | Transmutación | 1 acción adicional | Personal                   | Concentración, hasta 10 minutos |
-| [[Reglas rapidas/Nivel 1/Rociada de color\|Rociada de color]]             | Ilusionismo   | 1 acción           | Personal (cono de 15 pies) | 1 asalto                        |
-| [[Reglas rapidas/Nivel 1/Salto\|Salto]]                                   | Transmutación | 1 acción           | Toque                      | 1 minuto                        |
-| [[Reglas rapidas/01 - Truco/Salto\|Salto]]                                | Transmutación | 1 acción           | Toque                      | 1 minuto                        |
+| Hechizo                                                                            | Escuela       | Lanzamiento        | Alcance                     | Duración                        |
+| ---------------------------------------------------------------------------------- | ------------- | ------------------ | --------------------------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 1/Absorber elementos\|Absorber elementos]]               | Abjuración    | 1 reacción         | Personal                    | 1 asalto                        |
+| [[Reglas rapidas/Nivel 1/Armadura de mago\|Armadura de mago]]                   | Abjuración    | 1 acción           | Toque                       | 8 horas                         |
+| [[Reglas rapidas/Nivel 1/Brebaje cáustico de Tasha\|Brebaje cáustico de Tasha]] | Evocación     | 1 acción           | Personal (línea de 30 pies) | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 1/Caida de pluma\|Caida de pluma]]                       | Transmutación | 1 reacción         | 60 pies                     | 1 minuto                        |
+| [[Reglas rapidas/Nivel 1/Catapulta\|Catapulta]]                                 | Transmutación | 1 acción           | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Cuchillo de hielo\|Cuchillo de hielo]]                 | Conjuración   | 1 acción           | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Descarga de bruja\|Descarga de bruja]]                 | Evocación     | 1 acción           | 30 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 1/Descarga de caos\|Descarga de caos]]                   | Evocación     | 1 acción           | 120 pies                    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Detectar magia\|Detectar magia]]                       | Adivinación   | 1 acción           | Personal                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Disfrazarse\|Disfrazarse]]                             | Ilusionismo   | 1 acción           | Personal                    | 1 hora                          |
+| [[Reglas rapidas/Nivel 1/Distorsionar valor\|Distorsionar valor]]               | Ilusionismo   | 1 minuto           | Toque                       | 8 horas                         |
+| [[Reglas rapidas/Nivel 1/Dormir\|Dormir]]                                       | Encantamiento | 1 acción           | 90 pies                     | 1 minuto                        |
+| [[Reglas rapidas/Nivel 1/Entender idiomas\|Entender idiomas]]                   | Adivinación   | 1 acción           | Personal                    | 1 hora                          |
+| [[Reglas rapidas/Nivel 1/Escudo\|Escudo]]                                       | Abjuración    | 1 reacción         | Personal                    | 1 asalto                        |
+| [[Reglas rapidas/Nivel 1/Falsa vida\|Falsa vida]]                               | Nigromancia   | 1 acción           | Personal                    | 1 hora                          |
+| [[Reglas rapidas/Nivel 1/Hechizar persona\|Hechizar persona]]                   | Encantamiento | 1 acción           | 30 pies                     | 1 hora                          |
+| [[Reglas rapidas/Nivel 1/Imagen silenciosa\|Imagen silenciosa]]                 | Ilusionismo   | 1 acción           | 60 pies                     | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Manos ardientes\|Manos ardientes]]                     | Evocación     | 1 acción           | Personal (cono de 15 pies)  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Nube de oscurecimiento\|Nube de oscurecimiento]]       | Conjuración   | 1 acción           | 120 pies                    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 1/Ola tronadora\|Ola tronadora]]                         | Evocación     | 1 acción           | Personal (cubo de 15 pies)  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Orbe cromatico\|Orbe cromatico]]                       | Evocación     | 1 acción           | 90 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Proyectil magico\|Proyectil magico]]                   | Evocación     | 1 acción           | 120 pies                    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Puas plateadas\|Puas plateadas]]                       | Encantamiento | 1 reacción         | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Rayo de dolencia\|Rayo de dolencia]]                   | Nigromancia   | 1 acción           | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Retirada expeditiva\|Retirada expeditiva]]             | Transmutación | 1 acción adicional | Personal                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Rociada de color\|Rociada de color]]                   | Ilusionismo   | 1 acción           | Personal (cono de 15 pies)  | 1 asalto                        |
+| [[Reglas rapidas/01 - Truco/Salto\|Salto]]                                      | Transmutación | 1 acción           | Toque                       | 1 minuto                        |
+| [[Reglas rapidas/Nivel 1/Salto\|Salto]]                                         | Transmutación | 1 acción           | Toque                       | 1 minuto                        |
+| [[Reglas rapidas/Nivel 1/Temblor de tierra\|Temblor de tierra]]                 | Evocación     | 1 acción           | Personal (radio de 10 pies) | Instantáneo                     |
 
 { .block-language-dataview}
 

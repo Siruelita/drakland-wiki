@@ -63,7 +63,7 @@
 | [[Reglas rapidas/Nivel 1/Perdicion\|Perdicion]]                                                   | Encantamiento | 1 acción           | 30 pies  | Concentración, hasta 1 minuto   |
 | [[Reglas rapidas/Nivel 1/Proteccion contra el bien y el mal\|Proteccion contra el bien y el mal]] | Abjuración    | 1 acción           | Toque    | Concentración, hasta 10 minutos |
 | [[Reglas rapidas/Nivel 1/Purificar comida y bebida\|Purificar comida y bebida]]                   | Transmutación | 1 acción           | 10 pies  | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Saete guia\|Saete guia]]                                                 | Evocación     | 1 acción           | 120 pies | 1 asalto                        |
+| [[Reglas rapidas/Nivel 1/Saeta guia\|Saeta guia]]                                                 | Evocación     | 1 acción           | 120 pies | 1 asalto                        |
 | [[Reglas rapidas/Nivel 1/Santuario\|Santuario]]                                                   | Abjuración    | 1 acción adicional | 30 pies  | 1 minuto                        |
 
 { .block-language-dataview}

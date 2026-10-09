@@ -38,18 +38,20 @@
 
 ## Nivel 1
 
-| Hechizo                                                                                              | Escuela       | Lanzamiento | Alcance  | Duración                        |
-| ---------------------------------------------------------------------------------------------------- | ------------- | ----------- | -------- | ------------------------------- |
-| [[Reglas rapidas/Nivel 1/Absorber elementos\|Absorber elementos]]                                 | Abjuración    | 1 reacción  | Personal | 1 asalto                        |
-| [[Reglas rapidas/Nivel 1/Alarma\|Alarma]]                                                         | Abjuración    | 1 minuto    | 30 pies  | 8 horas                         |
-| [[Reglas rapidas/Nivel 1/Caida de pluma\|Caida de pluma]]                                         | Transmutación | 1 reacción  | 60 pies  | 1 minuto                        |
-| [[Reglas rapidas/Nivel 1/Catapulta\|Catapulta]]                                                   | Transmutación | 1 acción    | 60 pies  | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Curar heridas\|Curar heridas]]                                           | Evocación     | 1 acción    | Toque    | Instantáneo                     |
-| [[Reglas rapidas/Nivel 1/Detectar magia\|Detectar magia]]                                         | Adivinación   | 1 acción    | Personal | Concentración, hasta 10 minutos |
-| [[Reglas rapidas/Nivel 1/Detectar venenos y enfermedades\|Detectar venenos y enfermedades]]       | Adivinación   | 1 acción    | Personal | Concentración, hasta 10 minutos |
-| [[Reglas rapidas/Nivel 1/Disfrazarse\|Disfrazarse]]                                               | Ilusionismo   | 1 acción    | Personal | 1 hora                          |
-| [[Reglas rapidas/Nivel 1/Proteccion contra el bien y el mal\|Proteccion contra el bien y el mal]] | Abjuración    | 1 acción    | Toque    | Concentración, hasta 10 minutos |
-| [[Reglas rapidas/Nivel 1/Zancada prodigiosa\|Zancada prodigiosa]]                                 | Transmutación | 1 acción    | Toque    | 1 hora                          |
+| Hechizo                                                                                              | Escuela       | Lanzamiento | Alcance                     | Duración                        |
+| ---------------------------------------------------------------------------------------------------- | ------------- | ----------- | --------------------------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 1/Absorber elementos\|Absorber elementos]]                                 | Abjuración    | 1 reacción  | Personal                    | 1 asalto                        |
+| [[Reglas rapidas/Nivel 1/Alarma\|Alarma]]                                                         | Abjuración    | 1 minuto    | 30 pies                     | 8 horas                         |
+| [[Reglas rapidas/Nivel 1/Brebaje cáustico de Tasha\|Brebaje cáustico de Tasha]]                   | Evocación     | 1 acción    | Personal (línea de 30 pies) | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 1/Caida de pluma\|Caida de pluma]]                                         | Transmutación | 1 reacción  | 60 pies                     | 1 minuto                        |
+| [[Reglas rapidas/Nivel 1/Catapulta\|Catapulta]]                                                   | Transmutación | 1 acción    | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Curar heridas\|Curar heridas]]                                           | Evocación     | 1 acción    | Toque                       | Instantáneo                     |
+| [[Reglas rapidas/Nivel 1/Detectar magia\|Detectar magia]]                                         | Adivinación   | 1 acción    | Personal                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Detectar venenos y enfermedades\|Detectar venenos y enfermedades]]       | Adivinación   | 1 acción    | Personal                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Disfrazarse\|Disfrazarse]]                                               | Ilusionismo   | 1 acción    | Personal                    | 1 hora                          |
+| [[Reglas rapidas/Nivel 1/Proteccion contra el bien y el mal\|Proteccion contra el bien y el mal]] | Abjuración    | 1 acción    | Toque                       | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 1/Trampa de lazo\|Trampa de lazo]]                                         | Abjuración    | 1 minuto    | Toque                       | 8 horas                         |
+| [[Reglas rapidas/Nivel 1/Zancada prodigiosa\|Zancada prodigiosa]]                                 | Transmutación | 1 acción    | Toque                       | 1 hora                          |
 
 { .block-language-dataview}
 
