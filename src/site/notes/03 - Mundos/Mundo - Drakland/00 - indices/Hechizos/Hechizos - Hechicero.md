@@ -108,8 +108,10 @@
 
 ## Nivel 2
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                              | Escuela       | Lanzamiento | Alcance | Duración                      |
+| -------------------------------------------------------------------- | ------------- | ----------- | ------- | ----------------------------- |
+| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]]                           | Transmutación | 1 acción    | 60 pies | Instantáneo                   |
+| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]] | Transmutación | 1 acción    | 30 pies | Concentración, hasta 1 minuto |
 
 { .block-language-dataview}
 
@@ -141,8 +143,27 @@
 
 ## Nivel 5
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                                                      | Escuela       | Lanzamiento        | Alcance                    | Duración                        |
+| -------------------------------------------------------------------------------------------- | ------------- | ------------------ | -------------------------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 5/Animar objetos\|Animar objetos]]                                 | Transmutación | 1 acción           | 120 pies                   | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Apariencia\|Apariencia]]                                         | Ilusionismo   | 1 acción           | 30 pies                    | 8 horas                         |
+| [[Reglas rapidas/Nivel 5/Circulo de telestransportacion\|Circulo de telestransportacion]] | Conjuración   | 1 minuto           | 10 pies                    | 1 asalto                        |
+| [[Reglas rapidas/Nivel 5/Cono de frio\|Cono de frio]]                                     | Evocación     | 1 acción           | Personal (cono de 60 pies) | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Controlar los vientos\|Controlar los vientos]]                   | Transmutación | 1 acción           | 300 pies                   | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Creacion\|Creacion]]                                             | Ilusionismo   | 1 minuto           | 30 pies                    | Especial                        |
+| [[Reglas rapidas/Nivel 5/Dominar persona\|Dominar persona]]                               | Encantamiento | 1 acción           | 60 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Enervacion\|Enervacion]]                                         | Nigromancia   | 1 acción           | 60 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Estatica sinaptica\|Estatica sinaptica]]                         | Encantamiento | 1 acción           | 120 pies                   | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Inmolacion\|Inmolacion]]                                         | Evocación     | 1 acción           | 90 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Inmovilizar monstruo\|Inmovilizar monstruo]]                     | Encantamiento | 1 acción           | 90 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Invocar espiritu draconico\|Invocar espiritu draconico]]         | Conjuración   | 1 acción           | 60 pies                    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Muro de luz\|Muro de luz]]                                       | Evocación     | 1 acción           | 120 pies                   | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Muro de piedra\|Muro de piedra]]                                 | Evocación     | 1 acción           | 120 pies                   | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Nube aniquiladora\|Nube aniquiladora]]                           | Conjuración   | 1 acción           | 120 pies                   | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Paso lejano\|Paso lejano]]                                       | Conjuración   | 1 acción adicional | Personal                   | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Plaga de insectos\|Plaga de insectos]]                           | Conjuración   | 1 acción           | 300 pies                   | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Potenciar habilidad\|Potenciar habilidad]]                       | Transmutación | 1 acción           | Toque                      | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Telequinesis\|Telequinesis]]                                     | Transmutación | 1 acción           | 60 pies                    | Concentración, hasta 10 minutos |
 
 { .block-language-dataview}
 

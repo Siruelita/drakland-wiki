@@ -61,8 +61,11 @@
 
 ## Nivel 2
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                              | Escuela       | Lanzamiento        | Alcance | Duración                      |
+| -------------------------------------------------------------------- | ------------- | ------------------ | ------- | ----------------------------- |
+| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]] | Transmutación | 1 acción           | 30 pies | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]               | Transmutación | 1 acción adicional | Toque   | Concentración, hasta 1 hora   |
+| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]                       | Abjuración    | 1 acción           | 30 pies | 8 horas                       |
 
 { .block-language-dataview}
 
@@ -94,8 +97,16 @@
 
 ## Nivel 5
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                                      | Escuela       | Lanzamiento | Alcance  | Duración                        |
+| ---------------------------------------------------------------------------- | ------------- | ----------- | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 5/Animar objetos\|Animar objetos]]                 | Transmutación | 1 acción    | 120 pies | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Creacion\|Creacion]]                             | Ilusionismo   | 1 minuto    | 30 pies  | Especial                        |
+| [[Reglas rapidas/Nivel 5/Crear timon\|Crear timon]]                       | Transmutación | 1 acción    | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Mano arcana\|Mano arcana]]                       | Evocación     | 1 acción    | 120 pies | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Muro de piedra\|Muro de piedra]]                 | Evocación     | 1 acción    | 120 pies | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Potenciar habilidad\|Potenciar habilidad]]       | Transmutación | 1 acción    | Toque    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Restablecimiento mayor\|Restablecimiento mayor]] | Abjuración    | 1 acción    | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Trasmutar roca\|Trasmutar roca]]                 | Transmutación | 1 acción    | 120 pies | Hasta ser disipado              |
 
 { .block-language-dataview}
 

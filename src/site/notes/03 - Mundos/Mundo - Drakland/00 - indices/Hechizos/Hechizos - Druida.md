@@ -88,8 +88,9 @@
 
 ## Nivel 2
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                        | Escuela     | Lanzamiento | Alcance  | Duración    |
+| ---------------------------------------------- | ----------- | ----------- | -------- | ----------- |
+| [[Reglas rapidas/Nivel 2/Augurio\|Augurio]] | Adivinación | 1 minuto    | Personal | Instantáneo |
 
 { .block-language-dataview}
 
@@ -121,8 +122,27 @@
 
 ## Nivel 5
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                                              | Escuela       | Lanzamiento | Alcance                     | Duración                        |
+| ------------------------------------------------------------------------------------ | ------------- | ----------- | --------------------------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 5/Atadura planar\|Atadura planar]]                         | Abjuración    | 1 hora      | 60 pies                     | 24 horas                        |
+| [[Reglas rapidas/Nivel 5/Caparazon antivida\|Caparazon antivida]]                 | Abjuración    | 1 acción    | Personal (radio de 10 pies) | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Comunion con la naturaleza\|Comunion con la naturaleza]] | Adivinación   | 1 minuto    | Personal                    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Conjurar elemental\|Conjurar elemental]]                 | Conjuración   | 1 minuto    | 90 pies                     | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Contagio\|Contagio]]                                     | Nigromancia   | 1 acción    | Toque                       | 7 días                          |
+| [[Reglas rapidas/Nivel 5/Controlar los vientos\|Controlar los vientos]]           | Transmutación | 1 acción    | 300 pies                    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Curar heridas en masa\|Curar heridas en masa]]           | Evocación     | 1 acción    | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Despertar\|Despertar]]                                   | Transmutación | 8 horas     | Toque                       | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Escudriñar\|Escudriñar]]                                 | Adivinación   | 10 minutos  | Personal                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Geas\|Geas]]                                             | Encantamiento | 1 minuto    | 60 pies                     | 30 días                         |
+| [[Reglas rapidas/Nivel 5/Invocar espiritu draconico\|Invocar espiritu draconico]] | Conjuración   | 1 acción    | 60 pies                     | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Ira de la naturaleza\|Ira de la naturaleza]]             | Evocación     | 1 acción    | 120 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Muro de piedra\|Muro de piedra]]                         | Evocación     | 1 acción    | 120 pies                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Paso arboreo\|Paso arboreo]]                             | Conjuración   | 1 acción    | Personal                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Plaga de insectos\|Plaga de insectos]]                   | Conjuración   | 1 acción    | 300 pies                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Reencarnar\|Reencarnar]]                                 | Transmutación | 1 hora      | Toque                       | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Restablecimiento mayor\|Restablecimiento mayor]]         | Abjuración    | 1 acción    | Toque                       | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Trasmutar roca\|Trasmutar roca]]                         | Transmutación | 1 acción    | 120 pies                    | Hasta ser disipado              |
+| [[Reglas rapidas/Nivel 5/Voragine\|Voragine]]                                     | Evocación     | 1 acción    | 120 pies                    | Concentración, hasta 1 minuto   |
 
 { .block-language-dataview}
 

@@ -116,8 +116,20 @@
 
 ## Nivel 5
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                                                      | Escuela       | Lanzamiento        | Alcance  | Duración                        |
+| -------------------------------------------------------------------------------------------- | ------------- | ------------------ | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 5/Atadura planar\|Atadura planar]]                                 | Abjuración    | 1 hora             | 60 pies  | 24 horas                        |
+| [[Reglas rapidas/Nivel 5/Contactar con otro plano\|Contactar con otro plano]]             | Adivinación   | 1 minuto           | Personal | 1 minuto                        |
+| [[Reglas rapidas/Nivel 5/Danza macabra\|Danza macabra]]                                   | Nigromancia   | 1 acción           | 60 pies  | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Enervacion\|Enervacion]]                                         | Nigromancia   | 1 acción           | 60 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Ensueño\|Ensueño]]                                               | Ilusionismo   | 1 minuto           | Especial | 8 horas                         |
+| [[Reglas rapidas/Nivel 5/Escudriñar\|Escudriñar]]                                         | Adivinación   | 10 minutos         | Personal | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Estatica sinaptica\|Estatica sinaptica]]                         | Encantamiento | 1 acción           | 120 pies | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Inmovilizar monstruo\|Inmovilizar monstruo]]                     | Encantamiento | 1 acción           | 90 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Inundacion de energia negativa\|Inundacion de energia negativa]] | Nigromancia   | 1 acción           | 60 pies  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Invocacion infernal\|Invocacion infernal]]                       | Conjuración   | 1 minuto           | 90 pies  | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Muro de luz\|Muro de luz]]                                       | Evocación     | 1 acción           | 120 pies | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Paso lejano\|Paso lejano]]                                       | Conjuración   | 1 acción adicional | Personal | Concentración, hasta 1 minuto   |
 
 { .block-language-dataview}
 

@@ -85,8 +85,15 @@
 
 ## Nivel 5
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                                              | Escuela       | Lanzamiento        | Alcance  | Duración                      |
+| ------------------------------------------------------------------------------------ | ------------- | ------------------ | -------- | ----------------------------- |
+| [[Reglas rapidas/Nivel 5/Carcaj veloz\|Carcaj veloz]]                             | Transmutación | 1 acción adicional | Toque    | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 5/Comunion con la naturaleza\|Comunion con la naturaleza]] | Adivinación   | 1 minuto           | Personal | Instantáneo                   |
+| [[Reglas rapidas/Nivel 5/Conjurar salva\|Conjurar salva]]                         | Conjuración   | 1 acción           | 150 pies | Instantáneo                   |
+| [[Reglas rapidas/Nivel 5/Golpe de viento de acero\|Golpe de viento de acero]]     | Conjuración   | 1 acción           | 30 pies  | Instantáneo                   |
+| [[Reglas rapidas/Nivel 5/Ira de la naturaleza\|Ira de la naturaleza]]             | Evocación     | 1 acción           | 120 pies | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 5/Paso arboreo\|Paso arboreo]]                             | Conjuración   | 1 acción           | Personal | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 5/Restablecimiento mayor\|Restablecimiento mayor]]         | Abjuración    | 1 acción           | Toque    | Instantáneo                   |
 
 { .block-language-dataview}
 

@@ -74,8 +74,11 @@
 
 ## Nivel 2
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                        | Escuela     | Lanzamiento        | Alcance  | Duración    |
+| -------------------------------------------------------------- | ----------- | ------------------ | -------- | ----------- |
+| [[Reglas rapidas/Nivel 2/Arma espiritual\|Arma espiritual]] | Evocación   | 1 acción adicional | 60 pies  | 1 minuto    |
+| [[Reglas rapidas/Nivel 2/Augurio\|Augurio]]                 | Adivinación | 1 minuto           | Personal | Instantáneo |
+| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]                 | Abjuración  | 1 acción           | 30 pies  | 8 horas     |
 
 { .block-language-dataview}
 
@@ -107,8 +110,24 @@
 
 ## Nivel 5
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                                          | Escuela       | Lanzamiento        | Alcance  | Duración                        |
+| -------------------------------------------------------------------------------- | ------------- | ------------------ | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 5/Alzar a los muertos\|Alzar a los muertos]]           | Nigromancia   | 1 hora             | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Amanecer\|Amanecer]]                                 | Evocación     | 1 acción           | 60 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Arma sagrada\|Arma sagrada]]                         | Evocación     | 1 acción adicional | Toque    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Atadura planar\|Atadura planar]]                     | Abjuración    | 1 hora             | 60 pies  | 24 horas                        |
+| [[Reglas rapidas/Nivel 5/Comunion\|Comunion]]                                 | Adivinación   | 1 minuto           | Personal | 1 minuto                        |
+| [[Reglas rapidas/Nivel 5/Conocer las leyendas\|Conocer las leyendas]]         | Adivinación   | 10 minutos         | Personal | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Consagrar\|Consagrar]]                               | Evocación     | 24 horas           | Toque    | Hasta ser disipado              |
+| [[Reglas rapidas/Nivel 5/Contagio\|Contagio]]                                 | Nigromancia   | 1 acción           | Toque    | 7 días                          |
+| [[Reglas rapidas/Nivel 5/Curar heridas en masa\|Curar heridas en masa]]       | Evocación     | 1 acción           | 60 pies  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Disipar el bien y el mal\|Disipar el bien y el mal]] | Abjuración    | 1 acción           | Personal | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Escudriñar\|Escudriñar]]                             | Adivinación   | 10 minutos         | Personal | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Geas\|Geas]]                                         | Encantamiento | 1 minuto           | 60 pies  | 30 días                         |
+| [[Reglas rapidas/Nivel 5/Golpe flamigero\|Golpe flamigero]]                   | Evocación     | 1 acción           | 60 pies  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Invocar celestial\|Invocar celestial]]               | Conjuración   | 1 acción           | 90 pies  | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Plaga de insectos\|Plaga de insectos]]               | Conjuración   | 1 acción           | 300 pies | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Restablecimiento mayor\|Restablecimiento mayor]]     | Abjuración    | 1 acción           | Toque    | Instantáneo                     |
 
 { .block-language-dataview}
 

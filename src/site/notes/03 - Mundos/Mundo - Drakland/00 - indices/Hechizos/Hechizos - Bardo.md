@@ -86,8 +86,9 @@
 
 ## Nivel 2
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                    | Escuela       | Lanzamiento | Alcance | Duración    |
+| ------------------------------------------ | ------------- | ----------- | ------- | ----------- |
+| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]] | Transmutación | 1 acción    | 60 pies | Instantáneo |
 
 { .block-language-dataview}
 
@@ -119,8 +120,26 @@
 
 ## Nivel 5
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                                                      | Escuela       | Lanzamiento | Alcance  | Duración                        |
+| -------------------------------------------------------------------------------------------- | ------------- | ----------- | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 5/Alterar los recuerdos\|Alterar los recuerdos]]                   | Encantamiento | 1 acción    | 30 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Alzar a los muertos\|Alzar a los muertos]]                       | Nigromancia   | 1 hora      | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Animar objetos\|Animar objetos]]                                 | Transmutación | 1 acción    | 120 pies | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Apariencia\|Apariencia]]                                         | Ilusionismo   | 1 acción    | 30 pies  | 8 horas                         |
+| [[Reglas rapidas/Nivel 5/Atadura planar\|Atadura planar]]                                 | Abjuración    | 1 hora      | 60 pies  | 24 horas                        |
+| [[Reglas rapidas/Nivel 5/Circulo de telestransportacion\|Circulo de telestransportacion]] | Conjuración   | 1 minuto    | 10 pies  | 1 asalto                        |
+| [[Reglas rapidas/Nivel 5/Conocer las leyendas\|Conocer las leyendas]]                     | Adivinación   | 10 minutos  | Personal | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Curar heridas en masa\|Curar heridas en masa]]                   | Evocación     | 1 acción    | 60 pies  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Despertar\|Despertar]]                                           | Transmutación | 8 horas     | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Dominar persona\|Dominar persona]]                               | Encantamiento | 1 acción    | 60 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Engañar\|Engañar]]                                               | Ilusionismo   | 1 acción    | Personal | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Ensueño\|Ensueño]]                                               | Ilusionismo   | 1 minuto    | Especial | 8 horas                         |
+| [[Reglas rapidas/Nivel 5/Escudriñar\|Escudriñar]]                                         | Adivinación   | 10 minutos  | Personal | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 5/Estatica sinaptica\|Estatica sinaptica]]                         | Encantamiento | 1 acción    | 120 pies | Instantáneo                     |
+| [[Reglas rapidas/Nivel 5/Geas\|Geas]]                                                     | Encantamiento | 1 minuto    | 60 pies  | 30 días                         |
+| [[Reglas rapidas/Nivel 5/Inmovilizar monstruo\|Inmovilizar monstruo]]                     | Encantamiento | 1 acción    | 90 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 5/Potenciar habilidad\|Potenciar habilidad]]                       | Transmutación | 1 acción    | Toque    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 5/Restablecimiento mayor\|Restablecimiento mayor]]                 | Abjuración    | 1 acción    | Toque    | Instantáneo                     |
 
 { .block-language-dataview}
 
