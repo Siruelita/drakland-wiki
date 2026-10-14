@@ -88,9 +88,13 @@
 
 ## Nivel 2
 
-| Hechizo                                        | Escuela     | Lanzamiento | Alcance  | Duración    |
-| ---------------------------------------------- | ----------- | ----------- | -------- | ----------- |
-| [[Reglas rapidas/Nivel 2/Augurio\|Augurio]] | Adivinación | 1 minuto    | Personal | Instantáneo |
+| Hechizo                                                                          | Escuela       | Lanzamiento | Alcance  | Duración                        |
+| -------------------------------------------------------------------------------- | ------------- | ----------- | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 2/Augurio\|Augurio]]                                   | Adivinación   | 1 minuto    | Personal | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Calentar metal\|Calentar metal]]                     | Transmutación | 1 acción    | 60 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Crecimiento espinoso\|Crecimiento espinoso]]         | Transmutación | 1 acción    | 150 pies | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Detectar trampas\|Detectar trampas]]                 | Adivinación   | 1 acción    | 120 pies | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]] | Transmutación | 1 acción    | Toque    | Concentración, hasta 1 hora     |
 
 { .block-language-dataview}
 

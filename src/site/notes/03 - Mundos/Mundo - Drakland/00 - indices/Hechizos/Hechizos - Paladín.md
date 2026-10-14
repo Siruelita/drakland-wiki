@@ -49,10 +49,11 @@
 
 ## Nivel 2
 
-| Hechizo                                                | Escuela       | Lanzamiento        | Alcance | Duración                    |
-| ------------------------------------------------------ | ------------- | ------------------ | ------- | --------------------------- |
-| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]] | Transmutación | 1 acción adicional | Toque   | Concentración, hasta 1 hora |
-| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]         | Abjuración    | 1 acción           | 30 pies | 8 horas                     |
+| Hechizo                                                      | Escuela       | Lanzamiento        | Alcance | Duración                    |
+| ------------------------------------------------------------ | ------------- | ------------------ | ------- | --------------------------- |
+| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]       | Transmutación | 1 acción adicional | Toque   | Concentración, hasta 1 hora |
+| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]               | Abjuración    | 1 acción           | 30 pies | 8 horas                     |
+| [[Reglas rapidas/Nivel 2/Dulce descanso\|Dulce descanso]] | Nigromancia   | 1 acción           | Toque   | 10 días                     |
 
 { .block-language-dataview}
 

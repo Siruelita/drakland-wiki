@@ -71,4 +71,4 @@ Nombre original: Danse Macabre
 
 ---
 
-[[Hechizos - Nivel 5\|← Volver a Nivel 5]]
+[[03 - Mundos/Mundo - Drakland/00 - indices/Hechizos/Hechizos - Nivel 5\|← Volver a Nivel 5]]

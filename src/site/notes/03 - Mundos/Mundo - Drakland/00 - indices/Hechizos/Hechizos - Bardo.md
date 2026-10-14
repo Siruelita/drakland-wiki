@@ -86,9 +86,14 @@
 
 ## Nivel 2
 
-| Hechizo                                    | Escuela       | Lanzamiento | Alcance | Duración    |
-| ------------------------------------------ | ------------- | ----------- | ------- | ----------- |
-| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]] | Transmutación | 1 acción    | 60 pies | Instantáneo |
+| Hechizo                                                                          | Escuela       | Lanzamiento | Alcance  | Duración                      |
+| -------------------------------------------------------------------------------- | ------------- | ----------- | -------- | ----------------------------- |
+| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]]                                       | Transmutación | 1 acción    | 60 pies  | Instantáneo                   |
+| [[Reglas rapidas/Nivel 2/Boca magica\|Boca magica]]                           | Ilusionismo   | 1 minuto    | 30 pies  | Hasta ser disipado            |
+| [[Reglas rapidas/Nivel 2/Calentar metal\|Calentar metal]]                     | Transmutación | 1 acción    | 60 pies  | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Calmar emociones\|Calmar emociones]]                 | Encantamiento | 1 acción    | 60 pies  | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Detectar pensamientos\|Detectar pensamientos]]       | Adivinación   | 1 acción    | Personal | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]] | Transmutación | 1 acción    | Toque    | Concentración, hasta 1 hora   |
 
 { .block-language-dataview}
 

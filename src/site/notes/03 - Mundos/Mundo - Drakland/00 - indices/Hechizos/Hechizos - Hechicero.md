@@ -108,10 +108,12 @@
 
 ## Nivel 2
 
-| Hechizo                                                              | Escuela       | Lanzamiento | Alcance | Duración                      |
-| -------------------------------------------------------------------- | ------------- | ----------- | ------- | ----------------------------- |
-| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]]                           | Transmutación | 1 acción    | 60 pies | Instantáneo                   |
-| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]] | Transmutación | 1 acción    | 30 pies | Concentración, hasta 1 minuto |
+| Hechizo                                                                          | Escuela       | Lanzamiento | Alcance  | Duración                      |
+| -------------------------------------------------------------------------------- | ------------- | ----------- | -------- | ----------------------------- |
+| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]]                                       | Transmutación | 1 acción    | 60 pies  | Instantáneo                   |
+| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]]             | Transmutación | 1 acción    | 30 pies  | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Detectar pensamientos\|Detectar pensamientos]]       | Adivinación   | 1 acción    | Personal | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]] | Transmutación | 1 acción    | Toque    | Concentración, hasta 1 hora   |
 
 { .block-language-dataview}
 

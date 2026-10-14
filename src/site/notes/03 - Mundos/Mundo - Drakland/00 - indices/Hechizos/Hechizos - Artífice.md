@@ -61,11 +61,14 @@
 
 ## Nivel 2
 
-| Hechizo                                                              | Escuela       | Lanzamiento        | Alcance | Duración                      |
-| -------------------------------------------------------------------- | ------------- | ------------------ | ------- | ----------------------------- |
-| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]] | Transmutación | 1 acción           | 30 pies | Concentración, hasta 1 minuto |
-| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]               | Transmutación | 1 acción adicional | Toque   | Concentración, hasta 1 hora   |
-| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]                       | Abjuración    | 1 acción           | 30 pies | 8 horas                       |
+| Hechizo                                                                          | Escuela       | Lanzamiento        | Alcance | Duración                      |
+| -------------------------------------------------------------------------------- | ------------- | ------------------ | ------- | ----------------------------- |
+| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]]             | Transmutación | 1 acción           | 30 pies | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]                           | Transmutación | 1 acción adicional | Toque   | Concentración, hasta 1 hora   |
+| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]                                   | Abjuración    | 1 acción           | 30 pies | 8 horas                       |
+| [[Reglas rapidas/Nivel 2/Boca magica\|Boca magica]]                           | Ilusionismo   | 1 minuto           | 30 pies | Hasta ser disipado            |
+| [[Reglas rapidas/Nivel 2/Calentar metal\|Calentar metal]]                     | Transmutación | 1 acción           | 60 pies | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]] | Transmutación | 1 acción           | Toque   | Concentración, hasta 1 hora   |
 
 { .block-language-dataview}
 

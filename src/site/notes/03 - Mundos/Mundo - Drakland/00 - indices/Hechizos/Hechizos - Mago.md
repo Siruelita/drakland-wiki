@@ -126,11 +126,14 @@
 
 ## Nivel 2
 
-| Hechizo                                                              | Escuela       | Lanzamiento        | Alcance | Duración                      |
-| -------------------------------------------------------------------- | ------------- | ------------------ | ------- | ----------------------------- |
-| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]]                           | Transmutación | 1 acción           | 60 pies | Instantáneo                   |
-| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]] | Transmutación | 1 acción           | 30 pies | Concentración, hasta 1 minuto |
-| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]               | Transmutación | 1 acción adicional | Toque   | Concentración, hasta 1 hora   |
+| Hechizo                                                                    | Escuela       | Lanzamiento        | Alcance  | Duración                      |
+| -------------------------------------------------------------------------- | ------------- | ------------------ | -------- | ----------------------------- |
+| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]]                                 | Transmutación | 1 acción           | 60 pies  | Instantáneo                   |
+| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]]       | Transmutación | 1 acción           | 30 pies  | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]                     | Transmutación | 1 acción adicional | Toque    | Concentración, hasta 1 hora   |
+| [[Reglas rapidas/Nivel 2/Boca magica\|Boca magica]]                     | Ilusionismo   | 1 minuto           | 30 pies  | Hasta ser disipado            |
+| [[Reglas rapidas/Nivel 2/Detectar pensamientos\|Detectar pensamientos]] | Adivinación   | 1 acción           | Personal | Concentración, hasta 1 minuto |
+| [[Reglas rapidas/Nivel 2/Dulce descanso\|Dulce descanso]]               | Nigromancia   | 1 acción           | Toque    | 10 días                       |
 
 { .block-language-dataview}
 

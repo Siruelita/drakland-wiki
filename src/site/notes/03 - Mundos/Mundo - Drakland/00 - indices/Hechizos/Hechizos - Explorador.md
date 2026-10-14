@@ -52,8 +52,10 @@
 
 ## Nivel 2
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                                  | Escuela       | Lanzamiento | Alcance  | Duración                        |
+| ------------------------------------------------------------------------ | ------------- | ----------- | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 2/Crecimiento espinoso\|Crecimiento espinoso]] | Transmutación | 1 acción    | 150 pies | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Detectar trampas\|Detectar trampas]]         | Adivinación   | 1 acción    | 120 pies | Instantáneo                     |
 
 { .block-language-dataview}
 

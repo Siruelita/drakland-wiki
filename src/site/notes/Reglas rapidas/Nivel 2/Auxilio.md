@@ -49,4 +49,4 @@ Nombre original: Aid
 
 ---
 
-[[Hechizos - Nivel 2\|← Volver a Nivel 2]]
+[[03 - Mundos/Mundo - Drakland/00 - indices/Hechizos/Hechizos - Nivel 2\|← Volver a Nivel 2]]

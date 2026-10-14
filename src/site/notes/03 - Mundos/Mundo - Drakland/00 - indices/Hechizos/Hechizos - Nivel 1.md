@@ -102,7 +102,7 @@
 
 > [!nav]
 > - [[03 - Mundos/Mundo - Drakland/00 - indices/Hechizos/Hechizos - Trucos\|Trucos]]
-> - [[Hechizos - Nivel 2\|Nivel 2]]
+> - [[03 - Mundos/Mundo - Drakland/00 - indices/Hechizos/Hechizos - Nivel 2\|Nivel 2]]
 > - [[03 - Mundos/Mundo - Drakland/00 - indices/Hechizos/Hechizos - Drakland\|Todos los hechizos]]
 
 ---
