@@ -108,12 +108,52 @@
 
 ## Nivel 2
 
-| Hechizo                                                                          | Escuela       | Lanzamiento | Alcance  | Duración                      |
-| -------------------------------------------------------------------------------- | ------------- | ----------- | -------- | ----------------------------- |
-| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]]                                       | Transmutación | 1 acción    | 60 pies  | Instantáneo                   |
-| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]]             | Transmutación | 1 acción    | 30 pies  | Concentración, hasta 1 minuto |
-| [[Reglas rapidas/Nivel 2/Detectar pensamientos\|Detectar pensamientos]]       | Adivinación   | 1 acción    | Personal | Concentración, hasta 1 minuto |
-| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]] | Transmutación | 1 acción    | Toque    | Concentración, hasta 1 hora   |
+| Hechizo                                                                                                    | Escuela       | Lanzamiento        | Alcance                     | Duración                        |
+| ---------------------------------------------------------------------------------------------------------- | ------------- | ------------------ | --------------------------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 2/Abrasador de Aganazzar\|Abrasador de Aganazzar]]                               | Evocación     | 1 acción           | 30 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Abrir\|Abrir]]                                                                 | Transmutación | 1 acción           | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Agarre de tierra de Maximilian\|Agarre de tierra de Maximilian]]               | Transmutación | 1 acción           | 30 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]]                                       | Transmutación | 1 acción           | 30 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Aliento de dragon\|Aliento de dragon]]                                         | Transmutación | 1 acción adicional | Toque                       | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Arma sombria\|Arma sombria]]                                                   | Ilusión       | 1 acción adicional | Personal                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Atadura terrestre\|Atadura terrestre]]                                         | Transmutación | 1 acción           | 300 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Burbuja de aire\|Burbuja de aire]]                                             | Conjuración   | 1 acción           | 60 pies                     | 24 horas                        |
+| [[Reglas rapidas/Nivel 2/Ceguera-Sordera\|Ceguera-Sordera]]                                             | Nigromancia   | 1 acción           | 30 pies                     | 1 minuto                        |
+| [[Reglas rapidas/Nivel 2/Contorno borroso\|Contorno borroso]]                                           | Ilusionismo   | 1 acción           | Personal                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Corona de locura\|Corona de locura]]                                           | Encantamiento | 1 acción           | 120 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Desplazamiento cinetico\|Desplazamiento cinetico]]                             | Transmutación | 1 acción adicional | Personal                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Desplazamiento por vórtice\|Desplazamiento por vórtice]]                       | Conjuración   | 1 acción           | 90 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Detectar pensamientos\|Detectar pensamientos]]                                 | Adivinación   | 1 acción           | Personal                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Diablo de polvo\|Diablo de polvo]]                                             | Conjuración   | 1 acción           | 60 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Fuerza fantasmal\|Fuerza fantasmal]]                                           | Ilusión       | 1 acción           | 60 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Hacer añicos\|Hacer añicos]]                                                   | Evocación     | 1 acción           | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Hielo vinculante de Rime\|Hielo vinculante de Rime]]                           | Evocación     | 1 acción           | Personal (cono de 30 pies)  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Hoja de fuego\|Hoja de fuego]]                                                 | Evocación     | 1 acción adicional | Personal                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Imagen multiple\|Imagen multiple]]                                             | Ilusionismo   | 1 acción           | Personal                    | 1 minuto                        |
+| [[Reglas rapidas/Nivel 2/Inmovilizar persona\|Inmovilizar persona]]                                     | Encantamiento | 1 acción           | 60 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Invisibilidad\|Invisibilidad]]                                                 | Ilusionismo   | 1 acción           | Toque                       | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Latigazo mental de tasha\|Latigazo mental de tasha]]                           | Encantamiento | 1 acción           | 90 pies                     | 1 asalto                        |
+| [[Reglas rapidas/Nivel 2/Levitar\|Levitar]]                                                             | Transmutación | 1 acción           | 60 pies                     | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Marchitar y florecer\|Marchitar y florecer]]                                   | Nigromancia   | 1 acción           | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Nube de dagas\|Nube de dagas]]                                                 | Conjuración   | 1 acción           | 60 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Oscuridad\|Oscuridad]]                                                         | Evocación     | 1 acción           | 60 pies                     | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Paso brumoso\|Paso brumoso]]                                                   | Conjuración   | 1 acción adicional | Personal                    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Percepcion de portales\|Percepcion de portales]]                               | Adivinación   | 1 acción           | Personal                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Pirotecnia\|Pirotecnia]]                                                       | Transmutación | 1 acción           | 60 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]]                           | Transmutación | 1 acción           | Toque                       | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Pua mental\|Pua mental]]                                                       | Adivinación   | 1 acción           | 60 pies                     | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Rafaga de cartas\|Rafaga de cartas]]                                           | Conjuración   | 1 acción           | Personal (cono de 15 pies)  | Instantánea                     |
+| [[Reglas rapidas/Nivel 2/Rafaga de viento\|Rafaga de viento]]                                           | Evocación     | 1 acción           | Personal (línea de 60 pies) | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Rayo abrasador\|Rayo abrasador]]                                               | Evocación     | 1 acción           | 120 pies                    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Sentido de las bestias\|Sentido de las bestias]]                               | Conjuración   | 1 acción           | 60 pies                     | 24 horas                        |
+| [[Reglas rapidas/Nivel 2/Sugestion\|Sugestion]]                                                         | Encantamiento | 1 acción           | 30 pies                     | Concentración, hasta 8 horas    |
+| [[Reglas rapidas/Nivel 2/Telaraña\|Telaraña]]                                                           | Conjuración   | 1 acción           | 60 pies                     | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Tormenta de bolas de nieve de snilloc\|Tormenta de bolas de nieve de snilloc]] | Evocación     | 1 acción           | 90 pies                     | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Travesuras de Nathair\|Travesuras de Nathair]]                                 | Ilusión       | 1 acción           | 60 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Trepar cual aracnido\|Trepar cual aracnido]]                                   | Transmutación | 1 acción           | Toque                       | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Ver invisibilidad\|Ver invisibilidad]]                                         | Adivinación   | 1 acción           | Personal                    | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Viento protector\|Viento protector]]                                           | Evocación     | 1 acción           | Personal (radio de 10 pies) | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Vision en la oscuridad\|Vision en la oscuridad]]                               | Transmutación | 1 acción           | Toque                       | 8 horas                         |
 
 { .block-language-dataview}
 

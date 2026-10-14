@@ -74,15 +74,26 @@
 
 ## Nivel 2
 
-| Hechizo                                                                          | Escuela       | Lanzamiento        | Alcance  | Duración                      |
-| -------------------------------------------------------------------------------- | ------------- | ------------------ | -------- | ----------------------------- |
-| [[Reglas rapidas/Nivel 2/Arma espiritual\|Arma espiritual]]                   | Evocación     | 1 acción adicional | 60 pies  | 1 minuto                      |
-| [[Reglas rapidas/Nivel 2/Augurio\|Augurio]]                                   | Adivinación   | 1 minuto           | Personal | Instantáneo                   |
-| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]                                   | Abjuración    | 1 acción           | 30 pies  | 8 horas                       |
-| [[Reglas rapidas/Nivel 2/Calmar emociones\|Calmar emociones]]                 | Encantamiento | 1 acción           | 60 pies  | Concentración, hasta 1 minuto |
-| [[Reglas rapidas/Nivel 2/Detectar trampas\|Detectar trampas]]                 | Adivinación   | 1 acción           | 120 pies | Instantáneo                   |
-| [[Reglas rapidas/Nivel 2/Dulce descanso\|Dulce descanso]]                     | Nigromancia   | 1 acción           | Toque    | 10 días                       |
-| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]] | Transmutación | 1 acción           | Toque    | Concentración, hasta 1 hora   |
+| Hechizo                                                                          | Escuela       | Lanzamiento        | Alcance  | Duración                        |
+| -------------------------------------------------------------------------------- | ------------- | ------------------ | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 2/Arma espiritual\|Arma espiritual]]                   | Evocación     | 1 acción adicional | 60 pies  | 1 minuto                        |
+| [[Reglas rapidas/Nivel 2/Augurio\|Augurio]]                                   | Adivinación   | 1 minuto           | Personal | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]                                   | Abjuración    | 1 acción           | 30 pies  | 8 horas                         |
+| [[Reglas rapidas/Nivel 2/Calmar emociones\|Calmar emociones]]                 | Encantamiento | 1 acción           | 60 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Ceguera-Sordera\|Ceguera-Sordera]]                   | Nigromancia   | 1 acción           | 30 pies  | 1 minuto                        |
+| [[Reglas rapidas/Nivel 2/Conocimiento prestado\|Conocimiento prestado]]       | Adivinación   | 1 acción           | Personal | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Detectar trampas\|Detectar trampas]]                 | Adivinación   | 1 acción           | 120 pies | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Dulce descanso\|Dulce descanso]]                     | Nigromancia   | 1 acción           | Toque    | 10 días                         |
+| [[Reglas rapidas/Nivel 2/Inmovilizar persona\|Inmovilizar persona]]           | Encantamiento | 1 acción           | 60 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Llama permanente\|Llama permanente]]                 | Evocación     | 1 acción           | Toque    | Hasta ser disipado              |
+| [[Reglas rapidas/Nivel 2/Localizar objeto\|Localizar objeto]]                 | Adivinación   | 1 acción           | Personal | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Plegaria de curacion\|Plegaria de curacion]]         | Evocación     | 10 minutos         | 30 pies  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]] | Transmutación | 1 acción           | Toque    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Proteccion contra veneno\|Proteccion contra veneno]] | Abjuración    | 1 acción           | Toque    | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Restablecimiento menor\|Restablecimiento menor]]     | Abjuración    | 1 acción           | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Silencio\|Silencio]]                                 | Ilusionismo   | 1 acción           | 120 pies | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Vinculo protector\|Vinculo protector]]               | Abjuración    | 1 acción           | Toque    | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Zona de verdad\|Zona de verdad]]                     | Encantamiento | 1 acción           | 60 pies  | 10 minutos                      |
 
 { .block-language-dataview}
 

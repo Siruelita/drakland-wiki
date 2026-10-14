@@ -83,8 +83,27 @@
 
 ## Nivel 2
 
-| Hechizo | Escuela | Lanzamiento | Alcance | Duración |
-| ------- | ------- | ----------- | ------- | -------- |
+| Hechizo                                                                      | Escuela       | Lanzamiento        | Alcance                    | Duración                        |
+| ---------------------------------------------------------------------------- | ------------- | ------------------ | -------------------------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 2/Arma sombria\|Arma sombria]]                     | Ilusión       | 1 acción adicional | Personal                   | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Atadura terrestre\|Atadura terrestre]]           | Transmutación | 1 acción           | 300 pies                   | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Bandada de familiares\|Bandada de familiares]]   | Conjuración   | 1 minuto           | Toque                      | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Conocimiento prestado\|Conocimiento prestado]]   | Adivinación   | 1 acción           | Personal                   | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Corona de locura\|Corona de locura]]             | Encantamiento | 1 acción           | 120 pies                   | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Embelesar\|Embelesar]]                           | Encantamiento | 1 acción           | 60 pies                    | 1 minuto                        |
+| [[Reglas rapidas/Nivel 2/Hacer añicos\|Hacer añicos]]                     | Evocación     | 1 acción           | 60 pies                    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Imagen multiple\|Imagen multiple]]               | Ilusionismo   | 1 acción           | Personal                   | 1 minuto                        |
+| [[Reglas rapidas/Nivel 2/Inmovilizar persona\|Inmovilizar persona]]       | Encantamiento | 1 acción           | 60 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Invisibilidad\|Invisibilidad]]                   | Ilusionismo   | 1 acción           | Toque                      | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Nube de dagas\|Nube de dagas]]                   | Conjuración   | 1 acción           | 60 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Oscuridad\|Oscuridad]]                           | Evocación     | 1 acción           | 60 pies                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Paso brumoso\|Paso brumoso]]                     | Conjuración   | 1 acción adicional | Personal                   | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Percepcion de portales\|Percepcion de portales]] | Adivinación   | 1 acción           | Personal                   | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Pua mental\|Pua mental]]                         | Adivinación   | 1 acción           | 60 pies                    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Rafaga de cartas\|Rafaga de cartas]]             | Conjuración   | 1 acción           | Personal (cono de 15 pies) | Instantánea                     |
+| [[Reglas rapidas/Nivel 2/Rayo debilitador\|Rayo debilitador]]             | Nigromancia   | 1 acción           | 60 pies                    | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Sugestion\|Sugestion]]                           | Encantamiento | 1 acción           | 30 pies                    | Concentración, hasta 8 horas    |
+| [[Reglas rapidas/Nivel 2/Trepar cual aracnido\|Trepar cual aracnido]]     | Transmutación | 1 acción           | Toque                      | Concentración, hasta 1 hora     |
 
 { .block-language-dataview}
 

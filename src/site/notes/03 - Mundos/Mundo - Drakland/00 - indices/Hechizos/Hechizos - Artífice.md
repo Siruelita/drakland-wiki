@@ -61,14 +61,32 @@
 
 ## Nivel 2
 
-| Hechizo                                                                          | Escuela       | Lanzamiento        | Alcance | Duración                      |
-| -------------------------------------------------------------------------------- | ------------- | ------------------ | ------- | ----------------------------- |
-| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]]             | Transmutación | 1 acción           | 30 pies | Concentración, hasta 1 minuto |
-| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]                           | Transmutación | 1 acción adicional | Toque   | Concentración, hasta 1 hora   |
-| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]                                   | Abjuración    | 1 acción           | 30 pies | 8 horas                       |
-| [[Reglas rapidas/Nivel 2/Boca magica\|Boca magica]]                           | Ilusionismo   | 1 minuto           | 30 pies | Hasta ser disipado            |
-| [[Reglas rapidas/Nivel 2/Calentar metal\|Calentar metal]]                     | Transmutación | 1 acción           | 60 pies | Concentración, hasta 1 minuto |
-| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]] | Transmutación | 1 acción           | Toque   | Concentración, hasta 1 hora   |
+| Hechizo                                                                              | Escuela       | Lanzamiento        | Alcance  | Duración                        |
+| ------------------------------------------------------------------------------------ | ------------- | ------------------ | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 2/Agrandar - reducir\|Agrandar - reducir]]                 | Transmutación | 1 acción           | 30 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]                               | Transmutación | 1 acción adicional | Toque    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]                                       | Abjuración    | 1 acción           | 30 pies  | 8 horas                         |
+| [[Reglas rapidas/Nivel 2/Boca magica\|Boca magica]]                               | Ilusionismo   | 1 minuto           | 30 pies  | Hasta ser disipado              |
+| [[Reglas rapidas/Nivel 2/Burbuja de aire\|Burbuja de aire]]                       | Conjuración   | 1 acción           | 60 pies  | 24 horas                        |
+| [[Reglas rapidas/Nivel 2/Calentar metal\|Calentar metal]]                         | Transmutación | 1 acción           | 60 pies  | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Cerradura arcana\|Cerradura arcana]]                     | Abjuración    | 1 acción           | Toque    | Hasta que sea disipado          |
+| [[Reglas rapidas/Nivel 2/Contorno borroso\|Contorno borroso]]                     | Ilusionismo   | 1 acción           | Personal | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Desplazamiento cinetico\|Desplazamiento cinetico]]       | Transmutación | 1 acción adicional | Personal | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Desplazamiento por vórtice\|Desplazamiento por vórtice]] | Conjuración   | 1 acción           | 90 pies  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Escritura celeste\|Escritura celeste]]                   | Transmutación | 1 acción           | Vista    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Invisibilidad\|Invisibilidad]]                           | Ilusionismo   | 1 acción           | Toque    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Levitar\|Levitar]]                                       | Transmutación | 1 acción           | 60 pies  | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Llama permanente\|Llama permanente]]                     | Evocación     | 1 acción           | Toque    | Hasta ser disipado              |
+| [[Reglas rapidas/Nivel 2/Pirotecnia\|Pirotecnia]]                                 | Transmutación | 1 acción           | 60 pies  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]]     | Transmutación | 1 acción           | Toque    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Proteccion contra veneno\|Proteccion contra veneno]]     | Abjuración    | 1 acción           | Toque    | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Restablecimiento menor\|Restablecimiento menor]]         | Abjuración    | 1 acción           | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Sentido de las bestias\|Sentido de las bestias]]         | Conjuración   | 1 acción           | 60 pies  | 24 horas                        |
+| [[Reglas rapidas/Nivel 2/Telaraña\|Telaraña]]                                     | Conjuración   | 1 acción           | 60 pies  | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Trepar cual aracnido\|Trepar cual aracnido]]             | Transmutación | 1 acción           | Toque    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Truco de la cuerda\|Truco de la cuerda]]                 | Transmutación | 1 acción           | Toque    | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Ver invisibilidad\|Ver invisibilidad]]                   | Adivinación   | 1 acción           | Personal | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Vision en la oscuridad\|Vision en la oscuridad]]         | Transmutación | 1 acción           | Toque    | 8 horas                         |
 
 { .block-language-dataview}
 

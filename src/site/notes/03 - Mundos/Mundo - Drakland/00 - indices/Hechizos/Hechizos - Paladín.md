@@ -49,11 +49,18 @@
 
 ## Nivel 2
 
-| Hechizo                                                      | Escuela       | Lanzamiento        | Alcance | Duración                    |
-| ------------------------------------------------------------ | ------------- | ------------------ | ------- | --------------------------- |
-| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]       | Transmutación | 1 acción adicional | Toque   | Concentración, hasta 1 hora |
-| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]               | Abjuración    | 1 acción           | 30 pies | 8 horas                     |
-| [[Reglas rapidas/Nivel 2/Dulce descanso\|Dulce descanso]] | Nigromancia   | 1 acción           | Toque   | 10 días                     |
+| Hechizo                                                                          | Escuela       | Lanzamiento        | Alcance  | Duración                        |
+| -------------------------------------------------------------------------------- | ------------- | ------------------ | -------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 2/Arma magica\|Arma magica]]                           | Transmutación | 1 acción adicional | Toque    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Auxilio\|Auxilio]]                                   | Abjuración    | 1 acción           | 30 pies  | 8 horas                         |
+| [[Reglas rapidas/Nivel 2/Castigo marcador\|Castigo marcador]]                 | Evocación     | 1 acción adicional | Personal | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Dulce descanso\|Dulce descanso]]                     | Nigromancia   | 1 acción           | Toque    | 10 días                         |
+| [[Reglas rapidas/Nivel 2/Hallar corcel\|Hallar corcel]]                       | Conjuración   | 10 minutos         | 30 pies  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Localizar objeto\|Localizar objeto]]                 | Adivinación   | 1 acción           | Personal | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Plegaria de curacion\|Plegaria de curacion]]         | Evocación     | 10 minutos         | 30 pies  | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Proteccion contra veneno\|Proteccion contra veneno]] | Abjuración    | 1 acción           | Toque    | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Restablecimiento menor\|Restablecimiento menor]]     | Abjuración    | 1 acción           | Toque    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Zona de verdad\|Zona de verdad]]                     | Encantamiento | 1 acción           | 60 pies  | 10 minutos                      |
 
 { .block-language-dataview}
 

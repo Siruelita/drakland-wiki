@@ -52,10 +52,25 @@
 
 ## Nivel 2
 
-| Hechizo                                                                  | Escuela       | Lanzamiento | Alcance  | Duración                        |
-| ------------------------------------------------------------------------ | ------------- | ----------- | -------- | ------------------------------- |
-| [[Reglas rapidas/Nivel 2/Crecimiento espinoso\|Crecimiento espinoso]] | Transmutación | 1 acción    | 150 pies | Concentración, hasta 10 minutos |
-| [[Reglas rapidas/Nivel 2/Detectar trampas\|Detectar trampas]]         | Adivinación   | 1 acción    | 120 pies | Instantáneo                     |
+| Hechizo                                                                                  | Escuela       | Lanzamiento        | Alcance                     | Duración                        |
+| ---------------------------------------------------------------------------------------- | ------------- | ------------------ | --------------------------- | ------------------------------- |
+| [[Reglas rapidas/Nivel 2/Burbuja de aire\|Burbuja de aire]]                           | Conjuración   | 1 acción           | 60 pies                     | 24 horas                        |
+| [[Reglas rapidas/Nivel 2/Cordon de flechas\|Cordon de flechas]]                       | Transmutación | 1 acción           | 5 pies                      | 8 horas                         |
+| [[Reglas rapidas/Nivel 2/Crecimiento espinoso\|Crecimiento espinoso]]                 | Transmutación | 1 acción           | 150 pies                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Detectar trampas\|Detectar trampas]]                         | Adivinación   | 1 acción           | 120 pies                    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Espiritu sanador\|Espiritu sanador]]                         | Conjuración   | 1 acción adicional | 60 pies                     | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Invocar bestia\|Invocar bestia]]                             | Conjuración   | 1 acción           | 90 pies                     | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Localizar animales o plantas\|Localizar animales o plantas]] | Adivinación   | 1 acción           | Personal                    | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Localizar objeto\|Localizar objeto]]                         | Adivinación   | 1 acción           | Personal                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Mensajero animal\|Mensajero animal]]                         | Encantamiento | 1 acción           | 30 pies                     | 24 horas                        |
+| [[Reglas rapidas/Nivel 2/Pasar sin dejar rastro\|Pasar sin dejar rastro]]             | Abjuración    | 1 acción           | Personal                    | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Piel robliza\|Piel robliza]]                                 | Transmutación | 1 acción           | Toque                       | Concentración, hasta 1 hora     |
+| [[Reglas rapidas/Nivel 2/Proteccion contra veneno\|Proteccion contra veneno]]         | Abjuración    | 1 acción           | Toque                       | 1 hora                          |
+| [[Reglas rapidas/Nivel 2/Rafaga de viento\|Rafaga de viento]]                         | Evocación     | 1 acción           | Personal (línea de 60 pies) | Concentración, hasta 1 minuto   |
+| [[Reglas rapidas/Nivel 2/Restablecimiento menor\|Restablecimiento menor]]             | Abjuración    | 1 acción           | Toque                       | Instantáneo                     |
+| [[Reglas rapidas/Nivel 2/Sentido de las bestias\|Sentido de las bestias]]             | Conjuración   | 1 acción           | 60 pies                     | 24 horas                        |
+| [[Reglas rapidas/Nivel 2/Silencio\|Silencio]]                                         | Ilusionismo   | 1 acción           | 120 pies                    | Concentración, hasta 10 minutos |
+| [[Reglas rapidas/Nivel 2/Vision en la oscuridad\|Vision en la oscuridad]]             | Transmutación | 1 acción           | Toque                       | 8 horas                         |
 
 { .block-language-dataview}
 
