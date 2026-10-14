@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/reglas-rapidas/nivel-2/sentido-de-las-bestias/","contentClasses":"ficha-hechizo","dg-note-properties":{"tipo":"hechizo","nivel":2,"nombre_original":"Air Bubble","escuela":"Conjuración","tiempo_lanzamiento":"1 acción","alcance":"60 pies","duracion":"24 horas","componentes":["S"],"concentracion":false,"resolucion":"Sin tirada","clases":["Artífice","Druida","Explorador","Hechicero","Mago"],"fuente":"Spelljammer - Guía del aventurero astral","visible_jugadores":true,"cssclasses":["ficha-hechizo"]}}
+{"dg-publish":true,"permalink":"/reglas-rapidas/nivel-2/sentido-de-las-bestias/","contentClasses":"ficha-hechizo","dg-note-properties":{"tipo":"hechizo","nivel":2,"nombre_original":"Beast Sense","escuela":"Adivinación","tiempo_lanzamiento":"1 acción","alcance":"Toque","duracion":"Concentración, hasta 1 hora","componentes":["S"],"concentracion":true,"ritual":true,"resolucion":"Sin tirada","clases":["Druida","Explorador"],"fuente":"Manual del jugador","visible_jugadores":true,"cssclasses":["ficha-hechizo"]}}
 ---
 
 

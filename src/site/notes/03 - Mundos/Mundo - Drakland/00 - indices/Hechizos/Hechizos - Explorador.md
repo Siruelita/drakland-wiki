@@ -68,7 +68,7 @@
 | [[Reglas rapidas/Nivel 2/Proteccion contra veneno\|Proteccion contra veneno]]         | Abjuración    | 1 acción           | Toque                       | 1 hora                          |
 | [[Reglas rapidas/Nivel 2/Rafaga de viento\|Rafaga de viento]]                         | Evocación     | 1 acción           | Personal (línea de 60 pies) | Concentración, hasta 1 minuto   |
 | [[Reglas rapidas/Nivel 2/Restablecimiento menor\|Restablecimiento menor]]             | Abjuración    | 1 acción           | Toque                       | Instantáneo                     |
-| [[Reglas rapidas/Nivel 2/Sentido de las bestias\|Sentido de las bestias]]             | Conjuración   | 1 acción           | 60 pies                     | 24 horas                        |
+| [[Reglas rapidas/Nivel 2/Sentido de las bestias\|Sentido de las bestias]]             | Adivinación   | 1 acción           | Toque                       | Concentración, hasta 1 hora     |
 | [[Reglas rapidas/Nivel 2/Silencio\|Silencio]]                                         | Ilusionismo   | 1 acción           | 120 pies                    | Concentración, hasta 10 minutos |
 | [[Reglas rapidas/Nivel 2/Vision en la oscuridad\|Vision en la oscuridad]]             | Transmutación | 1 acción           | Toque                       | 8 horas                         |
 

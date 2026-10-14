@@ -145,7 +145,6 @@
 | [[Reglas rapidas/Nivel 2/Rafaga de cartas\|Rafaga de cartas]]                                           | Conjuración   | 1 acción           | Personal (cono de 15 pies)  | Instantánea                     |
 | [[Reglas rapidas/Nivel 2/Rafaga de viento\|Rafaga de viento]]                                           | Evocación     | 1 acción           | Personal (línea de 60 pies) | Concentración, hasta 1 minuto   |
 | [[Reglas rapidas/Nivel 2/Rayo abrasador\|Rayo abrasador]]                                               | Evocación     | 1 acción           | 120 pies                    | Instantáneo                     |
-| [[Reglas rapidas/Nivel 2/Sentido de las bestias\|Sentido de las bestias]]                               | Conjuración   | 1 acción           | 60 pies                     | 24 horas                        |
 | [[Reglas rapidas/Nivel 2/Sugestion\|Sugestion]]                                                         | Encantamiento | 1 acción           | 30 pies                     | Concentración, hasta 8 horas    |
 | [[Reglas rapidas/Nivel 2/Telaraña\|Telaraña]]                                                           | Conjuración   | 1 acción           | 60 pies                     | Concentración, hasta 1 hora     |
 | [[Reglas rapidas/Nivel 2/Tormenta de bolas de nieve de snilloc\|Tormenta de bolas de nieve de snilloc]] | Evocación     | 1 acción           | 90 pies                     | Instantáneo                     |

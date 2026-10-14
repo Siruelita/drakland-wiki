@@ -81,7 +81,6 @@
 | [[Reglas rapidas/Nivel 2/Potenciar característica\|Potenciar característica]]     | Transmutación | 1 acción           | Toque    | Concentración, hasta 1 hora     |
 | [[Reglas rapidas/Nivel 2/Proteccion contra veneno\|Proteccion contra veneno]]     | Abjuración    | 1 acción           | Toque    | 1 hora                          |
 | [[Reglas rapidas/Nivel 2/Restablecimiento menor\|Restablecimiento menor]]         | Abjuración    | 1 acción           | Toque    | Instantáneo                     |
-| [[Reglas rapidas/Nivel 2/Sentido de las bestias\|Sentido de las bestias]]         | Conjuración   | 1 acción           | 60 pies  | 24 horas                        |
 | [[Reglas rapidas/Nivel 2/Telaraña\|Telaraña]]                                     | Conjuración   | 1 acción           | 60 pies  | Concentración, hasta 1 hora     |
 | [[Reglas rapidas/Nivel 2/Trepar cual aracnido\|Trepar cual aracnido]]             | Transmutación | 1 acción           | Toque    | Concentración, hasta 1 hora     |
 | [[Reglas rapidas/Nivel 2/Truco de la cuerda\|Truco de la cuerda]]                 | Transmutación | 1 acción           | Toque    | 1 hora                          |
