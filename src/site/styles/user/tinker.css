@@ -1,172 +1,324 @@
-/* TINKER — portada celta y feérica.
-   Estilo exclusivo de las notas con cssclasses: portada-tinker.
-   No modifica Drakland ni el CSS de portada-mundo. */
+
+/* ============================================================
+   TINKER — PORTADA CELTA Y FEÉRICA
+   Obsidian + Digital Garden / GitHub / Vercel
+   Exclusivo para la clase portada-tinker.
+   No modificar la portada ni el CSS general de Drakland.
+   ============================================================ */
+
+/* 1. Paleta propia de Tinker */
 
 .portada-tinker {
   --tk-gold: #dec99b;
   --tk-sage: #b6c9ac;
-  --tk-forest: #243b2c;
-  --tk-border: #657959;
   --tk-text: #e3e8d9;
-}
-
-/* Fondo de la nota, no de todo Obsidian */
-.markdown-preview-view.portada-tinker,
-.markdown-source-view.portada-tinker {
-  background: radial-gradient(ellipse at top, #21372a 0%, #17271f 50%, #141d19 100%);
+  --tk-border: #657959;
+  --tk-forest: #243b2c;
   color: var(--tk-text);
 }
 
-/* Oculta solo el título automático de Tinker para evitar duplicarlo */
+/* 2. Fondo SOLO en la página publicada de Tinker.
+   Digital Garden añade portada-tinker a <main class="content">,
+   mientras que el azul general estaba definido en <body>. */
+
+html:has(main.content.portada-tinker) {
+  background: #14251c !important;
+}
+
+body:has(main.content.portada-tinker) {
+  --background-primary: #14251c;
+  --background-primary-alt: #14251c;
+  --background-secondary: #1c3326;
+  --background-secondary-alt: #223b2c;
+
+  background: radial-gradient(
+    ellipse at 45% 0%,
+    #2b4834 0%,
+    #1c3427 42%,
+    #14251c 78%,
+    #101d17 100%
+  ) fixed !important;
+
+  color: #e3e8d9;
+}
+
+/* Evitar otro fondo sobre el degradado */
+
+body:has(main.content.portada-tinker)
+main.content.portada-tinker {
+  background: transparent !important;
+  color: var(--tk-text);
+  min-height: calc(100vh - 60px);
+}
+
+/* 3. Fondo en Obsidian */
+
+.markdown-preview-view.portada-tinker,
+.markdown-source-view.portada-tinker {
+  background: radial-gradient(
+    ellipse at top,
+    #2b4834 0%,
+    #1c3427 50%,
+    #14251c 100%
+  ) !important;
+
+  color: var(--tk-text);
+}
+
+/* 4. Ocultar título automático duplicado */
+
+main.content.portada-tinker > header > h1,
 .portada-tinker .inline-title {
   display: none !important;
 }
 
-/* Título: ornamentación contenida, no emojis */
+/* 5. Título principal */
+
 .portada-tinker h1 {
   color: var(--tk-gold) !important;
   font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2rem, 4.5vw, 3rem) !important;
   font-weight: 500;
-  font-size: clamp(2rem, 4.5vw, 3rem);
-  text-align: center;
   letter-spacing: .13em;
-  border: 0 !important;
-  margin: 1.8rem 0 .3rem;
-}
-
-.portada-tinker .tinker-subtitle {
-  color: var(--tk-sage);
-  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.2;
   text-align: center;
-  font-style: italic;
+  border: 0 !important;
+  margin: 1.8rem 0 .35rem !important;
 }
 
-/* Introducción: recuadro verde y dorado */
-.portada-tinker .callout[data-callout="tinker-intro"] {
+/* Subtítulo */
+
+.portada-tinker .tinker-subtitle,
+.portada-tinker h1 + p:has(> em) {
+  color: var(--tk-sage) !important;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  text-align: center;
+}
+
+/* 6. Recuadro de introducción */
+
+.portada-tinker
+.callout[data-callout="tinker-intro"] {
   --callout-color: 190, 209, 170;
-  background: linear-gradient(135deg, #233c2c, #2d4733) !important;
+  --callout-icon: none;
+
+  mix-blend-mode: normal !important;
+
+  background: linear-gradient(
+    135deg,
+    #233c2c,
+    #2d4733
+  ) !important;
+
   border: 1px solid var(--tk-border) !important;
   border-radius: 12px !important;
   box-shadow: none !important;
+
   padding: 1.05rem 1.15rem !important;
-  margin: 1.6rem 0 2rem;
+  margin: 1.6rem 0 2rem !important;
 }
-.portada-tinker .callout[data-callout="tinker-intro"] .callout-icon {
-  display: none;
+
+.portada-tinker
+.callout[data-callout="tinker-intro"]
+.callout-icon {
+  display: none !important;
 }
-.portada-tinker .callout[data-callout="tinker-intro"] .callout-title {
+
+.portada-tinker
+.callout[data-callout="tinker-intro"]
+.callout-title {
   color: var(--tk-gold) !important;
+
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 1.1rem;
+  font-size: 1.12rem;
   font-weight: 600;
   padding-bottom: .35rem;
 }
-.portada-tinker .callout[data-callout="tinker-intro"] .callout-content {
-  color: var(--tk-text);
+
+.portada-tinker
+.callout[data-callout="tinker-intro"]
+.callout-content {
+  color: var(--tk-text) !important;
   line-height: 1.7;
 }
 
-/* Cada sección de navegación es su propio grupo de tarjetas */
-.portada-tinker .callout[data-callout="tinker-nav"] {
+/* 7. Secciones de navegación */
+
+.portada-tinker
+.callout[data-callout="tinker-nav"] {
   --callout-color: 190, 209, 170;
+
+  mix-blend-mode: normal !important;
   background: transparent !important;
+
   border: 0 !important;
   box-shadow: none !important;
   padding: 0 !important;
+
   margin: 2rem 0 2.35rem !important;
 }
-.portada-tinker .callout[data-callout="tinker-nav"] > .callout-title {
+
+/* Encabezados de navegación */
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+> .callout-title {
   display: flex;
   align-items: center;
   gap: .55rem;
+
+  background: transparent !important;
   color: var(--tk-gold) !important;
+
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 1.17rem;
   font-weight: 600;
+
   margin-bottom: .9rem;
-  background: transparent !important;
 }
-.portada-tinker .callout[data-callout="tinker-nav"] > .callout-title::before {
+
+/* Hojitas ornamentales */
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+> .callout-title::before {
   content: '❧';
   color: #c3ad7a;
   font-size: 1.45rem;
   line-height: 1;
 }
-.portada-tinker .callout[data-callout="tinker-nav"] > .callout-title::after {
+
+/* Línea ornamental */
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+> .callout-title::after {
   content: '';
   height: 1px;
-  background: linear-gradient(90deg, #526c4c, transparent);
   flex: 1;
+
+  background: linear-gradient(
+    90deg,
+    #526c4c,
+    transparent
+  );
 }
-.portada-tinker .callout[data-callout="tinker-nav"] .callout-icon {
-  display: none;
+
+/* Eliminar iconos automáticos */
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+.callout-icon {
+  display: none !important;
 }
-.portada-tinker .callout[data-callout="tinker-nav"] > .callout-content {
+
+/* Contenedor de tarjetas */
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+> .callout-content {
+  background: transparent !important;
   padding: 0 !important;
 }
-.portada-tinker .callout[data-callout="tinker-nav"] > .callout-content > ul {
+
+/* 8. Tarjetas en dos columnas */
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+> .callout-content > ul {
   display: grid !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: .75rem;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr)) !important;
+
+  gap: .75rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  list-style: none !important;
+}
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+> .callout-content > ul > li {
+  display: block !important;
+
   padding: 0 !important;
   margin: 0 !important;
   list-style: none !important;
 }
-.portada-tinker .callout[data-callout="tinker-nav"] > .callout-content > ul > li {
-  display: block;
-  padding: 0 !important;
-  margin: 0 !important;
-  list-style: none !important;
-}
-.portada-tinker .callout[data-callout="tinker-nav"] > .callout-content > ul > li::marker {
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+> .callout-content > ul > li::marker {
   content: '';
 }
-.portada-tinker .callout[data-callout="tinker-nav"] a.internal-link {
+
+/* Diseño de cada tarjeta */
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+a.internal-link,
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+li > a {
   display: flex !important;
   align-items: center;
+
   box-sizing: border-box;
-  min-height: 62px;
   width: 100%;
+  min-height: 62px;
+
   padding: .9rem 1rem !important;
+
   color: #e6e6d7 !important;
-  background: linear-gradient(140deg, #263e30, #22362b) !important;
+
+  background: linear-gradient(
+    140deg,
+    #263e30,
+    #22362b
+  ) !important;
+
   border: 1px solid #536e50 !important;
   border-radius: 10px !important;
+
   text-decoration: none !important;
   font-weight: 550;
+
   box-shadow: none !important;
-  transition: background .18s, border-color .18s, transform .18s;
+
+  transition:
+    background .18s,
+    border-color .18s,
+    transform .18s;
 }
-.portada-tinker .callout[data-callout="tinker-nav"] a.internal-link:hover {
+
+/* Efecto al pasar el mouse */
+
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+a.internal-link:hover,
+.portada-tinker
+.callout[data-callout="tinker-nav"]
+li > a:hover {
   background: #354d39 !important;
   border-color: #c7b27e !important;
   color: #f6e8c4 !important;
+
   transform: translateY(-2px);
 }
+
+/* 9. Adaptación a celulares */
+
 @media (max-width: 540px) {
-  .portada-tinker .callout[data-callout="tinker-nav"] > .callout-content > ul {
-    grid-template-columns: 1fr;
+  .portada-tinker
+  .callout[data-callout="tinker-nav"]
+  > .callout-content > ul {
+    grid-template-columns: 1fr !important;
   }
-}
 
-/* ==========================================
-   TINKER - FONDO EXCLUSIVO EN VERCEL
-   No afecta a Drakland
-   ========================================== */
-
-/* Fondo general de la página Tinker */
-body:has(main.content.portada-tinker) {
-    background: radial-gradient(
-        ellipse at top,
-        #21372a 0%,
-        #17271f 50%,
-        #141d19 100%
-    ) !important;
-}
-
-/* El contenido deja ver el fondo verde */
-main.content.portada-tinker {
-    background: transparent !important;
-    color: #e3e8d9;
-    min-height: calc(100vh - 60px);
+  .portada-tinker h1 {
+    letter-spacing: .07em;
+  }
 }
