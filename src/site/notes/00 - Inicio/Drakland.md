@@ -16,7 +16,7 @@
 > [!nav]
 > - [[03 - Mundos/Mundo - Drakland/00 - indices/Drakland - Portal\|Drakland]]
 > - [[Keler\|Keler]]
-> - [[Tinker\|Tinker]]
+> - [[00 - Inicio/Tinker\|Tinker]]
 > - [[La Mazmorra\|La Mazmorra]]
 
 ## Referencia
