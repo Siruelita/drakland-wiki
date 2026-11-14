@@ -1,1 +1,150 @@
+/* TINKER — portada celta y feérica.
+   Estilo exclusivo de las notas con cssclasses: portada-tinker.
+   No modifica Drakland ni el CSS de portada-mundo. */
 
+.portada-tinker {
+  --tk-gold: #dec99b;
+  --tk-sage: #b6c9ac;
+  --tk-forest: #243b2c;
+  --tk-border: #657959;
+  --tk-text: #e3e8d9;
+}
+
+/* Fondo de la nota, no de todo Obsidian */
+.markdown-preview-view.portada-tinker,
+.markdown-source-view.portada-tinker {
+  background: radial-gradient(ellipse at top, #21372a 0%, #17271f 50%, #141d19 100%);
+  color: var(--tk-text);
+}
+
+/* Oculta solo el título automático de Tinker para evitar duplicarlo */
+.portada-tinker .inline-title {
+  display: none !important;
+}
+
+/* Título: ornamentación contenida, no emojis */
+.portada-tinker h1 {
+  color: var(--tk-gold) !important;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  text-align: center;
+  letter-spacing: .13em;
+  border: 0 !important;
+  margin: 1.8rem 0 .3rem;
+}
+
+.portada-tinker .tinker-subtitle {
+  color: var(--tk-sage);
+  font-family: Georgia, 'Times New Roman', serif;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Introducción: recuadro verde y dorado */
+.portada-tinker .callout[data-callout="tinker-intro"] {
+  --callout-color: 190, 209, 170;
+  background: linear-gradient(135deg, #233c2c, #2d4733) !important;
+  border: 1px solid var(--tk-border) !important;
+  border-radius: 12px !important;
+  box-shadow: none !important;
+  padding: 1.05rem 1.15rem !important;
+  margin: 1.6rem 0 2rem;
+}
+.portada-tinker .callout[data-callout="tinker-intro"] .callout-icon {
+  display: none;
+}
+.portada-tinker .callout[data-callout="tinker-intro"] .callout-title {
+  color: var(--tk-gold) !important;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-bottom: .35rem;
+}
+.portada-tinker .callout[data-callout="tinker-intro"] .callout-content {
+  color: var(--tk-text);
+  line-height: 1.7;
+}
+
+/* Cada sección de navegación es su propio grupo de tarjetas */
+.portada-tinker .callout[data-callout="tinker-nav"] {
+  --callout-color: 190, 209, 170;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 2rem 0 2.35rem !important;
+}
+.portada-tinker .callout[data-callout="tinker-nav"] > .callout-title {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  color: var(--tk-gold) !important;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.17rem;
+  font-weight: 600;
+  margin-bottom: .9rem;
+  background: transparent !important;
+}
+.portada-tinker .callout[data-callout="tinker-nav"] > .callout-title::before {
+  content: '❧';
+  color: #c3ad7a;
+  font-size: 1.45rem;
+  line-height: 1;
+}
+.portada-tinker .callout[data-callout="tinker-nav"] > .callout-title::after {
+  content: '';
+  height: 1px;
+  background: linear-gradient(90deg, #526c4c, transparent);
+  flex: 1;
+}
+.portada-tinker .callout[data-callout="tinker-nav"] .callout-icon {
+  display: none;
+}
+.portada-tinker .callout[data-callout="tinker-nav"] > .callout-content {
+  padding: 0 !important;
+}
+.portada-tinker .callout[data-callout="tinker-nav"] > .callout-content > ul {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .75rem;
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+}
+.portada-tinker .callout[data-callout="tinker-nav"] > .callout-content > ul > li {
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+}
+.portada-tinker .callout[data-callout="tinker-nav"] > .callout-content > ul > li::marker {
+  content: '';
+}
+.portada-tinker .callout[data-callout="tinker-nav"] a.internal-link {
+  display: flex !important;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 62px;
+  width: 100%;
+  padding: .9rem 1rem !important;
+  color: #e6e6d7 !important;
+  background: linear-gradient(140deg, #263e30, #22362b) !important;
+  border: 1px solid #536e50 !important;
+  border-radius: 10px !important;
+  text-decoration: none !important;
+  font-weight: 550;
+  box-shadow: none !important;
+  transition: background .18s, border-color .18s, transform .18s;
+}
+.portada-tinker .callout[data-callout="tinker-nav"] a.internal-link:hover {
+  background: #354d39 !important;
+  border-color: #c7b27e !important;
+  color: #f6e8c4 !important;
+  transform: translateY(-2px);
+}
+@media (max-width: 540px) {
+  .portada-tinker .callout[data-callout="tinker-nav"] > .callout-content > ul {
+    grid-template-columns: 1fr;
+  }
+}
