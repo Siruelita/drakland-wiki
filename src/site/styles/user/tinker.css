@@ -148,3 +148,25 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================
+   TINKER - FONDO EXCLUSIVO EN VERCEL
+   No afecta a Drakland
+   ========================================== */
+
+/* Fondo general de la página Tinker */
+body:has(main.content.portada-tinker) {
+    background: radial-gradient(
+        ellipse at top,
+        #21372a 0%,
+        #17271f 50%,
+        #141d19 100%
+    ) !important;
+}
+
+/* El contenido deja ver el fondo verde */
+main.content.portada-tinker {
+    background: transparent !important;
+    color: #e3e8d9;
+    min-height: calc(100vh - 60px);
+}
